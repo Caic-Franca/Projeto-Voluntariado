@@ -30,15 +30,18 @@
         {
             this.btn_SairVlt = new System.Windows.Forms.Button();
             this.btn_VoltarVlt = new System.Windows.Forms.Button();
-            this.btn_MyOpsOng = new System.Windows.Forms.Button();
-            this.btn_CriarOpOng = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_ListVolunt_Ong = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_SairVlt
             // 
-            this.btn_SairVlt.Location = new System.Drawing.Point(590, 578);
+            this.btn_SairVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_SairVlt.Location = new System.Drawing.Point(291, 552);
             this.btn_SairVlt.Name = "btn_SairVlt";
             this.btn_SairVlt.Size = new System.Drawing.Size(126, 43);
             this.btn_SairVlt.TabIndex = 9;
@@ -47,64 +50,77 @@
             // 
             // btn_VoltarVlt
             // 
-            this.btn_VoltarVlt.Location = new System.Drawing.Point(439, 578);
+            this.btn_VoltarVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_VoltarVlt.Location = new System.Drawing.Point(129, 552);
             this.btn_VoltarVlt.Name = "btn_VoltarVlt";
             this.btn_VoltarVlt.Size = new System.Drawing.Size(126, 43);
             this.btn_VoltarVlt.TabIndex = 8;
             this.btn_VoltarVlt.Text = "Voltar";
             this.btn_VoltarVlt.UseVisualStyleBackColor = true;
             // 
-            // btn_MyOpsOng
+            // panel1
             // 
-            this.btn_MyOpsOng.Location = new System.Drawing.Point(146, 225);
-            this.btn_MyOpsOng.Name = "btn_MyOpsOng";
-            this.btn_MyOpsOng.Size = new System.Drawing.Size(220, 104);
-            this.btn_MyOpsOng.TabIndex = 7;
-            this.btn_MyOpsOng.Text = "Visualizar minhas oportunidades publicadas";
-            this.btn_MyOpsOng.UseVisualStyleBackColor = true;
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Location = new System.Drawing.Point(70, 50);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(410, 435);
+            this.panel1.TabIndex = 11;
             // 
-            // btn_CriarOpOng
+            // button1
             // 
-            this.btn_CriarOpOng.Location = new System.Drawing.Point(146, 115);
-            this.btn_CriarOpOng.Name = "btn_CriarOpOng";
-            this.btn_CriarOpOng.Size = new System.Drawing.Size(220, 104);
-            this.btn_CriarOpOng.TabIndex = 6;
-            this.btn_CriarOpOng.Text = "publicar oportunidade";
-            this.btn_CriarOpOng.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(95, 312);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 104);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Visualizar lista de Voluntários";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // button2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(184, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 39);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Olá, XXXX.\r\n\r\nO que vamos fazer hoje:";
+            this.button2.Location = new System.Drawing.Point(95, 202);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(220, 104);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "Visualizar minhas oportunidades publicadas";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // btn_ListVolunt_Ong
+            // button3
             // 
-            this.btn_ListVolunt_Ong.Location = new System.Drawing.Point(146, 335);
-            this.btn_ListVolunt_Ong.Name = "btn_ListVolunt_Ong";
-            this.btn_ListVolunt_Ong.Size = new System.Drawing.Size(220, 104);
-            this.btn_ListVolunt_Ong.TabIndex = 10;
-            this.btn_ListVolunt_Ong.Text = "Visualizar lista de Voluntários";
-            this.btn_ListVolunt_Ong.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(95, 92);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(220, 104);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "publicar oportunidade";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(133, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 39);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Olá, XXXX.\r\n\r\nO que vamos fazer hoje:";
             // 
             // TelaHomeOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(739, 623);
-            this.Controls.Add(this.btn_ListVolunt_Ong);
+            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.ClientSize = new System.Drawing.Size(569, 623);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_SairVlt);
             this.Controls.Add(this.btn_VoltarVlt);
-            this.Controls.Add(this.btn_MyOpsOng);
-            this.Controls.Add(this.btn_CriarOpOng);
-            this.Controls.Add(this.label1);
             this.Name = "TelaHomeOng";
             this.Text = "TelaHomeOng";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -112,9 +128,10 @@
 
         private System.Windows.Forms.Button btn_SairVlt;
         private System.Windows.Forms.Button btn_VoltarVlt;
-        private System.Windows.Forms.Button btn_MyOpsOng;
-        private System.Windows.Forms.Button btn_CriarOpOng;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_ListVolunt_Ong;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label2;
     }
 }
