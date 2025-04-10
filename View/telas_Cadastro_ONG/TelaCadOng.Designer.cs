@@ -30,33 +30,36 @@
         {
             this.btn_ConfOngCad = new System.Windows.Forms.Button();
             this.btn_voltar_cadOng = new System.Windows.Forms.Button();
-            this.txt_EndVlt = new System.Windows.Forms.TextBox();
-            this.txt_CnpjOng = new System.Windows.Forms.TextBox();
-            this.txt_ConfSenhaOng = new System.Windows.Forms.TextBox();
-            this.txt_SenhaOng = new System.Windows.Forms.TextBox();
-            this.txt_EmailOng = new System.Windows.Forms.TextBox();
-            this.txt_NomeOng = new System.Windows.Forms.TextBox();
-            this.enun_End = new System.Windows.Forms.Label();
-            this.enun_Tel = new System.Windows.Forms.Label();
-            this.enun_ConfSenha = new System.Windows.Forms.Label();
-            this.enun_Senha = new System.Windows.Forms.Label();
-            this.enun_Email = new System.Windows.Forms.Label();
-            this.enun_Nome = new System.Windows.Forms.Label();
-            this.enun_Dados = new System.Windows.Forms.Label();
-            this.enun_VltCriar = new System.Windows.Forms.Label();
-            this.enun_Nasc = new System.Windows.Forms.Label();
-            this.txt_NomeRespOng = new System.Windows.Forms.TextBox();
-            this.txt_AreaOng = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtDescOng = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txt_LinkOng = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_ConfOngCad
             // 
-            this.btn_ConfOngCad.Location = new System.Drawing.Point(705, 451);
+            this.btn_ConfOngCad.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_ConfOngCad.Location = new System.Drawing.Point(810, 525);
             this.btn_ConfOngCad.Name = "btn_ConfOngCad";
             this.btn_ConfOngCad.Size = new System.Drawing.Size(75, 23);
             this.btn_ConfOngCad.TabIndex = 35;
@@ -65,227 +68,238 @@
             // 
             // btn_voltar_cadOng
             // 
-            this.btn_voltar_cadOng.Location = new System.Drawing.Point(624, 451);
+            this.btn_voltar_cadOng.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_voltar_cadOng.Location = new System.Drawing.Point(705, 525);
             this.btn_voltar_cadOng.Name = "btn_voltar_cadOng";
             this.btn_voltar_cadOng.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadOng.TabIndex = 34;
             this.btn_voltar_cadOng.Text = "Voltar";
             this.btn_voltar_cadOng.UseVisualStyleBackColor = true;
             // 
-            // txt_EndVlt
+            // panel1
             // 
-            this.txt_EndVlt.Location = new System.Drawing.Point(23, 395);
-            this.txt_EndVlt.Name = "txt_EndVlt";
-            this.txt_EndVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_EndVlt.TabIndex = 33;
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.textBox10);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Location = new System.Drawing.Point(98, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(575, 565);
+            this.panel1.TabIndex = 42;
             // 
-            // txt_CnpjOng
+            // textBox1
             // 
-            this.txt_CnpjOng.Location = new System.Drawing.Point(23, 356);
-            this.txt_CnpjOng.Name = "txt_CnpjOng";
-            this.txt_CnpjOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_CnpjOng.TabIndex = 32;
+            this.textBox1.Location = new System.Drawing.Point(18, 513);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(522, 20);
+            this.textBox1.TabIndex = 63;
             // 
-            // txt_ConfSenhaOng
+            // label4
             // 
-            this.txt_ConfSenhaOng.Location = new System.Drawing.Point(23, 267);
-            this.txt_ConfSenhaOng.Name = "txt_ConfSenhaOng";
-            this.txt_ConfSenhaOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_ConfSenhaOng.TabIndex = 30;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(15, 497);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(135, 13);
+            this.label4.TabIndex = 62;
+            this.label4.Text = "Link para o Site (Opcional):";
             // 
-            // txt_SenhaOng
+            // textBox2
             // 
-            this.txt_SenhaOng.Location = new System.Drawing.Point(23, 228);
-            this.txt_SenhaOng.Name = "txt_SenhaOng";
-            this.txt_SenhaOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_SenhaOng.TabIndex = 29;
+            this.textBox2.Location = new System.Drawing.Point(18, 474);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(522, 20);
+            this.textBox2.TabIndex = 61;
             // 
-            // txt_EmailOng
+            // label5
             // 
-            this.txt_EmailOng.Location = new System.Drawing.Point(23, 189);
-            this.txt_EmailOng.Name = "txt_EmailOng";
-            this.txt_EmailOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_EmailOng.TabIndex = 28;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(15, 458);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(275, 13);
+            this.label5.TabIndex = 60;
+            this.label5.Text = "Breve Descrição da ONG (Opcional, mas recomendado):";
             // 
-            // txt_NomeOng
+            // textBox3
             // 
-            this.txt_NomeOng.Location = new System.Drawing.Point(23, 137);
-            this.txt_NomeOng.Name = "txt_NomeOng";
-            this.txt_NomeOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_NomeOng.TabIndex = 27;
+            this.textBox3.Location = new System.Drawing.Point(18, 431);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(522, 20);
+            this.textBox3.TabIndex = 59;
             // 
-            // enun_End
+            // label6
             // 
-            this.enun_End.AutoSize = true;
-            this.enun_End.Location = new System.Drawing.Point(20, 379);
-            this.enun_End.Name = "enun_End";
-            this.enun_End.Size = new System.Drawing.Size(413, 13);
-            this.enun_End.TabIndex = 26;
-            this.enun_End.Text = "Endereço (Logradouro/ Nº/ Complemento (se houver)/ Bairro/ Cidade/ Estado/ CEP):";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(15, 415);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(351, 13);
+            this.label6.TabIndex = 58;
+            this.label6.Text = "Área de Atuação (Ex: Meio Ambiente, Educação, Saúde, Animais, etc. ): ";
             // 
-            // enun_Tel
+            // textBox4
             // 
-            this.enun_Tel.AutoSize = true;
-            this.enun_Tel.Location = new System.Drawing.Point(20, 340);
-            this.enun_Tel.Name = "enun_Tel";
-            this.enun_Tel.Size = new System.Drawing.Size(97, 13);
-            this.enun_Tel.TabIndex = 25;
-            this.enun_Tel.Text = "CNPJ (Obrigatório):";
+            this.textBox4.Location = new System.Drawing.Point(18, 392);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(522, 20);
+            this.textBox4.TabIndex = 57;
             // 
-            // enun_ConfSenha
+            // textBox5
             // 
-            this.enun_ConfSenha.AutoSize = true;
-            this.enun_ConfSenha.Location = new System.Drawing.Point(20, 251);
-            this.enun_ConfSenha.Name = "enun_ConfSenha";
-            this.enun_ConfSenha.Size = new System.Drawing.Size(178, 13);
-            this.enun_ConfSenha.TabIndex = 23;
-            this.enun_ConfSenha.Text = "Confirmação de Senha (Obrigatório):";
+            this.textBox5.Location = new System.Drawing.Point(18, 353);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(522, 20);
+            this.textBox5.TabIndex = 56;
             // 
-            // enun_Senha
+            // textBox6
             // 
-            this.enun_Senha.AutoSize = true;
-            this.enun_Senha.Location = new System.Drawing.Point(20, 212);
-            this.enun_Senha.Name = "enun_Senha";
-            this.enun_Senha.Size = new System.Drawing.Size(101, 13);
-            this.enun_Senha.TabIndex = 22;
-            this.enun_Senha.Text = "Senha (Obrigatório):";
+            this.textBox6.Location = new System.Drawing.Point(18, 314);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(522, 20);
+            this.textBox6.TabIndex = 55;
             // 
-            // enun_Email
+            // textBox7
             // 
-            this.enun_Email.AutoSize = true;
-            this.enun_Email.Location = new System.Drawing.Point(20, 166);
-            this.enun_Email.Name = "enun_Email";
-            this.enun_Email.Size = new System.Drawing.Size(98, 13);
-            this.enun_Email.TabIndex = 21;
-            this.enun_Email.Text = "E-mail (Obrigatório):";
+            this.textBox7.Location = new System.Drawing.Point(18, 264);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(522, 20);
+            this.textBox7.TabIndex = 54;
             // 
-            // enun_Nome
+            // textBox8
             // 
-            this.enun_Nome.AutoSize = true;
-            this.enun_Nome.Location = new System.Drawing.Point(20, 121);
-            this.enun_Nome.Name = "enun_Nome";
-            this.enun_Nome.Size = new System.Drawing.Size(140, 13);
-            this.enun_Nome.TabIndex = 20;
-            this.enun_Nome.Text = "Nome da ONG (Obrigatório):";
+            this.textBox8.Location = new System.Drawing.Point(18, 225);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(522, 20);
+            this.textBox8.TabIndex = 53;
             // 
-            // enun_Dados
+            // textBox9
             // 
-            this.enun_Dados.AutoSize = true;
-            this.enun_Dados.Location = new System.Drawing.Point(264, 81);
-            this.enun_Dados.Name = "enun_Dados";
-            this.enun_Dados.Size = new System.Drawing.Size(116, 13);
-            this.enun_Dados.TabIndex = 19;
-            this.enun_Dados.Text = "Dados Gerais da ONG:";
+            this.textBox9.Location = new System.Drawing.Point(18, 186);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(522, 20);
+            this.textBox9.TabIndex = 52;
             // 
-            // enun_VltCriar
+            // textBox10
             // 
-            this.enun_VltCriar.AutoSize = true;
-            this.enun_VltCriar.Location = new System.Drawing.Point(100, 12);
-            this.enun_VltCriar.Name = "enun_VltCriar";
-            this.enun_VltCriar.Size = new System.Drawing.Size(436, 13);
-            this.enun_VltCriar.TabIndex = 18;
-            this.enun_VltCriar.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
+            this.textBox10.Location = new System.Drawing.Point(18, 134);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(522, 20);
+            this.textBox10.TabIndex = 51;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 376);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(413, 13);
+            this.label7.TabIndex = 50;
+            this.label7.Text = "Endereço (Logradouro/ Nº/ Complemento (se houver)/ Bairro/ Cidade/ Estado/ CEP):";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(9, 337);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(97, 13);
+            this.label8.TabIndex = 49;
+            this.label8.Text = "CNPJ (Obrigatório):";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(15, 297);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(152, 13);
+            this.label9.TabIndex = 48;
+            this.label9.Text = "Nome do contato responsável:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(15, 248);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(178, 13);
+            this.label10.TabIndex = 47;
+            this.label10.Text = "Confirmação de Senha (Obrigatório):";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(9, 209);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(101, 13);
+            this.label11.TabIndex = 46;
+            this.label11.Text = "Senha (Obrigatório):";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(9, 163);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(98, 13);
+            this.label12.TabIndex = 45;
+            this.label12.Text = "E-mail (Obrigatório):";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(15, 118);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(140, 13);
+            this.label13.TabIndex = 44;
+            this.label13.Text = "Nome da ONG (Obrigatório):";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(244, 85);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(116, 13);
+            this.label14.TabIndex = 43;
+            this.label14.Text = "Dados Gerais da ONG:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(74, 16);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(436, 13);
+            this.label15.TabIndex = 42;
+            this.label15.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
     "baixo:";
-            // 
-            // enun_Nasc
-            // 
-            this.enun_Nasc.AutoSize = true;
-            this.enun_Nasc.Location = new System.Drawing.Point(20, 300);
-            this.enun_Nasc.Name = "enun_Nasc";
-            this.enun_Nasc.Size = new System.Drawing.Size(152, 13);
-            this.enun_Nasc.TabIndex = 24;
-            this.enun_Nasc.Text = "Nome do contato responsável:";
-            this.enun_Nasc.Click += new System.EventHandler(this.enun_Nasc_Click);
-            // 
-            // txt_NomeRespOng
-            // 
-            this.txt_NomeRespOng.Location = new System.Drawing.Point(23, 317);
-            this.txt_NomeRespOng.Name = "txt_NomeRespOng";
-            this.txt_NomeRespOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_NomeRespOng.TabIndex = 31;
-            this.txt_NomeRespOng.TextChanged += new System.EventHandler(this.txt_NascVlt_TextChanged);
-            // 
-            // txt_AreaOng
-            // 
-            this.txt_AreaOng.Location = new System.Drawing.Point(23, 434);
-            this.txt_AreaOng.Name = "txt_AreaOng";
-            this.txt_AreaOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_AreaOng.TabIndex = 37;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 418);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(351, 13);
-            this.label1.TabIndex = 36;
-            this.label1.Text = "Área de Atuação (Ex: Meio Ambiente, Educação, Saúde, Animais, etc. ): ";
-            // 
-            // txtDescOng
-            // 
-            this.txtDescOng.Location = new System.Drawing.Point(23, 477);
-            this.txtDescOng.Name = "txtDescOng";
-            this.txtDescOng.Size = new System.Drawing.Size(522, 20);
-            this.txtDescOng.TabIndex = 39;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 461);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(275, 13);
-            this.label2.TabIndex = 38;
-            this.label2.Text = "Breve Descrição da ONG (Opcional, mas recomendado):";
-            // 
-            // txt_LinkOng
-            // 
-            this.txt_LinkOng.Location = new System.Drawing.Point(23, 516);
-            this.txt_LinkOng.Name = "txt_LinkOng";
-            this.txt_LinkOng.Size = new System.Drawing.Size(522, 20);
-            this.txt_LinkOng.TabIndex = 41;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 500);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 13);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "Link para o Site (Opcional):";
             // 
             // TelaCadOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 597);
-            this.Controls.Add(this.txt_LinkOng);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtDescOng);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txt_AreaOng);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.ClientSize = new System.Drawing.Size(952, 597);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_ConfOngCad);
             this.Controls.Add(this.btn_voltar_cadOng);
-            this.Controls.Add(this.txt_EndVlt);
-            this.Controls.Add(this.txt_CnpjOng);
-            this.Controls.Add(this.txt_NomeRespOng);
-            this.Controls.Add(this.txt_ConfSenhaOng);
-            this.Controls.Add(this.txt_SenhaOng);
-            this.Controls.Add(this.txt_EmailOng);
-            this.Controls.Add(this.txt_NomeOng);
-            this.Controls.Add(this.enun_End);
-            this.Controls.Add(this.enun_Tel);
-            this.Controls.Add(this.enun_Nasc);
-            this.Controls.Add(this.enun_ConfSenha);
-            this.Controls.Add(this.enun_Senha);
-            this.Controls.Add(this.enun_Email);
-            this.Controls.Add(this.enun_Nome);
-            this.Controls.Add(this.enun_Dados);
-            this.Controls.Add(this.enun_VltCriar);
             this.Name = "TelaCadOng";
             this.Text = "TelaCadOng";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -293,27 +307,28 @@
 
         private System.Windows.Forms.Button btn_ConfOngCad;
         private System.Windows.Forms.Button btn_voltar_cadOng;
-        private System.Windows.Forms.TextBox txt_EndVlt;
-        private System.Windows.Forms.TextBox txt_CnpjOng;
-        private System.Windows.Forms.TextBox txt_ConfSenhaOng;
-        private System.Windows.Forms.TextBox txt_SenhaOng;
-        private System.Windows.Forms.TextBox txt_EmailOng;
-        private System.Windows.Forms.TextBox txt_NomeOng;
-        private System.Windows.Forms.Label enun_End;
-        private System.Windows.Forms.Label enun_Tel;
-        private System.Windows.Forms.Label enun_ConfSenha;
-        private System.Windows.Forms.Label enun_Senha;
-        private System.Windows.Forms.Label enun_Email;
-        private System.Windows.Forms.Label enun_Nome;
-        private System.Windows.Forms.Label enun_Dados;
-        private System.Windows.Forms.Label enun_VltCriar;
-        private System.Windows.Forms.Label enun_Nasc;
-        private System.Windows.Forms.TextBox txt_NomeRespOng;
-        private System.Windows.Forms.TextBox txt_AreaOng;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtDescOng;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_LinkOng;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
     }
 }

@@ -28,160 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.enun_VltCriar = new System.Windows.Forms.Label();
-            this.enun_Dados = new System.Windows.Forms.Label();
-            this.enun_Nome = new System.Windows.Forms.Label();
-            this.enun_Email = new System.Windows.Forms.Label();
-            this.enun_Senha = new System.Windows.Forms.Label();
-            this.enun_ConfSenha = new System.Windows.Forms.Label();
-            this.enun_Nasc = new System.Windows.Forms.Label();
-            this.enun_Tel = new System.Windows.Forms.Label();
-            this.enun_End = new System.Windows.Forms.Label();
-            this.txt_NomeVlt = new System.Windows.Forms.TextBox();
-            this.txt_EmailVlt = new System.Windows.Forms.TextBox();
-            this.txt_SenhaVlt = new System.Windows.Forms.TextBox();
-            this.txt_ConfSenhaVlt = new System.Windows.Forms.TextBox();
-            this.txt_NascVlt = new System.Windows.Forms.TextBox();
-            this.txt_TelVlt = new System.Windows.Forms.TextBox();
-            this.txt_EndVlt = new System.Windows.Forms.TextBox();
             this.btn_voltar_cadVlt = new System.Windows.Forms.Button();
             this.btn_confVltCad = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // enun_VltCriar
-            // 
-            this.enun_VltCriar.AutoSize = true;
-            this.enun_VltCriar.Location = new System.Drawing.Point(125, 35);
-            this.enun_VltCriar.Name = "enun_VltCriar";
-            this.enun_VltCriar.Size = new System.Drawing.Size(436, 13);
-            this.enun_VltCriar.TabIndex = 0;
-            this.enun_VltCriar.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
-    "baixo:";
-            // 
-            // enun_Dados
-            // 
-            this.enun_Dados.AutoSize = true;
-            this.enun_Dados.Location = new System.Drawing.Point(289, 104);
-            this.enun_Dados.Name = "enun_Dados";
-            this.enun_Dados.Size = new System.Drawing.Size(86, 13);
-            this.enun_Dados.TabIndex = 1;
-            this.enun_Dados.Text = "Dados Pessoais:";
-            // 
-            // enun_Nome
-            // 
-            this.enun_Nome.AutoSize = true;
-            this.enun_Nome.Location = new System.Drawing.Point(45, 144);
-            this.enun_Nome.Name = "enun_Nome";
-            this.enun_Nome.Size = new System.Drawing.Size(145, 13);
-            this.enun_Nome.TabIndex = 2;
-            this.enun_Nome.Text = "Nome Completo (Obrigatório):";
-            // 
-            // enun_Email
-            // 
-            this.enun_Email.AutoSize = true;
-            this.enun_Email.Location = new System.Drawing.Point(45, 189);
-            this.enun_Email.Name = "enun_Email";
-            this.enun_Email.Size = new System.Drawing.Size(98, 13);
-            this.enun_Email.TabIndex = 3;
-            this.enun_Email.Text = "E-mail (Obrigatório):";
-            // 
-            // enun_Senha
-            // 
-            this.enun_Senha.AutoSize = true;
-            this.enun_Senha.Location = new System.Drawing.Point(45, 235);
-            this.enun_Senha.Name = "enun_Senha";
-            this.enun_Senha.Size = new System.Drawing.Size(101, 13);
-            this.enun_Senha.TabIndex = 4;
-            this.enun_Senha.Text = "Senha (Obrigatório):";
-            // 
-            // enun_ConfSenha
-            // 
-            this.enun_ConfSenha.AutoSize = true;
-            this.enun_ConfSenha.Location = new System.Drawing.Point(45, 274);
-            this.enun_ConfSenha.Name = "enun_ConfSenha";
-            this.enun_ConfSenha.Size = new System.Drawing.Size(178, 13);
-            this.enun_ConfSenha.TabIndex = 5;
-            this.enun_ConfSenha.Text = "Confirmação de Senha (Obrigatório):";
-            // 
-            // enun_Nasc
-            // 
-            this.enun_Nasc.AutoSize = true;
-            this.enun_Nasc.Location = new System.Drawing.Point(45, 323);
-            this.enun_Nasc.Name = "enun_Nasc";
-            this.enun_Nasc.Size = new System.Drawing.Size(167, 13);
-            this.enun_Nasc.TabIndex = 6;
-            this.enun_Nasc.Text = "Data de Nascimento (Obrigatório):";
-            // 
-            // enun_Tel
-            // 
-            this.enun_Tel.AutoSize = true;
-            this.enun_Tel.Location = new System.Drawing.Point(45, 363);
-            this.enun_Tel.Name = "enun_Tel";
-            this.enun_Tel.Size = new System.Drawing.Size(112, 13);
-            this.enun_Tel.TabIndex = 7;
-            this.enun_Tel.Text = "Telefone (Obrigatório):";
-            // 
-            // enun_End
-            // 
-            this.enun_End.AutoSize = true;
-            this.enun_End.Location = new System.Drawing.Point(45, 402);
-            this.enun_End.Name = "enun_End";
-            this.enun_End.Size = new System.Drawing.Size(413, 13);
-            this.enun_End.TabIndex = 8;
-            this.enun_End.Text = "Endereço (Logradouro/ Nº/ Complemento (se houver)/ Bairro/ Cidade/ Estado/ CEP):";
-            // 
-            // txt_NomeVlt
-            // 
-            this.txt_NomeVlt.Location = new System.Drawing.Point(48, 160);
-            this.txt_NomeVlt.Name = "txt_NomeVlt";
-            this.txt_NomeVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_NomeVlt.TabIndex = 9;
-            // 
-            // txt_EmailVlt
-            // 
-            this.txt_EmailVlt.Location = new System.Drawing.Point(48, 212);
-            this.txt_EmailVlt.Name = "txt_EmailVlt";
-            this.txt_EmailVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_EmailVlt.TabIndex = 10;
-            // 
-            // txt_SenhaVlt
-            // 
-            this.txt_SenhaVlt.Location = new System.Drawing.Point(48, 251);
-            this.txt_SenhaVlt.Name = "txt_SenhaVlt";
-            this.txt_SenhaVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_SenhaVlt.TabIndex = 11;
-            // 
-            // txt_ConfSenhaVlt
-            // 
-            this.txt_ConfSenhaVlt.Location = new System.Drawing.Point(48, 290);
-            this.txt_ConfSenhaVlt.Name = "txt_ConfSenhaVlt";
-            this.txt_ConfSenhaVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_ConfSenhaVlt.TabIndex = 12;
-            // 
-            // txt_NascVlt
-            // 
-            this.txt_NascVlt.Location = new System.Drawing.Point(48, 340);
-            this.txt_NascVlt.Name = "txt_NascVlt";
-            this.txt_NascVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_NascVlt.TabIndex = 13;
-            // 
-            // txt_TelVlt
-            // 
-            this.txt_TelVlt.Location = new System.Drawing.Point(48, 379);
-            this.txt_TelVlt.Name = "txt_TelVlt";
-            this.txt_TelVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_TelVlt.TabIndex = 14;
-            // 
-            // txt_EndVlt
-            // 
-            this.txt_EndVlt.Location = new System.Drawing.Point(48, 418);
-            this.txt_EndVlt.Name = "txt_EndVlt";
-            this.txt_EndVlt.Size = new System.Drawing.Size(522, 20);
-            this.txt_EndVlt.TabIndex = 15;
             // 
             // btn_voltar_cadVlt
             // 
-            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(649, 474);
+            this.btn_voltar_cadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(643, 474);
             this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
             this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadVlt.TabIndex = 16;
@@ -190,62 +62,207 @@
             // 
             // btn_confVltCad
             // 
-            this.btn_confVltCad.Location = new System.Drawing.Point(730, 474);
+            this.btn_confVltCad.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_confVltCad.Location = new System.Drawing.Point(724, 474);
             this.btn_confVltCad.Name = "btn_confVltCad";
             this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
             this.btn_confVltCad.TabIndex = 17;
             this.btn_confVltCad.Text = "Próximo";
             this.btn_confVltCad.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.textBox5);
+            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Location = new System.Drawing.Point(61, 24);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(596, 421);
+            this.panel1.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(36, 360);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(522, 20);
+            this.textBox1.TabIndex = 31;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(36, 321);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(522, 20);
+            this.textBox2.TabIndex = 30;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(36, 282);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(522, 20);
+            this.textBox3.TabIndex = 29;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(36, 232);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(522, 20);
+            this.textBox4.TabIndex = 28;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(36, 193);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(522, 20);
+            this.textBox5.TabIndex = 27;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(36, 154);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(522, 20);
+            this.textBox6.TabIndex = 26;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(36, 102);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(522, 20);
+            this.textBox7.TabIndex = 25;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 344);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(413, 13);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Endereço (Logradouro/ Nº/ Complemento (se houver)/ Bairro/ Cidade/ Estado/ CEP):";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(33, 305);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Telefone (Obrigatório):";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(33, 265);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(167, 13);
+            this.label3.TabIndex = 22;
+            this.label3.Text = "Data de Nascimento (Obrigatório):";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(33, 216);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(178, 13);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Confirmação de Senha (Obrigatório):";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(33, 177);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(101, 13);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Senha (Obrigatório):";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(33, 131);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(98, 13);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "E-mail (Obrigatório):";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(33, 86);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(145, 13);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Nome Completo (Obrigatório):";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(259, 56);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(86, 13);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Dados Pessoais:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(56, 26);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(523, 13);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
+    "baixo:";
+            // 
             // Tela_VltCriar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 509);
+            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.ClientSize = new System.Drawing.Size(849, 509);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_confVltCad);
             this.Controls.Add(this.btn_voltar_cadVlt);
-            this.Controls.Add(this.txt_EndVlt);
-            this.Controls.Add(this.txt_TelVlt);
-            this.Controls.Add(this.txt_NascVlt);
-            this.Controls.Add(this.txt_ConfSenhaVlt);
-            this.Controls.Add(this.txt_SenhaVlt);
-            this.Controls.Add(this.txt_EmailVlt);
-            this.Controls.Add(this.txt_NomeVlt);
-            this.Controls.Add(this.enun_End);
-            this.Controls.Add(this.enun_Tel);
-            this.Controls.Add(this.enun_Nasc);
-            this.Controls.Add(this.enun_ConfSenha);
-            this.Controls.Add(this.enun_Senha);
-            this.Controls.Add(this.enun_Email);
-            this.Controls.Add(this.enun_Nome);
-            this.Controls.Add(this.enun_Dados);
-            this.Controls.Add(this.enun_VltCriar);
             this.Name = "Tela_VltCriar";
             this.Text = "Tela_VltCriar";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label enun_VltCriar;
-        private System.Windows.Forms.Label enun_Dados;
-        private System.Windows.Forms.Label enun_Nome;
-        private System.Windows.Forms.Label enun_Email;
-        private System.Windows.Forms.Label enun_Senha;
-        private System.Windows.Forms.Label enun_ConfSenha;
-        private System.Windows.Forms.Label enun_Nasc;
-        private System.Windows.Forms.Label enun_Tel;
-        private System.Windows.Forms.Label enun_End;
-        private System.Windows.Forms.TextBox txt_NomeVlt;
-        private System.Windows.Forms.TextBox txt_EmailVlt;
-        private System.Windows.Forms.TextBox txt_SenhaVlt;
-        private System.Windows.Forms.TextBox txt_ConfSenhaVlt;
-        private System.Windows.Forms.TextBox txt_NascVlt;
-        private System.Windows.Forms.TextBox txt_TelVlt;
-        private System.Windows.Forms.TextBox txt_EndVlt;
         private System.Windows.Forms.Button btn_voltar_cadVlt;
         private System.Windows.Forms.Button btn_confVltCad;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }
