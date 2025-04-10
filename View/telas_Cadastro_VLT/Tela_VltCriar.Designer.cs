@@ -44,6 +44,8 @@
             this.txt_NascVlt = new System.Windows.Forms.TextBox();
             this.txt_TelVlt = new System.Windows.Forms.TextBox();
             this.txt_EndVlt = new System.Windows.Forms.TextBox();
+            this.btn_voltar_cadVlt = new System.Windows.Forms.Button();
+            this.btn_confVltCad = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // enun_VltCriar
@@ -177,11 +179,31 @@
             this.txt_EndVlt.Size = new System.Drawing.Size(522, 20);
             this.txt_EndVlt.TabIndex = 15;
             // 
+            // btn_voltar_cadVlt
+            // 
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(649, 474);
+            this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
+            this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
+            this.btn_voltar_cadVlt.TabIndex = 16;
+            this.btn_voltar_cadVlt.Text = "Voltar";
+            this.btn_voltar_cadVlt.UseVisualStyleBackColor = true;
+            // 
+            // btn_confVltCad
+            // 
+            this.btn_confVltCad.Location = new System.Drawing.Point(730, 474);
+            this.btn_confVltCad.Name = "btn_confVltCad";
+            this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
+            this.btn_confVltCad.TabIndex = 17;
+            this.btn_confVltCad.Text = "Próximo";
+            this.btn_confVltCad.UseVisualStyleBackColor = true;
+            // 
             // Tela_VltCriar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 509);
+            this.Controls.Add(this.btn_confVltCad);
+            this.Controls.Add(this.btn_voltar_cadVlt);
             this.Controls.Add(this.txt_EndVlt);
             this.Controls.Add(this.txt_TelVlt);
             this.Controls.Add(this.txt_NascVlt);
@@ -223,5 +245,7 @@
         private System.Windows.Forms.TextBox txt_NascVlt;
         private System.Windows.Forms.TextBox txt_TelVlt;
         private System.Windows.Forms.TextBox txt_EndVlt;
+        private System.Windows.Forms.Button btn_voltar_cadVlt;
+        private System.Windows.Forms.Button btn_confVltCad;
     }
 }

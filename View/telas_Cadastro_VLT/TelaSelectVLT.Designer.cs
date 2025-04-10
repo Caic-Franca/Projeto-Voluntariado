@@ -34,6 +34,7 @@
             this.qst_VLT = new System.Windows.Forms.Label();
             this.btn_VltLog = new System.Windows.Forms.Button();
             this.btn_VltCriar = new System.Windows.Forms.Button();
+            this.btn_VltMenuVolta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // abrt_Vlt
@@ -82,11 +83,21 @@
             this.btn_VltCriar.Text = "Não, criar conta!";
             this.btn_VltCriar.UseVisualStyleBackColor = true;
             // 
+            // btn_VltMenuVolta
+            // 
+            this.btn_VltMenuVolta.Location = new System.Drawing.Point(836, 494);
+            this.btn_VltMenuVolta.Name = "btn_VltMenuVolta";
+            this.btn_VltMenuVolta.Size = new System.Drawing.Size(75, 23);
+            this.btn_VltMenuVolta.TabIndex = 5;
+            this.btn_VltMenuVolta.Text = "Voltar";
+            this.btn_VltMenuVolta.UseVisualStyleBackColor = true;
+            // 
             // TelaSelectVLT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 545);
+            this.Controls.Add(this.btn_VltMenuVolta);
             this.Controls.Add(this.btn_VltCriar);
             this.Controls.Add(this.btn_VltLog);
             this.Controls.Add(this.qst_VLT);
@@ -107,5 +118,6 @@
         private System.Windows.Forms.Label qst_VLT;
         private System.Windows.Forms.Button btn_VltLog;
         private System.Windows.Forms.Button btn_VltCriar;
+        private System.Windows.Forms.Button btn_VltMenuVolta;
     }
 }

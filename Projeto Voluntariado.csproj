@@ -54,17 +54,77 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\telas_VLT\TelaSelectVLT.cs">
+    <Compile Include="View\telas_Cadastro_ONG\confirmcadOng.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\telas_VLT\TelaSelectVLT.Designer.cs">
+    <Compile Include="View\telas_Cadastro_ONG\confirmcadOng.Designer.cs">
+      <DependentUpon>confirmcadOng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaCadOng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaCadOng.Designer.cs">
+      <DependentUpon>TelaCadOng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaConfCadOp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaConfCadOp.Designer.cs">
+      <DependentUpon>TelaConfCadOp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaCriarOpOng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaCriarOpOng.Designer.cs">
+      <DependentUpon>TelaCriarOpOng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaHomeOng.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\TelaHomeOng.Designer.cs">
+      <DependentUpon>TelaHomeOng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\telaOng_criar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_ONG\telaOng_criar.Designer.cs">
+      <DependentUpon>telaOng_criar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaConfirmaCadVlt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaConfirmaCadVlt.Designer.cs">
+      <DependentUpon>TelaConfirmaCadVlt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaExpVlt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaExpVlt.Designer.cs">
+      <DependentUpon>TelaExpVlt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaLogSenhaVlt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaLogSenhaVlt.Designer.cs">
+      <DependentUpon>TelaLogSenhaVlt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaSelectVLT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\TelaSelectVLT.Designer.cs">
       <DependentUpon>TelaSelectVLT.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\telas_VLT\Tela_VltCriar.cs">
+    <Compile Include="View\telas_Cadastro_VLT\Tela_VltCriar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\telas_VLT\Tela_VltCriar.Designer.cs">
+    <Compile Include="View\telas_Cadastro_VLT\Tela_VltCriar.Designer.cs">
       <DependentUpon>Tela_VltCriar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\Tela_VltHomepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\telas_Cadastro_VLT\Tela_VltHomepage.Designer.cs">
+      <DependentUpon>Tela_VltHomepage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -78,11 +138,41 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\telas_VLT\TelaSelectVLT.resx">
+    <EmbeddedResource Include="View\telas_Cadastro_ONG\confirmcadOng.resx">
+      <DependentUpon>confirmcadOng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_ONG\TelaCadOng.resx">
+      <DependentUpon>TelaCadOng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_ONG\TelaConfCadOp.resx">
+      <DependentUpon>TelaConfCadOp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_ONG\TelaCriarOpOng.resx">
+      <DependentUpon>TelaCriarOpOng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_ONG\TelaHomeOng.resx">
+      <DependentUpon>TelaHomeOng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_ONG\telaOng_criar.resx">
+      <DependentUpon>telaOng_criar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_VLT\TelaConfirmaCadVlt.resx">
+      <DependentUpon>TelaConfirmaCadVlt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_VLT\TelaExpVlt.resx">
+      <DependentUpon>TelaExpVlt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_VLT\TelaLogSenhaVlt.resx">
+      <DependentUpon>TelaLogSenhaVlt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_VLT\TelaSelectVLT.resx">
       <DependentUpon>TelaSelectVLT.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\telas_VLT\Tela_VltCriar.resx">
+    <EmbeddedResource Include="View\telas_Cadastro_VLT\Tela_VltCriar.resx">
       <DependentUpon>Tela_VltCriar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\telas_Cadastro_VLT\Tela_VltHomepage.resx">
+      <DependentUpon>Tela_VltHomepage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

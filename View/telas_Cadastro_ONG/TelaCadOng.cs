@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
+{
+    public partial class TelaCadOng: Form
+    {
+        public TelaCadOng()
+        {
+            InitializeComponent();
+        }
+
+        private void enun_Nasc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_NascVlt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
