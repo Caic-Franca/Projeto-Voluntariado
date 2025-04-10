@@ -28,89 +28,104 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnSenVltVoltar = new System.Windows.Forms.Button();
-            this.btnConfSenhVlt = new System.Windows.Forms.Button();
-            this.txtVlt_useremail = new System.Windows.Forms.TextBox();
-            this.txtSenha_Vlt = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "E-mail do usuário:";
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Location = new System.Drawing.Point(46, 26);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(262, 180);
+            this.panel1.TabIndex = 6;
             // 
-            // label2
+            // textBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(50, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Senha:";
+            this.textBox1.Location = new System.Drawing.Point(41, 79);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(161, 20);
+            this.textBox1.TabIndex = 11;
             // 
-            // btnSenVltVoltar
+            // textBox2
             // 
-            this.btnSenVltVoltar.Location = new System.Drawing.Point(114, 168);
-            this.btnSenVltVoltar.Name = "btnSenVltVoltar";
-            this.btnSenVltVoltar.Size = new System.Drawing.Size(58, 23);
-            this.btnSenVltVoltar.TabIndex = 2;
-            this.btnSenVltVoltar.Text = "Voltar";
-            this.btnSenVltVoltar.UseVisualStyleBackColor = true;
+            this.textBox2.Location = new System.Drawing.Point(41, 40);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(161, 20);
+            this.textBox2.TabIndex = 10;
             // 
-            // btnConfSenhVlt
+            // button1
             // 
-            this.btnConfSenhVlt.Location = new System.Drawing.Point(178, 168);
-            this.btnConfSenhVlt.Name = "btnConfSenhVlt";
-            this.btnConfSenhVlt.Size = new System.Drawing.Size(58, 23);
-            this.btnConfSenhVlt.TabIndex = 3;
-            this.btnConfSenhVlt.Text = "Confirmar";
-            this.btnConfSenhVlt.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(166, 141);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(58, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Confirmar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // txtVlt_useremail
+            // button2
             // 
-            this.txtVlt_useremail.Location = new System.Drawing.Point(53, 67);
-            this.txtVlt_useremail.Name = "txtVlt_useremail";
-            this.txtVlt_useremail.Size = new System.Drawing.Size(161, 20);
-            this.txtVlt_useremail.TabIndex = 4;
+            this.button2.Location = new System.Drawing.Point(102, 141);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(58, 23);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Voltar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // txtSenha_Vlt
+            // label3
             // 
-            this.txtSenha_Vlt.Location = new System.Drawing.Point(53, 106);
-            this.txtSenha_Vlt.Name = "txtSenha_Vlt";
-            this.txtSenha_Vlt.Size = new System.Drawing.Size(161, 20);
-            this.txtSenha_Vlt.TabIndex = 5;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(38, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Senha:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(38, 16);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "E-mail do usuário:";
             // 
             // TelaLogSenhaVlt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(260, 203);
-            this.Controls.Add(this.txtSenha_Vlt);
-            this.Controls.Add(this.txtVlt_useremail);
-            this.Controls.Add(this.btnConfSenhVlt);
-            this.Controls.Add(this.btnSenVltVoltar);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.ClientSize = new System.Drawing.Size(355, 265);
+            this.Controls.Add(this.panel1);
             this.Name = "TelaLogSenhaVlt";
             this.Text = "TelaLogSenhaVlt";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnSenVltVoltar;
-        private System.Windows.Forms.Button btnConfSenhVlt;
-        private System.Windows.Forms.TextBox txtVlt_useremail;
-        private System.Windows.Forms.TextBox txtSenha_Vlt;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
