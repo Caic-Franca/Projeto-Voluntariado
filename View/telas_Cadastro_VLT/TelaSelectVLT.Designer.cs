@@ -29,59 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaSelectVLT));
-            this.abrt_Vlt = new System.Windows.Forms.Label();
-            this.bnf_VLT = new System.Windows.Forms.Label();
-            this.qst_VLT = new System.Windows.Forms.Label();
-            this.btn_VltLog = new System.Windows.Forms.Button();
-            this.btn_VltCriar = new System.Windows.Forms.Button();
             this.btn_VltMenuVolta = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // abrt_Vlt
-            // 
-            this.abrt_Vlt.AutoSize = true;
-            this.abrt_Vlt.Location = new System.Drawing.Point(191, 102);
-            this.abrt_Vlt.Name = "abrt_Vlt";
-            this.abrt_Vlt.Size = new System.Drawing.Size(480, 13);
-            this.abrt_Vlt.TabIndex = 0;
-            this.abrt_Vlt.Text = "Maravilha! Nosso intuito é te dar a oportunidades de usar suas habilidades para a" +
-    "judar o proxímo! :D";
-            // 
-            // bnf_VLT
-            // 
-            this.bnf_VLT.AutoSize = true;
-            this.bnf_VLT.Location = new System.Drawing.Point(191, 150);
-            this.bnf_VLT.Name = "bnf_VLT";
-            this.bnf_VLT.Size = new System.Drawing.Size(559, 143);
-            this.bnf_VLT.TabIndex = 1;
-            this.bnf_VLT.Text = resources.GetString("bnf_VLT.Text");
-            // 
-            // qst_VLT
-            // 
-            this.qst_VLT.AutoSize = true;
-            this.qst_VLT.Location = new System.Drawing.Point(314, 355);
-            this.qst_VLT.Name = "qst_VLT";
-            this.qst_VLT.Size = new System.Drawing.Size(200, 13);
-            this.qst_VLT.TabIndex = 2;
-            this.qst_VLT.Text = "Você já faz parte da nossa comunidade?";
-            // 
-            // btn_VltLog
-            // 
-            this.btn_VltLog.Location = new System.Drawing.Point(277, 408);
-            this.btn_VltLog.Name = "btn_VltLog";
-            this.btn_VltLog.Size = new System.Drawing.Size(98, 41);
-            this.btn_VltLog.TabIndex = 3;
-            this.btn_VltLog.Text = "Sim, acessar comunidade!";
-            this.btn_VltLog.UseVisualStyleBackColor = true;
-            // 
-            // btn_VltCriar
-            // 
-            this.btn_VltCriar.Location = new System.Drawing.Point(527, 408);
-            this.btn_VltCriar.Name = "btn_VltCriar";
-            this.btn_VltCriar.Size = new System.Drawing.Size(98, 41);
-            this.btn_VltCriar.TabIndex = 4;
-            this.btn_VltCriar.Text = "Não, criar conta!";
-            this.btn_VltCriar.UseVisualStyleBackColor = true;
             // 
             // btn_VltMenuVolta
             // 
@@ -92,32 +48,91 @@
             this.btn_VltMenuVolta.Text = "Voltar";
             this.btn_VltMenuVolta.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Location = new System.Drawing.Point(178, 39);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(566, 409);
+            this.panel1.TabIndex = 6;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(339, 330);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(98, 41);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Não, criar conta!";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(89, 330);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(98, 41);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Sim, acessar comunidade!";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(126, 277);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(200, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Você já faz parte da nossa comunidade?";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(7, 86);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(559, 143);
+            this.label2.TabIndex = 6;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(54, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(480, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Maravilha! Nosso intuito é te dar a oportunidades de usar suas habilidades para a" +
+    "judar o proxímo! :D";
+            // 
             // TelaSelectVLT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(964, 545);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_VltMenuVolta);
-            this.Controls.Add(this.btn_VltCriar);
-            this.Controls.Add(this.btn_VltLog);
-            this.Controls.Add(this.qst_VLT);
-            this.Controls.Add(this.bnf_VLT);
-            this.Controls.Add(this.abrt_Vlt);
             this.Name = "TelaSelectVLT";
             this.Text = "TelaSelectVLT";
             this.Load += new System.EventHandler(this.TelaSelectVLT_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label abrt_Vlt;
-        private System.Windows.Forms.Label bnf_VLT;
-        private System.Windows.Forms.Label qst_VLT;
-        private System.Windows.Forms.Button btn_VltLog;
-        private System.Windows.Forms.Button btn_VltCriar;
         private System.Windows.Forms.Button btn_VltMenuVolta;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
