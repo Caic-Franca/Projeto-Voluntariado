@@ -57,14 +57,14 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(178, 39);
+            this.panel1.Location = new System.Drawing.Point(178, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(566, 409);
+            this.panel1.Size = new System.Drawing.Size(566, 436);
             this.panel1.TabIndex = 6;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(339, 330);
+            this.button1.Location = new System.Drawing.Point(358, 359);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 41);
             this.button1.TabIndex = 9;
@@ -73,7 +73,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(89, 330);
+            this.button2.Location = new System.Drawing.Point(68, 359);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 41);
             this.button2.TabIndex = 8;
@@ -83,16 +83,17 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 277);
+            this.label1.Location = new System.Drawing.Point(160, 299);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(200, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Você já faz parte da nossa comunidade?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 86);
+            this.label2.Location = new System.Drawing.Point(7, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(559, 143);
             this.label2.TabIndex = 6;
@@ -102,7 +103,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(54, 38);
+            this.label3.Location = new System.Drawing.Point(53, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(480, 13);
             this.label3.TabIndex = 5;
