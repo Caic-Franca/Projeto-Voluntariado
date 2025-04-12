@@ -47,6 +47,7 @@
             this.btn_VltMenuVolta.TabIndex = 5;
             this.btn_VltMenuVolta.Text = "Voltar";
             this.btn_VltMenuVolta.UseVisualStyleBackColor = true;
+            this.btn_VltMenuVolta.Click += new System.EventHandler(this.btn_VltMenuVolta_Click);
             // 
             // panel1
             // 
@@ -70,15 +71,17 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Não, criar conta!";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(89, 330);
+            this.button2.Location = new System.Drawing.Point(84, 330);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 41);
             this.button2.TabIndex = 8;
             this.button2.Text = "Sim, acessar comunidade!";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 

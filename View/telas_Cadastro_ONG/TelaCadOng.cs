@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
     public partial class TelaCadOng: Form
@@ -25,6 +26,19 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         private void txt_NascVlt_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_voltar_cadOng_Click(object sender, EventArgs e)
+        {
+            Home telaHome = new Home();
+            telaHome.Show();
+
+        }
+
+        private void btn_ConfOngCad_Click(object sender, EventArgs e)
+        {
+            confirmcadOng telaConfirmCadOng = new confirmcadOng();
+            telaConfirmCadOng.Show();
         }
     }
 }

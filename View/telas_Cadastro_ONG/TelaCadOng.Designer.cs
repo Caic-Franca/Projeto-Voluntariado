@@ -65,6 +65,7 @@
             this.btn_ConfOngCad.TabIndex = 35;
             this.btn_ConfOngCad.Text = "Confirmar";
             this.btn_ConfOngCad.UseVisualStyleBackColor = true;
+            this.btn_ConfOngCad.Click += new System.EventHandler(this.btn_ConfOngCad_Click);
             // 
             // btn_voltar_cadOng
             // 
@@ -75,6 +76,7 @@
             this.btn_voltar_cadOng.TabIndex = 34;
             this.btn_voltar_cadOng.Text = "Voltar";
             this.btn_voltar_cadOng.UseVisualStyleBackColor = true;
+            this.btn_voltar_cadOng.Click += new System.EventHandler(this.btn_voltar_cadOng_Click);
             // 
             // panel1
             // 

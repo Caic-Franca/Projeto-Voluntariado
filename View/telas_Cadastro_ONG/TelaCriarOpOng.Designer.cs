@@ -67,6 +67,7 @@
             this.btn_confVltCad.TabIndex = 35;
             this.btn_confVltCad.Text = "Próximo";
             this.btn_confVltCad.UseVisualStyleBackColor = true;
+            this.btn_confVltCad.Click += new System.EventHandler(this.btn_confVltCad_Click);
             // 
             // btn_voltar_cadVlt
             // 
@@ -77,6 +78,7 @@
             this.btn_voltar_cadVlt.TabIndex = 34;
             this.btn_voltar_cadVlt.Text = "Voltar";
             this.btn_voltar_cadVlt.UseVisualStyleBackColor = true;
+            this.btn_voltar_cadVlt.Click += new System.EventHandler(this.btn_voltar_cadVlt_Click);
             // 
             // panel1
             // 
@@ -123,9 +125,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(18, 499);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(374, 13);
+            this.label5.Size = new System.Drawing.Size(99, 13);
             this.label5.TabIndex = 66;
-            this.label5.Text = "ONG Responsável (Automático): Identificador da ONG que cadastrou a vaga.";
+            this.label5.Text = "ONG Responsável:";
             // 
             // textBox2
             // 

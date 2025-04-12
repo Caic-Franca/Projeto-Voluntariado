@@ -16,5 +16,17 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             InitializeComponent();
         }
+
+        private void btn_voltar_cadVlt_Click(object sender, EventArgs e)
+        {
+            TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
+            telaSelectVLT.Show();
+        }
+
+        private void btn_confVltCad_Click(object sender, EventArgs e)
+        {
+            TelaExpVlt telaExpVlt = new TelaExpVlt();
+            telaExpVlt.Show();
+        }
     }
 }

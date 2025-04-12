@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.View.telas_Cadastro_VLT;
 
 namespace Projeto_Voluntariado.View.telas_VLT
 {
@@ -15,6 +16,18 @@ namespace Projeto_Voluntariado.View.telas_VLT
         public TelaExpVlt()
         {
             InitializeComponent();
+        }
+
+        private void btn_VoltVltCad2_Click(object sender, EventArgs e)
+        {
+            Tela_VltCriar telaVltCriar = new Tela_VltCriar();
+            telaVltCriar.Show();
+        }
+
+        private void btn_ConcCadVlt_Click(object sender, EventArgs e)
+        {
+            TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();
+            telaConfirmaCadVlt.Show();
         }
     }
 }

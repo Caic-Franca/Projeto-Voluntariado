@@ -16,5 +16,18 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             InitializeComponent();
         }
+
+        private void btn_voltar_cadVlt_Click(object sender, EventArgs e)
+        {
+            TelaHomeOng telaHomeOng = new TelaHomeOng();
+            telaHomeOng.Show();
+        }
+
+        private void btn_confVltCad_Click(object sender, EventArgs e)
+        {
+            confirmcadOng telaConfirmCadOng = new confirmcadOng();
+            telaConfirmCadOng.Show();
+
+        }
     }
 }
