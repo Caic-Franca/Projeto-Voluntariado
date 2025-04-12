@@ -23,6 +23,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
 
         }
 
+
         private void button2_Click(object sender, EventArgs e)
         {
             TelaLogSenhaVlt telaLogSenhaVlt = new TelaLogSenhaVlt();
@@ -39,6 +40,9 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             Home telaHome = new Home();
             telaHome.Show();
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

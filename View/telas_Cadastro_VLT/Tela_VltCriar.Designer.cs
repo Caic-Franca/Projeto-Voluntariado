@@ -53,7 +53,7 @@
             // btn_voltar_cadVlt
             // 
             this.btn_voltar_cadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(648, 474);
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(624, 474);
             this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
             this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadVlt.TabIndex = 16;
@@ -64,7 +64,7 @@
             // btn_confVltCad
             // 
             this.btn_confVltCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_confVltCad.Location = new System.Drawing.Point(729, 474);
+            this.btn_confVltCad.Location = new System.Drawing.Point(705, 474);
             this.btn_confVltCad.Name = "btn_confVltCad";
             this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
             this.btn_confVltCad.TabIndex = 17;
@@ -92,7 +92,7 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(66, 24);
+            this.panel1.Location = new System.Drawing.Point(42, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(596, 421);
             this.panel1.TabIndex = 18;
@@ -234,7 +234,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
-            this.ClientSize = new System.Drawing.Size(859, 509);
+            this.ClientSize = new System.Drawing.Size(810, 509);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_confVltCad);
             this.Controls.Add(this.btn_voltar_cadVlt);
