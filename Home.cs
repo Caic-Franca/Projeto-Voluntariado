@@ -7,10 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.View.telas_Cadastro_ONG;
+using Projeto_Voluntariado.View.telas_VLT;
+
 
 namespace Projeto_Voluntariado
 {
-    public partial class Home: Form
+    public partial class Home : Form
     {
         public Home()
         {
@@ -25,6 +28,19 @@ namespace Projeto_Voluntariado
         private void abertura_Enun_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            telaOng_criar telaselectOng = new telaOng_criar();
+            telaselectOng.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        
+            TelaSelectVLT telaSelectvlt = new TelaSelectVLT();
+            telaSelectvlt.Show();
         }
     }
 }

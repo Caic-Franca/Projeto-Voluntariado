@@ -16,5 +16,11 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            telaOng_criar telaOng_Criar = new telaOng_criar();
+            telaOng_Criar.Show();
+        }
     }
 }

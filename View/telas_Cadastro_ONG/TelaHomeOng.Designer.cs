@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btn_SairVlt = new System.Windows.Forms.Button();
-            this.btn_VoltarVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -47,16 +46,7 @@
             this.btn_SairVlt.TabIndex = 9;
             this.btn_SairVlt.Text = "Sair";
             this.btn_SairVlt.UseVisualStyleBackColor = true;
-            // 
-            // btn_VoltarVlt
-            // 
-            this.btn_VoltarVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_VoltarVlt.Location = new System.Drawing.Point(129, 552);
-            this.btn_VoltarVlt.Name = "btn_VoltarVlt";
-            this.btn_VoltarVlt.Size = new System.Drawing.Size(126, 43);
-            this.btn_VoltarVlt.TabIndex = 8;
-            this.btn_VoltarVlt.Text = "Voltar";
-            this.btn_VoltarVlt.UseVisualStyleBackColor = true;
+            this.btn_SairVlt.Click += new System.EventHandler(this.btn_SairVlt_Click);
             // 
             // panel1
             // 
@@ -97,6 +87,7 @@
             this.button3.TabIndex = 12;
             this.button3.Text = "publicar oportunidade";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label2
             // 
@@ -115,7 +106,6 @@
             this.ClientSize = new System.Drawing.Size(569, 623);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_SairVlt);
-            this.Controls.Add(this.btn_VoltarVlt);
             this.Name = "TelaHomeOng";
             this.Text = "TelaHomeOng";
             this.panel1.ResumeLayout(false);
@@ -127,7 +117,6 @@
         #endregion
 
         private System.Windows.Forms.Button btn_SairVlt;
-        private System.Windows.Forms.Button btn_VoltarVlt;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

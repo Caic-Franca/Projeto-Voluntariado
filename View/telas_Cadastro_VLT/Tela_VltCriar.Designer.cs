@@ -59,6 +59,7 @@
             this.btn_voltar_cadVlt.TabIndex = 16;
             this.btn_voltar_cadVlt.Text = "Voltar";
             this.btn_voltar_cadVlt.UseVisualStyleBackColor = true;
+            this.btn_voltar_cadVlt.Click += new System.EventHandler(this.btn_voltar_cadVlt_Click);
             // 
             // btn_confVltCad
             // 
@@ -69,6 +70,7 @@
             this.btn_confVltCad.TabIndex = 17;
             this.btn_confVltCad.Text = "Próximo";
             this.btn_confVltCad.UseVisualStyleBackColor = true;
+            this.btn_confVltCad.Click += new System.EventHandler(this.btn_confVltCad_Click);
             // 
             // panel1
             // 

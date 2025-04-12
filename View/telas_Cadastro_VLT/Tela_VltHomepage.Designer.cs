@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_VoltarVlt = new System.Windows.Forms.Button();
             this.btn_SairVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -36,16 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // btn_VoltarVlt
-            // 
-            this.btn_VoltarVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_VoltarVlt.Location = new System.Drawing.Point(390, 504);
-            this.btn_VoltarVlt.Name = "btn_VoltarVlt";
-            this.btn_VoltarVlt.Size = new System.Drawing.Size(126, 43);
-            this.btn_VoltarVlt.TabIndex = 3;
-            this.btn_VoltarVlt.Text = "Voltar";
-            this.btn_VoltarVlt.UseVisualStyleBackColor = true;
             // 
             // btn_SairVlt
             // 
@@ -56,6 +45,7 @@
             this.btn_SairVlt.TabIndex = 4;
             this.btn_SairVlt.Text = "Sair";
             this.btn_SairVlt.UseVisualStyleBackColor = true;
+            this.btn_SairVlt.Click += new System.EventHandler(this.btn_SairVlt_Click);
             // 
             // panel1
             // 
@@ -104,7 +94,6 @@
             this.ClientSize = new System.Drawing.Size(719, 576);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_SairVlt);
-            this.Controls.Add(this.btn_VoltarVlt);
             this.Name = "Tela_VltHomepage";
             this.Text = "Tela_VltHomepage";
             this.panel1.ResumeLayout(false);
@@ -114,7 +103,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btn_VoltarVlt;
         private System.Windows.Forms.Button btn_SairVlt;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button1;

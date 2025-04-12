@@ -46,5 +46,23 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home telaHome = new Home();
+            telaHome.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TelaCadOng telaCadOng = new TelaCadOng();
+            telaCadOng.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TelaHomeOng telaHomeOng = new TelaHomeOng();
+            telaHomeOng.Show();
+        }
     }
 }

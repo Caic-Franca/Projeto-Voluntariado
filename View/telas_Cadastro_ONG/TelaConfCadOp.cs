@@ -16,5 +16,11 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home telaHome = new Home();
+            telaHome.Show();
+        }
     }
 }
