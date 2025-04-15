@@ -61,7 +61,7 @@
             // btn_confVltCad
             // 
             this.btn_confVltCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_confVltCad.Location = new System.Drawing.Point(694, 500);
+            this.btn_confVltCad.Location = new System.Drawing.Point(787, 534);
             this.btn_confVltCad.Name = "btn_confVltCad";
             this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
             this.btn_confVltCad.TabIndex = 35;
@@ -72,7 +72,7 @@
             // btn_voltar_cadVlt
             // 
             this.btn_voltar_cadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(613, 500);
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(691, 534);
             this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
             this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadVlt.TabIndex = 34;
@@ -108,7 +108,7 @@
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Location = new System.Drawing.Point(30, 22);
+            this.panel1.Location = new System.Drawing.Point(108, 25);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(557, 559);
             this.panel1.TabIndex = 44;
@@ -319,6 +319,7 @@
             this.Controls.Add(this.btn_voltar_cadVlt);
             this.Name = "TelaCriarOpOng";
             this.Text = "TelaCriarOpOng";
+            this.Load += new System.EventHandler(this.TelaCriarOpOng_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
