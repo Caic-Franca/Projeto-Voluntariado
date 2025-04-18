@@ -31,21 +31,21 @@
             this.btn_confVltCad = new System.Windows.Forms.Button();
             this.btn_voltar_cadVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtOngResp = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtStatusOp = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtDataPubli = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtBeneficio = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtRequisito = new System.Windows.Forms.TextBox();
+            this.txtCargaHora = new System.Windows.Forms.TextBox();
+            this.txtModalidade = new System.Windows.Forms.TextBox();
+            this.txtLocalVaga = new System.Windows.Forms.TextBox();
+            this.txtAreaAtuacao = new System.Windows.Forms.TextBox();
+            this.txtDescricaoVaga = new System.Windows.Forms.TextBox();
+            this.txtTituloVaga = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -84,21 +84,21 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.Peru;
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtOngResp);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.txtStatusOp);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtDataPubli);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.txtBeneficio);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox10);
-            this.panel1.Controls.Add(this.textBox11);
+            this.panel1.Controls.Add(this.txtRequisito);
+            this.panel1.Controls.Add(this.txtCargaHora);
+            this.panel1.Controls.Add(this.txtModalidade);
+            this.panel1.Controls.Add(this.txtLocalVaga);
+            this.panel1.Controls.Add(this.txtAreaAtuacao);
+            this.panel1.Controls.Add(this.txtDescricaoVaga);
+            this.panel1.Controls.Add(this.txtTituloVaga);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label11);
@@ -113,12 +113,12 @@
             this.panel1.Size = new System.Drawing.Size(557, 559);
             this.panel1.TabIndex = 44;
             // 
-            // textBox1
+            // txtOngResp
             // 
-            this.textBox1.Location = new System.Drawing.Point(21, 515);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(522, 20);
-            this.textBox1.TabIndex = 67;
+            this.txtOngResp.Location = new System.Drawing.Point(21, 515);
+            this.txtOngResp.Name = "txtOngResp";
+            this.txtOngResp.Size = new System.Drawing.Size(522, 20);
+            this.txtOngResp.TabIndex = 67;
             // 
             // label5
             // 
@@ -129,12 +129,12 @@
             this.label5.TabIndex = 66;
             this.label5.Text = "ONG Responsável:";
             // 
-            // textBox2
+            // txtStatusOp
             // 
-            this.textBox2.Location = new System.Drawing.Point(21, 476);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(522, 20);
-            this.textBox2.TabIndex = 65;
+            this.txtStatusOp.Location = new System.Drawing.Point(21, 476);
+            this.txtStatusOp.Name = "txtStatusOp";
+            this.txtStatusOp.Size = new System.Drawing.Size(522, 20);
+            this.txtStatusOp.TabIndex = 65;
             // 
             // label6
             // 
@@ -145,12 +145,12 @@
             this.label6.TabIndex = 64;
             this.label6.Text = "Status (Automático/Gerenciado): Aberta, Encerrada, Em Andamento ";
             // 
-            // textBox3
+            // txtDataPubli
             // 
-            this.textBox3.Location = new System.Drawing.Point(21, 437);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(522, 20);
-            this.textBox3.TabIndex = 63;
+            this.txtDataPubli.Location = new System.Drawing.Point(21, 437);
+            this.txtDataPubli.Name = "txtDataPubli";
+            this.txtDataPubli.Size = new System.Drawing.Size(522, 20);
+            this.txtDataPubli.TabIndex = 63;
             // 
             // label7
             // 
@@ -161,12 +161,12 @@
             this.label7.TabIndex = 62;
             this.label7.Text = "Data de Publicação (Automático):";
             // 
-            // textBox4
+            // txtBeneficio
             // 
-            this.textBox4.Location = new System.Drawing.Point(20, 398);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(522, 20);
-            this.textBox4.TabIndex = 61;
+            this.txtBeneficio.Location = new System.Drawing.Point(20, 398);
+            this.txtBeneficio.Name = "txtBeneficio";
+            this.txtBeneficio.Size = new System.Drawing.Size(522, 20);
+            this.txtBeneficio.TabIndex = 61;
             // 
             // label8
             // 
@@ -177,54 +177,55 @@
             this.label8.TabIndex = 60;
             this.label8.Text = "Benefícios (Opcional):";
             // 
-            // textBox5
+            // txtRequisito
             // 
-            this.textBox5.Location = new System.Drawing.Point(20, 359);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(522, 20);
-            this.textBox5.TabIndex = 59;
+            this.txtRequisito.Location = new System.Drawing.Point(20, 359);
+            this.txtRequisito.Name = "txtRequisito";
+            this.txtRequisito.Size = new System.Drawing.Size(522, 20);
+            this.txtRequisito.TabIndex = 59;
             // 
-            // textBox6
+            // txtCargaHora
             // 
-            this.textBox6.Location = new System.Drawing.Point(20, 320);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(522, 20);
-            this.textBox6.TabIndex = 58;
+            this.txtCargaHora.Location = new System.Drawing.Point(20, 320);
+            this.txtCargaHora.Name = "txtCargaHora";
+            this.txtCargaHora.Size = new System.Drawing.Size(522, 20);
+            this.txtCargaHora.TabIndex = 58;
             // 
-            // textBox7
+            // txtModalidade
             // 
-            this.textBox7.Location = new System.Drawing.Point(20, 281);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(522, 20);
-            this.textBox7.TabIndex = 57;
+            this.txtModalidade.Location = new System.Drawing.Point(20, 281);
+            this.txtModalidade.Name = "txtModalidade";
+            this.txtModalidade.Size = new System.Drawing.Size(522, 20);
+            this.txtModalidade.TabIndex = 57;
             // 
-            // textBox8
+            // txtLocalVaga
             // 
-            this.textBox8.Location = new System.Drawing.Point(20, 231);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(522, 20);
-            this.textBox8.TabIndex = 56;
+            this.txtLocalVaga.Location = new System.Drawing.Point(20, 231);
+            this.txtLocalVaga.Name = "txtLocalVaga";
+            this.txtLocalVaga.Size = new System.Drawing.Size(522, 20);
+            this.txtLocalVaga.TabIndex = 56;
             // 
-            // textBox9
+            // txtAreaAtuacao
             // 
-            this.textBox9.Location = new System.Drawing.Point(20, 192);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(522, 20);
-            this.textBox9.TabIndex = 55;
+            this.txtAreaAtuacao.Location = new System.Drawing.Point(20, 192);
+            this.txtAreaAtuacao.Name = "txtAreaAtuacao";
+            this.txtAreaAtuacao.Size = new System.Drawing.Size(522, 20);
+            this.txtAreaAtuacao.TabIndex = 55;
             // 
-            // textBox10
+            // txtDescricaoVaga
             // 
-            this.textBox10.Location = new System.Drawing.Point(20, 153);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(522, 20);
-            this.textBox10.TabIndex = 54;
+            this.txtDescricaoVaga.Location = new System.Drawing.Point(20, 153);
+            this.txtDescricaoVaga.Name = "txtDescricaoVaga";
+            this.txtDescricaoVaga.Size = new System.Drawing.Size(522, 20);
+            this.txtDescricaoVaga.TabIndex = 54;
             // 
-            // textBox11
+            // txtTituloVaga
             // 
-            this.textBox11.Location = new System.Drawing.Point(20, 101);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(522, 20);
-            this.textBox11.TabIndex = 53;
+            this.txtTituloVaga.Location = new System.Drawing.Point(20, 101);
+            this.txtTituloVaga.Name = "txtTituloVaga";
+            this.txtTituloVaga.Size = new System.Drawing.Size(522, 20);
+            this.txtTituloVaga.TabIndex = 53;
+
             // 
             // label9
             // 
@@ -330,21 +331,21 @@
         private System.Windows.Forms.Button btn_confVltCad;
         private System.Windows.Forms.Button btn_voltar_cadVlt;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtOngResp;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtStatusOp;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtDataPubli;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtBeneficio;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtRequisito;
+        private System.Windows.Forms.TextBox txtCargaHora;
+        private System.Windows.Forms.TextBox txtModalidade;
+        private System.Windows.Forms.TextBox txtLocalVaga;
+        private System.Windows.Forms.TextBox txtAreaAtuacao;
+        private System.Windows.Forms.TextBox txtDescricaoVaga;
+        private System.Windows.Forms.TextBox txtTituloVaga;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;

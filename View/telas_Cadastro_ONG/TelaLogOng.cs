@@ -10,17 +10,28 @@ using System.Windows.Forms;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
-    public partial class ConfirmcadOng: Form
+    public partial class TelaLogOng: Form
     {
-        public ConfirmcadOng()
+        public TelaLogOng()
         {
             InitializeComponent();
         }
 
+        private void TelaLogOng_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            telaOng_criar telaOng_Criar = new telaOng_criar();
-            telaOng_Criar.Show();
+            TelaHomeOng telaHomeOng = new TelaHomeOng();
+            telaHomeOng.Show();
+
         }
     }
 }

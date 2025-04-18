@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Ong;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
@@ -25,9 +26,29 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
         {
-            confirmcadOng telaConfirmCadOng = new confirmcadOng();
+           Oportunidade oportunidade = new Oportunidade(
+               0,
+                 txtTituloVaga.Text,
+                 txtDescricaoVaga.Text,
+                 txtAreaAtuacao.Text,
+                 txtLocalVaga.Text,
+                 txtModalidade.Text,
+                 Convert.ToInt32(txtCargaHora.Text),
+                 txtRequisito.Text,
+                 txtBeneficio.Text,
+                 Convert.ToDateTime(txtDataPubli.Text),
+                 txtStatusOp.Text,
+                 txtOngResp.Text
+
+            );
+
+
+
+            ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
             telaConfirmCadOng.Show();
 
         }
+
+       
     }
 }

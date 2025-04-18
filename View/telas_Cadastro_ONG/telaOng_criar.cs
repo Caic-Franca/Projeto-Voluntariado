@@ -61,8 +61,11 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void button3_Click(object sender, EventArgs e)
         {
-            TelaHomeOng telaHomeOng = new TelaHomeOng();
-            telaHomeOng.Show();
+           
+            TelaLogOng telalogOng = new TelaLogOng();
+            telalogOng.Show();
         }
+
+
     }
 }
