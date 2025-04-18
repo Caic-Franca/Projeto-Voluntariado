@@ -33,9 +33,12 @@ namespace Projeto_Voluntariado.View.telas_VLT
             _voluntario.Experiencia = txtExpVlt.Text;
             _voluntario.Disponibilidade = txtDispoVlt.Text;
 
-          
 
-            TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
+
+
+
+
+        TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
             telaConfirmaCadVlt.Show();
         }
 
