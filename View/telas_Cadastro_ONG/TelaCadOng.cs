@@ -70,8 +70,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             {
                 telaConfirmCadOng.Show();
             }
-           
-        }
+                   }
 
         
     }
