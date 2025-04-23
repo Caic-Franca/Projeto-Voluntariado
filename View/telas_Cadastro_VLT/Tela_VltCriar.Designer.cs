@@ -31,13 +31,13 @@
             this.btn_voltar_cadVlt = new System.Windows.Forms.Button();
             this.btn_confVltCad = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtEndVlt = new System.Windows.Forms.TextBox();
+            this.txtTelVlt = new System.Windows.Forms.TextBox();
+            this.txtNascVlt = new System.Windows.Forms.TextBox();
+            this.txtConfirmSenhaVlt = new System.Windows.Forms.TextBox();
+            this.txtSenhaVlt = new System.Windows.Forms.TextBox();
+            this.txtEmailVlt = new System.Windows.Forms.TextBox();
+            this.txtNomeVlt = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
             // btn_voltar_cadVlt
             // 
             this.btn_voltar_cadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(648, 474);
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(624, 474);
             this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
             this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadVlt.TabIndex = 16;
@@ -64,7 +64,7 @@
             // btn_confVltCad
             // 
             this.btn_confVltCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_confVltCad.Location = new System.Drawing.Point(729, 474);
+            this.btn_confVltCad.Location = new System.Drawing.Point(705, 474);
             this.btn_confVltCad.Name = "btn_confVltCad";
             this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
             this.btn_confVltCad.TabIndex = 17;
@@ -76,13 +76,13 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.Peru;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.txtEndVlt);
+            this.panel1.Controls.Add(this.txtTelVlt);
+            this.panel1.Controls.Add(this.txtNascVlt);
+            this.panel1.Controls.Add(this.txtConfirmSenhaVlt);
+            this.panel1.Controls.Add(this.txtSenhaVlt);
+            this.panel1.Controls.Add(this.txtEmailVlt);
+            this.panel1.Controls.Add(this.txtNomeVlt);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
@@ -92,59 +92,61 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(66, 24);
+            this.panel1.Location = new System.Drawing.Point(42, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(596, 421);
             this.panel1.TabIndex = 18;
             // 
-            // textBox1
+            // txtEndVlt
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 360);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(522, 20);
-            this.textBox1.TabIndex = 31;
+            this.txtEndVlt.Location = new System.Drawing.Point(36, 360);
+            this.txtEndVlt.Name = "txtEndVlt";
+            this.txtEndVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtEndVlt.TabIndex = 31;
             // 
-            // textBox2
+            // txtTelVlt
             // 
-            this.textBox2.Location = new System.Drawing.Point(36, 321);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(522, 20);
-            this.textBox2.TabIndex = 30;
+            this.txtTelVlt.Location = new System.Drawing.Point(36, 321);
+            this.txtTelVlt.Name = "txtTelVlt";
+            this.txtTelVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtTelVlt.TabIndex = 30;
             // 
-            // textBox3
+            // txtNascVlt
             // 
-            this.textBox3.Location = new System.Drawing.Point(36, 282);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(522, 20);
-            this.textBox3.TabIndex = 29;
+            this.txtNascVlt.Location = new System.Drawing.Point(36, 282);
+            this.txtNascVlt.Name = "txtNascVlt";
+            this.txtNascVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtNascVlt.TabIndex = 29;
             // 
-            // textBox4
+            // txtConfirmSenhaVlt
             // 
-            this.textBox4.Location = new System.Drawing.Point(36, 232);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(522, 20);
-            this.textBox4.TabIndex = 28;
+            this.txtConfirmSenhaVlt.Location = new System.Drawing.Point(36, 232);
+            this.txtConfirmSenhaVlt.Name = "txtConfirmSenhaVlt";
+            this.txtConfirmSenhaVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtConfirmSenhaVlt.TabIndex = 28;
+
             // 
-            // textBox5
+            // txtSenhaVlt
             // 
-            this.textBox5.Location = new System.Drawing.Point(36, 193);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(522, 20);
-            this.textBox5.TabIndex = 27;
+            this.txtSenhaVlt.Location = new System.Drawing.Point(36, 193);
+            this.txtSenhaVlt.Name = "txtSenhaVlt";
+            this.txtSenhaVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtSenhaVlt.TabIndex = 27;
             // 
-            // textBox6
+            // txtEmailVlt
             // 
-            this.textBox6.Location = new System.Drawing.Point(36, 154);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(522, 20);
-            this.textBox6.TabIndex = 26;
+            this.txtEmailVlt.Location = new System.Drawing.Point(36, 154);
+            this.txtEmailVlt.Name = "txtEmailVlt";
+            this.txtEmailVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtEmailVlt.TabIndex = 26;
             // 
-            // textBox7
+            // txtNomeVlt
             // 
-            this.textBox7.Location = new System.Drawing.Point(36, 102);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(522, 20);
-            this.textBox7.TabIndex = 25;
+            this.txtNomeVlt.Location = new System.Drawing.Point(36, 102);
+            this.txtNomeVlt.Name = "txtNomeVlt";
+            this.txtNomeVlt.Size = new System.Drawing.Size(522, 20);
+            this.txtNomeVlt.TabIndex = 25;
+
             // 
             // label1
             // 
@@ -234,7 +236,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
-            this.ClientSize = new System.Drawing.Size(859, 509);
+            this.ClientSize = new System.Drawing.Size(810, 509);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_confVltCad);
             this.Controls.Add(this.btn_voltar_cadVlt);
@@ -250,13 +252,13 @@
         private System.Windows.Forms.Button btn_voltar_cadVlt;
         private System.Windows.Forms.Button btn_confVltCad;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtEndVlt;
+        private System.Windows.Forms.TextBox txtTelVlt;
+        private System.Windows.Forms.TextBox txtNascVlt;
+        private System.Windows.Forms.TextBox txtConfirmSenhaVlt;
+        private System.Windows.Forms.TextBox txtSenhaVlt;
+        private System.Windows.Forms.TextBox txtEmailVlt;
+        private System.Windows.Forms.TextBox txtNomeVlt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

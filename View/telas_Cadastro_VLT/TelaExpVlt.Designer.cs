@@ -31,9 +31,9 @@
             this.btn_VoltVltCad2 = new System.Windows.Forms.Button();
             this.btn_ConcCadVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtDispoVlt = new System.Windows.Forms.TextBox();
+            this.txtExpVlt = new System.Windows.Forms.TextBox();
+            this.txtInterVlt = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -65,9 +65,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Peru;
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtDispoVlt);
+            this.panel1.Controls.Add(this.txtExpVlt);
+            this.panel1.Controls.Add(this.txtInterVlt);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label6);
@@ -76,29 +76,30 @@
             this.panel1.Size = new System.Drawing.Size(594, 354);
             this.panel1.TabIndex = 8;
             // 
-            // textBox1
+            // txtDispoVlt
             // 
-            this.textBox1.Location = new System.Drawing.Point(22, 270);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(553, 66);
-            this.textBox1.TabIndex = 11;
+            this.txtDispoVlt.Location = new System.Drawing.Point(22, 270);
+            this.txtDispoVlt.Multiline = true;
+            this.txtDispoVlt.Name = "txtDispoVlt";
+            this.txtDispoVlt.Size = new System.Drawing.Size(553, 66);
+            this.txtDispoVlt.TabIndex = 11;
             // 
-            // textBox2
+            // txtExpVlt
             // 
-            this.textBox2.Location = new System.Drawing.Point(22, 150);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(553, 85);
-            this.textBox2.TabIndex = 10;
+            this.txtExpVlt.Location = new System.Drawing.Point(22, 150);
+            this.txtExpVlt.Multiline = true;
+            this.txtExpVlt.Name = "txtExpVlt";
+            this.txtExpVlt.Size = new System.Drawing.Size(553, 85);
+            this.txtExpVlt.TabIndex = 10;
             // 
-            // textBox3
+            // txtInterVlt
             // 
-            this.textBox3.Location = new System.Drawing.Point(22, 36);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(553, 85);
-            this.textBox3.TabIndex = 9;
+            this.txtInterVlt.Location = new System.Drawing.Point(22, 36);
+            this.txtInterVlt.Multiline = true;
+            this.txtInterVlt.Name = "txtInterVlt";
+            this.txtInterVlt.Size = new System.Drawing.Size(553, 85);
+            this.txtInterVlt.TabIndex = 9;
+            this.txtInterVlt.TextChanged += new System.EventHandler(this.txtInterVlt_TextChanged);
             // 
             // label4
             // 
@@ -148,9 +149,9 @@
         private System.Windows.Forms.Button btn_VoltVltCad2;
         private System.Windows.Forms.Button btn_ConcCadVlt;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtDispoVlt;
+        private System.Windows.Forms.TextBox txtExpVlt;
+        private System.Windows.Forms.TextBox txtInterVlt;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;

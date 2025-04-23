@@ -7,15 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Ong;
 using Projeto_Voluntariado.View.telas_Cadastro_VLT;
 
 namespace Projeto_Voluntariado.View.telas_VLT
 {
     public partial class TelaExpVlt: Form
     {
-        public TelaExpVlt()
+        private Voluntario _voluntario;
+        public TelaExpVlt(Voluntario voluntario)
         {
             InitializeComponent();
+            _voluntario = voluntario;
         }
 
         private void btn_VoltVltCad2_Click(object sender, EventArgs e)
@@ -26,8 +29,22 @@ namespace Projeto_Voluntariado.View.telas_VLT
 
         private void btn_ConcCadVlt_Click(object sender, EventArgs e)
         {
-            TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();
+            _voluntario.AreaInteresse = txtInterVlt.Text;
+            _voluntario.Experiencia = txtExpVlt.Text;
+            _voluntario.Disponibilidade = txtDispoVlt.Text;
+
+            if (txtInterVlt.Text == "" || txtDispoVlt.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+                return;
+            }
+            TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
             telaConfirmaCadVlt.Show();
+        }
+
+        private void txtInterVlt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
