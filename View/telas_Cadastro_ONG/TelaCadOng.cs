@@ -52,6 +52,14 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
                 txtLinkOng.Text
             );
 
+
+            if(txtNomeOng.Text == "" || txtCnpjOng.Text == "" || txtDescOng.Text == "" || txtAreaOng.Text == "" || txtEndOng.Text == "" || txtNomeRespOng.Text == "" || txtEmailOng.Text == "" || txtSenhaOng.Text == "" || txtConfirmSenhaOng.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+                return;
+            }
+
+
             ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
             if (txtSenhaOng.Text != txtConfirmSenhaOng.Text)
             {

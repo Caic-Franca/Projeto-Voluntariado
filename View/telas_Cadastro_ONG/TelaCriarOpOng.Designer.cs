@@ -218,6 +218,7 @@
             this.txtDescricaoVaga.Name = "txtDescricaoVaga";
             this.txtDescricaoVaga.Size = new System.Drawing.Size(522, 20);
             this.txtDescricaoVaga.TabIndex = 54;
+   
             // 
             // txtTituloVaga
             // 
@@ -225,7 +226,6 @@
             this.txtTituloVaga.Name = "txtTituloVaga";
             this.txtTituloVaga.Size = new System.Drawing.Size(522, 20);
             this.txtTituloVaga.TabIndex = 53;
-
             // 
             // label9
             // 

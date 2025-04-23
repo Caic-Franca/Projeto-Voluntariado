@@ -38,6 +38,18 @@ namespace Projeto_Voluntariado.View.telas_VLT
                 txtEndVlt.Text
 
             );
+
+            if (txtNomeVlt.Text == "" || txtEmailVlt.Text == "" || txtSenhaVlt.Text == "" || txtConfirmSenhaVlt.Text == "" || txtNascVlt.Text == "" || txtTelVlt.Text == "" || txtEndVlt.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+                return;
+            }
+
+            if (txtSenhaVlt.Text != txtConfirmSenhaVlt.Text)
+            {
+                MessageBox.Show("As senhas não coincidem!");
+                return;
+            }
             TelaExpVlt telaExpVlt = new TelaExpVlt(voluntario);
             telaExpVlt.Show();
         }
