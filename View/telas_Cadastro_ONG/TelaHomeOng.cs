@@ -33,5 +33,10 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             TelaCriarOpOng telaCriarOpOng = new TelaCriarOpOng();
             telaCriarOpOng.Show();
         }
+
+        private void TelaHomeOng_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

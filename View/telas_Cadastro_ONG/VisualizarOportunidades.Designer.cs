@@ -32,20 +32,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VisualizarOportunidades));
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label15 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -62,10 +62,10 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -96,10 +96,66 @@
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.label10);
-            this.panel1.Location = new System.Drawing.Point(46, 27);
+            this.panel1.Location = new System.Drawing.Point(10, 9);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(389, 261);
             this.panel1.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(18, 190);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(22, 21);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 93;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(15, 72);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(22, 27);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 92;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(15, 125);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(22, 27);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 91;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(15, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 29);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 90;
+            this.pictureBox1.TabStop = false;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(49, 225);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(222, 20);
+            this.dateTimePicker1.TabIndex = 89;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(60, 59);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(144, 13);
+            this.label15.TabIndex = 68;
+            this.label15.Text = "Título da Vaga (Obrigatório): ";
             // 
             // label5
             // 
@@ -131,42 +187,6 @@
             this.label7.Text = "Data de Publicação (Automático):";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(46, 190);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(168, 13);
-            this.label10.TabIndex = 73;
-            this.label10.Text = "Carga Horária Semanal e período:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(46, 138);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(225, 13);
-            this.label11.TabIndex = 72;
-            this.label11.Text = "Modalidade (Presencial, Remota ou Híbrida.): ";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(46, 125);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(254, 13);
-            this.label12.TabIndex = 71;
-            this.label12.Text = "Localização da Vaga (Opcional, mas recomendado):";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(60, 88);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(196, 13);
-            this.label13.TabIndex = 70;
-            this.label13.Text = "Área de Atuação da Vaga (Obrigatório): ";
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -177,61 +197,41 @@
             this.label14.Text = "Descrição da Vaga (Obrigatório):";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
-            // label15
+            // label13
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(60, 59);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(144, 13);
-            this.label15.TabIndex = 68;
-            this.label15.Text = "Título da Vaga (Obrigatório): ";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(60, 88);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(196, 13);
+            this.label13.TabIndex = 70;
+            this.label13.Text = "Área de Atuação da Vaga (Obrigatório): ";
             // 
-            // dateTimePicker1
+            // label12
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(49, 225);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(222, 20);
-            this.dateTimePicker1.TabIndex = 89;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(46, 125);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(254, 13);
+            this.label12.TabIndex = 71;
+            this.label12.Text = "Localização da Vaga (Opcional, mas recomendado):";
             // 
-            // pictureBox1
+            // label11
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(15, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 90;
-            this.pictureBox1.TabStop = false;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(46, 138);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(225, 13);
+            this.label11.TabIndex = 72;
+            this.label11.Text = "Modalidade (Presencial, Remota ou Híbrida.): ";
             // 
-            // pictureBox2
+            // label10
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(15, 125);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(22, 27);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 91;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(15, 72);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 27);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 92;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(18, 190);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(22, 21);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 93;
-            this.pictureBox4.TabStop = false;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(46, 190);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(168, 13);
+            this.label10.TabIndex = 73;
+            this.label10.Text = "Carga Horária Semanal e período:";
             // 
             // panel2
             // 
@@ -251,7 +251,7 @@
             this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.label17);
             this.panel2.Controls.Add(this.label18);
-            this.panel2.Location = new System.Drawing.Point(46, 294);
+            this.panel2.Location = new System.Drawing.Point(10, 276);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(389, 261);
             this.panel2.TabIndex = 94;
@@ -389,17 +389,17 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
-            this.ClientSize = new System.Drawing.Size(527, 647);
+            this.ClientSize = new System.Drawing.Size(454, 610);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "VisualizarOportunidades";
             this.Text = "VisualizarOportunidades";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

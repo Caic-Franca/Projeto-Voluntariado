@@ -108,6 +108,7 @@
             this.Controls.Add(this.btn_SairVlt);
             this.Name = "TelaHomeOng";
             this.Text = "TelaHomeOng";
+            this.Load += new System.EventHandler(this.TelaHomeOng_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

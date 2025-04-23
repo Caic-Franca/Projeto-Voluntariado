@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.View.telas_VLT;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
@@ -63,6 +64,13 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
+            new TelaHomeOng().Show();
+            this.Close(); // Isso não fechará a aplicação agora
+        }
+
+        private void telaOng_criar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

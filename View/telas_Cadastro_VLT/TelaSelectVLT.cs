@@ -33,12 +33,15 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             Tela_VltCriar tela_vltCriar = new Tela_VltCriar();
             tela_vltCriar.Show();
+            
+            this.Close(); // Isso não fechará a aplicação agora
         }
 
         private void btn_VltMenuVolta_Click(object sender, EventArgs e)
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close(); // Fecha a tela atual (TelaSelectVLT)
         }
     }
 }
