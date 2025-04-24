@@ -10,18 +10,29 @@ using System.Windows.Forms;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
-    public partial class TelaConfCadOp: Form
+    public partial class TelaLogOng: Form
     {
-        public TelaConfCadOp()
+        public TelaLogOng()
         {
             InitializeComponent();
         }
 
+      
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Home telaHome = new Home();
-            telaHome.Show();
+
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Preencha todos os campos.");
+                return;
+            }
+
+            
+            TelaHomeOng telaHomeOng = new TelaHomeOng();
+            telaHomeOng.Show();
             this.Close();
+
         }
     }
 }

@@ -71,6 +71,7 @@
             this.ClientSize = new System.Drawing.Size(481, 275);
             this.Controls.Add(this.panel1);
             this.Name = "TelaConfirmaCadVlt";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaConfirmaCadVlt";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

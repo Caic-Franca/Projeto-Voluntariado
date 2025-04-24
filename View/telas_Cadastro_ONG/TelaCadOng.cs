@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Ong;
 
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
     public partial class TelaCadOng: Form
-    {
+    {       
         public TelaCadOng()
         {
             InitializeComponent();
@@ -32,13 +33,60 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close();
 
         }
 
         private void btn_ConfOngCad_Click(object sender, EventArgs e)
         {
-            confirmcadOng telaConfirmCadOng = new confirmcadOng();
-            telaConfirmCadOng.Show();
-        }
+            Ong ong = new Ong(
+                0,
+                txtNomeOng.Text,
+                txtCnpjOng.Text,
+                txtDescOng.Text,
+                txtAreaOng.Text,
+                txtEndOng.Text,
+                txtNomeRespOng.Text,
+                txtEmailOng.Text,
+                txtSenhaOng.Text,
+                txtConfirmSenhaOng.Text,
+                txtLinkOng.Text
+            );
+
+
+            if(txtNomeOng.Text == "" || txtCnpjOng.Text == "" || txtDescOng.Text == "" || txtAreaOng.Text == "" || txtEndOng.Text == "" || txtNomeRespOng.Text == "" || txtEmailOng.Text == "" || txtSenhaOng.Text == "" || txtConfirmSenhaOng.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+                return;
+            }
+
+            //validação de email
+            if (!txtEmailOng.Text.Contains("@") || !txtEmailOng.Text.Contains("."))
+            {
+                MessageBox.Show("Email inválido!");
+                return;
+            }
+
+            //validação de senha
+            if (txtSenhaOng.Text.Length < 6)
+            {
+                MessageBox.Show("A senha deve ter pelo menos 6 caracteres.");
+                return;
+            }
+
+            ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
+            if (txtSenhaOng.Text != txtConfirmSenhaOng.Text)
+            {
+                MessageBox.Show("As senhas não coincidem. Tente novamente.");
+                return;
+            }
+            else
+            {
+                telaConfirmCadOng.Show();
+                this.Close();
+            }
+                   }
+
+        
     }
 }
