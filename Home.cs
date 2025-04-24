@@ -42,7 +42,5 @@ namespace Projeto_Voluntariado
         
             TelaSelectVLT telaSelectvlt = new TelaSelectVLT();
             telaSelectvlt.Show();
-            
+         
         }
-    }
-}
