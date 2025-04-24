@@ -11,7 +11,7 @@ using Projeto_Voluntariado.View.telas_VLT;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
-    public partial class telaOng_criar: Form
+    public partial class telaOng_criar : Form
     {
         public telaOng_criar()
         {
@@ -52,20 +52,23 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close(); // Fecha telaOng_criar ao voltar para a Home
         }
+    
+
 
         private void button2_Click(object sender, EventArgs e)
         {
             TelaCadOng telaCadOng = new TelaCadOng();
             telaCadOng.Show();
+            this.Close(); // Fecha telaOng_criar ao abrir TelaCadOng
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
-            new TelaHomeOng().Show();
-            this.Close(); // Isso não fechará a aplicação agora
+            this.Close(); // Fecha telaOng_criar ao abrir TelaHomeOng
         }
 
         private void telaOng_criar_Load(object sender, EventArgs e)

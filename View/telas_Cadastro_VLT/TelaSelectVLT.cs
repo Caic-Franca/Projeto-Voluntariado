@@ -27,21 +27,21 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             TelaLogSenhaVlt telaLogSenhaVlt = new TelaLogSenhaVlt();
             telaLogSenhaVlt.Show();
+            this.Close(); // Fecha TelaSelectVLT ao abrir TelaLogSenhaVlt
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Tela_VltCriar tela_vltCriar = new Tela_VltCriar();
             tela_vltCriar.Show();
-            
-            this.Close(); // Isso não fechará a aplicação agora
+            this.Close(); // Fecha TelaSelectVLT ao abrir Tela_VltCriar
         }
 
         private void btn_VltMenuVolta_Click(object sender, EventArgs e)
         {
             Home telaHome = new Home();
             telaHome.Show();
-            this.Close(); // Fecha a tela atual (TelaSelectVLT)
+            this.Close(); // Fecha TelaSelectVLT ao voltar para a Home
         }
     }
 }

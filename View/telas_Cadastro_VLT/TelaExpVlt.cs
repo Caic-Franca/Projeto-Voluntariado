@@ -29,5 +29,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
             TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();
             telaConfirmaCadVlt.Show();
         }
+
+        private void TelaExpVlt_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

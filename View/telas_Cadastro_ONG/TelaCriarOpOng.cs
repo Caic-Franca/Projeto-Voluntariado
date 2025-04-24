@@ -21,12 +21,14 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
+            this.Close(); // Fecha TelaCriarOpOng ao voltar para TelaHomeOng
         }
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
         {
             confirmcadOng telaConfirmCadOng = new confirmcadOng();
             telaConfirmCadOng.Show();
+            this.Close(); // Fecha TelaCriarOpOng ao abrir confirmcadOng
 
         }
 

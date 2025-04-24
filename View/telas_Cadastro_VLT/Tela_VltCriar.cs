@@ -28,5 +28,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
             TelaExpVlt telaExpVlt = new TelaExpVlt();
             telaExpVlt.Show();
         }
+
+        private void Tela_VltCriar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

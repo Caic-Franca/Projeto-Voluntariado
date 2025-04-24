@@ -34,17 +34,15 @@ namespace Projeto_Voluntariado
         {
             telaOng_criar telaselectOng = new telaOng_criar();
             telaselectOng.Show();
-            
-            this.Close();
+            this.Close(); // Fecha a Home ao abrir a telaOng_criar
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-        
+
             TelaSelectVLT telaSelectvlt = new TelaSelectVLT();
             telaSelectvlt.Show();
-            new TelaSelectVLT().Show();
-            this.Close(); // Isso não fechará a aplicação agora
+            this.Close(); // Fecha a Home ao abrir a TelaSelectVLT
         }
         
 
