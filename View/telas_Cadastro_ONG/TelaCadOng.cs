@@ -33,6 +33,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close();
 
         }
 
@@ -59,6 +60,19 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
                 return;
             }
 
+            //validação de email
+            if (!txtEmailOng.Text.Contains("@") || !txtEmailOng.Text.Contains("."))
+            {
+                MessageBox.Show("Email inválido!");
+                return;
+            }
+
+            //validação de senha
+            if (txtSenhaOng.Text.Length < 6)
+            {
+                MessageBox.Show("A senha deve ter pelo menos 6 caracteres.");
+                return;
+            }
 
             ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
             if (txtSenhaOng.Text != txtConfirmSenhaOng.Text)
@@ -69,6 +83,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             else
             {
                 telaConfirmCadOng.Show();
+                this.Close();
             }
                    }
 

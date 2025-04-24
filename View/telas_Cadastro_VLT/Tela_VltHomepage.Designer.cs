@@ -96,6 +96,7 @@
             this.Controls.Add(this.btn_SairVlt);
             this.Name = "Tela_VltHomepage";
             this.Text = "Tela_VltHomepage";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

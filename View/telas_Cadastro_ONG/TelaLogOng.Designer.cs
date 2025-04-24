@@ -52,7 +52,7 @@
             this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Senha";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+          
             // 
             // textBox1
             // 
@@ -91,7 +91,7 @@
             this.Controls.Add(this.label1);
             this.Name = "TelaLogOng";
             this.Text = "TelaLogOng";
-            this.Load += new System.EventHandler(this.TelaLogOng_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

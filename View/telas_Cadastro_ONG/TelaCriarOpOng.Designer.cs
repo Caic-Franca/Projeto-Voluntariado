@@ -218,7 +218,6 @@
             this.txtDescricaoVaga.Name = "txtDescricaoVaga";
             this.txtDescricaoVaga.Size = new System.Drawing.Size(522, 20);
             this.txtDescricaoVaga.TabIndex = 54;
-   
             // 
             // txtTituloVaga
             // 
@@ -320,6 +319,7 @@
             this.Controls.Add(this.btn_voltar_cadVlt);
             this.Name = "TelaCriarOpOng";
             this.Text = "TelaCriarOpOng";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

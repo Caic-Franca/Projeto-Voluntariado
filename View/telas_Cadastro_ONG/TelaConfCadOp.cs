@@ -21,6 +21,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close();
         }
     }
 }

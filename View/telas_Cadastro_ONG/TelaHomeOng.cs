@@ -26,12 +26,14 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             TelaCriarOpOng telaCriarOpOng = new TelaCriarOpOng();
             telaCriarOpOng.Show();
+            this.Close();
         }
     }
 }

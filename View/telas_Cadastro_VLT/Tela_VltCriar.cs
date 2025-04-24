@@ -23,6 +23,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
             telaSelectVLT.Show();
+            this.Close();
         }
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
@@ -44,7 +45,20 @@ namespace Projeto_Voluntariado.View.telas_VLT
                 MessageBox.Show("Preencha todos os campos!");
                 return;
             }
+            //validaçao de email
+            if (!txtEmailVlt.Text.Contains("@") || !txtEmailVlt.Text.Contains("."))
+            {
+                MessageBox.Show("Email inválido!");
+                return;
+            }
 
+            //validação de senha
+
+            if (txtSenhaVlt.Text.Length < 6)
+            {
+                MessageBox.Show("A senha deve ter pelo menos 6 caracteres!");
+                return;
+            }
             if (txtSenhaVlt.Text != txtConfirmSenhaVlt.Text)
             {
                 MessageBox.Show("As senhas não coincidem!");
@@ -52,6 +66,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
             }
             TelaExpVlt telaExpVlt = new TelaExpVlt(voluntario);
             telaExpVlt.Show();
+            this.Close();
         }
 
       
