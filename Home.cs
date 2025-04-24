@@ -34,6 +34,7 @@ namespace Projeto_Voluntariado
         {
             telaOng_criar telaselectOng = new telaOng_criar();
             telaselectOng.Show();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,6 +42,7 @@ namespace Projeto_Voluntariado
         
             TelaSelectVLT telaSelectvlt = new TelaSelectVLT();
             telaSelectvlt.Show();
+            
         }
     }
 }

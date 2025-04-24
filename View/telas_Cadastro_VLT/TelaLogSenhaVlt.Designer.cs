@@ -113,6 +113,7 @@
             this.ClientSize = new System.Drawing.Size(355, 265);
             this.Controls.Add(this.panel1);
             this.Name = "TelaLogSenhaVlt";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaLogSenhaVlt";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

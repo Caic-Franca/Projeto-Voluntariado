@@ -17,20 +17,21 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             InitializeComponent();
         }
 
-        private void TelaLogOng_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                MessageBox.Show("Preencha todos os campos.");
+                return;
+            }
+
+            
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
+            this.Close();
 
         }
     }

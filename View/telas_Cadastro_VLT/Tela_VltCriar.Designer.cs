@@ -124,7 +124,6 @@
             this.txtConfirmSenhaVlt.Name = "txtConfirmSenhaVlt";
             this.txtConfirmSenhaVlt.Size = new System.Drawing.Size(522, 20);
             this.txtConfirmSenhaVlt.TabIndex = 28;
-
             // 
             // txtSenhaVlt
             // 
@@ -146,7 +145,6 @@
             this.txtNomeVlt.Name = "txtNomeVlt";
             this.txtNomeVlt.Size = new System.Drawing.Size(522, 20);
             this.txtNomeVlt.TabIndex = 25;
-
             // 
             // label1
             // 
@@ -242,6 +240,7 @@
             this.Controls.Add(this.btn_voltar_cadVlt);
             this.Name = "Tela_VltCriar";
             this.Text = "Tela_VltCriar";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

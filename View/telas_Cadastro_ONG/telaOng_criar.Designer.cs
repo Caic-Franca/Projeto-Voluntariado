@@ -49,7 +49,6 @@
             this.btn_OngMenuVolta.TabIndex = 11;
             this.btn_OngMenuVolta.Text = "Voltar";
             this.btn_OngMenuVolta.UseVisualStyleBackColor = true;
-            this.btn_OngMenuVolta.Click += new System.EventHandler(this.btn_VltMenuVolta_Click);
             // 
             // panel1
             // 
@@ -135,6 +134,7 @@
             this.Controls.Add(this.btn_OngMenuVolta);
             this.Name = "telaOng_criar";
             this.Text = "telaOng_criar";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

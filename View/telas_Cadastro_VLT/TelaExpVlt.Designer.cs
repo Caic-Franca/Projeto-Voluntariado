@@ -138,6 +138,7 @@
             this.Controls.Add(this.btn_ConcCadVlt);
             this.Controls.Add(this.btn_VoltVltCad2);
             this.Name = "TelaExpVlt";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaExpVlt";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

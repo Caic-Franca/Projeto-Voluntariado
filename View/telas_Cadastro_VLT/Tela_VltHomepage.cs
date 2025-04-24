@@ -21,6 +21,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close();
         }
     }
 }

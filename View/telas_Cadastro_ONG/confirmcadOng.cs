@@ -21,6 +21,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             telaOng_criar telaOng_Criar = new telaOng_criar();
             telaOng_Criar.Show();
+            this.Close();
         }
     }
 }

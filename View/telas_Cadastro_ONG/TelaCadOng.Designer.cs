@@ -132,7 +132,6 @@
             this.txtDescOng.Name = "txtDescOng";
             this.txtDescOng.Size = new System.Drawing.Size(522, 20);
             this.txtDescOng.TabIndex = 61;
-
             // 
             // label5
             // 
@@ -149,7 +148,6 @@
             this.txtAreaOng.Name = "txtAreaOng";
             this.txtAreaOng.Size = new System.Drawing.Size(522, 20);
             this.txtAreaOng.TabIndex = 59;
- 
             // 
             // label6
             // 
@@ -166,7 +164,6 @@
             this.txtEndOng.Name = "txtEndOng";
             this.txtEndOng.Size = new System.Drawing.Size(522, 20);
             this.txtEndOng.TabIndex = 57;
-     
             // 
             // txtCnpjOng
             // 
@@ -174,7 +171,6 @@
             this.txtCnpjOng.Name = "txtCnpjOng";
             this.txtCnpjOng.Size = new System.Drawing.Size(522, 20);
             this.txtCnpjOng.TabIndex = 56;
-         
             // 
             // txtNomeRespOng
             // 
@@ -182,7 +178,6 @@
             this.txtNomeRespOng.Name = "txtNomeRespOng";
             this.txtNomeRespOng.Size = new System.Drawing.Size(522, 20);
             this.txtNomeRespOng.TabIndex = 55;
-         
             // 
             // txtConfirmSenhaOng
             // 
@@ -190,7 +185,6 @@
             this.txtConfirmSenhaOng.Name = "txtConfirmSenhaOng";
             this.txtConfirmSenhaOng.Size = new System.Drawing.Size(522, 20);
             this.txtConfirmSenhaOng.TabIndex = 54;
-         
             // 
             // txtSenhaOng
             // 
@@ -198,7 +192,6 @@
             this.txtSenhaOng.Name = "txtSenhaOng";
             this.txtSenhaOng.Size = new System.Drawing.Size(522, 20);
             this.txtSenhaOng.TabIndex = 53;
-
             // 
             // txtEmailOng
             // 
@@ -206,7 +199,6 @@
             this.txtEmailOng.Name = "txtEmailOng";
             this.txtEmailOng.Size = new System.Drawing.Size(522, 20);
             this.txtEmailOng.TabIndex = 52;
-  
             // 
             // txtNomeOng
             // 
@@ -308,6 +300,7 @@
             this.Controls.Add(this.btn_voltar_cadOng);
             this.Name = "TelaCadOng";
             this.Text = "TelaCadOng";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

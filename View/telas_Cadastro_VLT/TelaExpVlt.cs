@@ -25,6 +25,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             Tela_VltCriar telaVltCriar = new Tela_VltCriar();
             telaVltCriar.Show();
+            this.Close();
         }
 
         private void btn_ConcCadVlt_Click(object sender, EventArgs e)
@@ -40,6 +41,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
             }
             TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
             telaConfirmaCadVlt.Show();
+            this.Close();
         }
 
         private void txtInterVlt_TextChanged(object sender, EventArgs e)
