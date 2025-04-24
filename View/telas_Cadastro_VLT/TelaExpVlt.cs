@@ -48,5 +48,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
 
         }
+
+        private void TelaExpVlt_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

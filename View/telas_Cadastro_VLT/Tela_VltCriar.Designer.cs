@@ -240,7 +240,9 @@
             this.Controls.Add(this.btn_voltar_cadVlt);
             this.Name = "Tela_VltCriar";
             this.Text = "Tela_VltCriar";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+
+            this.Load += new System.EventHandler(this.Tela_VltCriar_Load);
+
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

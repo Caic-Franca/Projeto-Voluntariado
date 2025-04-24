@@ -22,11 +22,17 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
-            this.Close();
+
+            this.Close(); // Fecha TelaCriarOpOng ao voltar para TelaHomeOng
+
         }
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
+        
+
+        private void TelaCriarOpOng_Load(object sender, EventArgs e)
         {
+
             // Validação dos campos obrigatórios
             if (string.IsNullOrWhiteSpace(txtTituloVaga.Text) ||
                 string.IsNullOrWhiteSpace(txtDescricaoVaga.Text) ||
@@ -40,6 +46,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
                 MessageBox.Show("Preencha todos os campos obrigatórios!");
                 return;
             }
+
 
             
 
