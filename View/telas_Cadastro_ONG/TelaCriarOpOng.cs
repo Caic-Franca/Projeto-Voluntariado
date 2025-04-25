@@ -15,7 +15,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         public TelaCriarOpOng()
         {
             InitializeComponent();
-        }
+        }  
 
         private void btn_voltar_cadVlt_Click(object sender, EventArgs e)
         {
@@ -34,7 +34,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void TelaCriarOpOng_Load(object sender, EventArgs e)
         {
-
+              
         }
     }
 }

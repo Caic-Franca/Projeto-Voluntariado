@@ -34,6 +34,11 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void label5_Click(object sender, EventArgs e)
         {
+               
+        }
+
+        private void VisualizarOportunidades_Load(object sender, EventArgs e)
+        {
 
         }
     }

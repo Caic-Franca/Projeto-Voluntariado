@@ -72,6 +72,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "TelaConfirmaCadVlt";
             this.Text = "TelaConfirmaCadVlt";
+            this.Load += new System.EventHandler(this.TelaConfirmaCadVlt_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

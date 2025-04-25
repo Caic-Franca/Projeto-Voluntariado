@@ -16,7 +16,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             InitializeComponent();
         }
-
+         
         private void btn_voltar_cadVlt_Click(object sender, EventArgs e)
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
@@ -31,7 +31,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
 
         private void Tela_VltCriar_Load(object sender, EventArgs e)
         {
-
+              
         }
     }
 }

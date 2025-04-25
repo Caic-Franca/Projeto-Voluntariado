@@ -40,5 +40,10 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             confirmcadOng telaConfirmCadOng = new confirmcadOng();
             telaConfirmCadOng.Show();
         }
+
+        private void TelaCadOng_Load(object sender, EventArgs e)
+        {
+               
+        }
     }
 }

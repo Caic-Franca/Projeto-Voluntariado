@@ -73,7 +73,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void telaOng_criar_Load(object sender, EventArgs e)
         {
-
+               
         }
     }
 }
