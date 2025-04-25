@@ -21,13 +21,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             Home telaHome = new Home();
             telaHome.Show();
-
-            this.Close(); // Fecha Tela_VltHomepage ao voltar para a Home
-        }
-
-        private void Tela_VltHomepage_Load(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

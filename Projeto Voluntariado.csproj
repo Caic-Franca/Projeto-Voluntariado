@@ -63,18 +63,6 @@
     <Compile Include="View\telas_Cadastro_ONG\confirmcadOng.Designer.cs">
       <DependentUpon>confirmcadOng.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\telas_Cadastro_ONG\ListaDeVoluntarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\telas_Cadastro_ONG\ListaDeVoluntarios.Designer.cs">
-      <DependentUpon>ListaDeVoluntarios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\telas_Cadastro_ONG\PublicarOportunidade.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="View\telas_Cadastro_ONG\PublicarOportunidade.Designer.cs">
-      <DependentUpon>PublicarOportunidade.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\telas_Cadastro_ONG\TelaCadOng.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,12 +98,6 @@
     </Compile>
     <Compile Include="View\telas_Cadastro_ONG\telaOng_criar.Designer.cs">
       <DependentUpon>telaOng_criar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\telas_Cadastro_ONG\VisualizarOportunidades.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\telas_Cadastro_ONG\VisualizarOportunidades.Designer.cs">
-      <DependentUpon>VisualizarOportunidades.cs</DependentUpon>
     </Compile>
     <Compile Include="View\telas_Cadastro_VLT\TelaConfirmaCadVlt.cs">
       <SubType>Form</SubType>
@@ -168,12 +150,6 @@
     <EmbeddedResource Include="View\telas_Cadastro_ONG\confirmcadOng.resx">
       <DependentUpon>confirmcadOng.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\telas_Cadastro_ONG\ListaDeVoluntarios.resx">
-      <DependentUpon>ListaDeVoluntarios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\telas_Cadastro_ONG\PublicarOportunidade.resx">
-      <DependentUpon>PublicarOportunidade.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\telas_Cadastro_ONG\TelaCadOng.resx">
       <DependentUpon>TelaCadOng.cs</DependentUpon>
     </EmbeddedResource>
@@ -191,9 +167,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\telas_Cadastro_ONG\telaOng_criar.resx">
       <DependentUpon>telaOng_criar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\telas_Cadastro_ONG\VisualizarOportunidades.resx">
-      <DependentUpon>VisualizarOportunidades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\telas_Cadastro_VLT\TelaConfirmaCadVlt.resx">
       <DependentUpon>TelaConfirmaCadVlt.cs</DependentUpon>

@@ -22,23 +22,14 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
             telaSelectVLT.Show();
-
-            this.Close(); // Fecha TelaLogSenhaVlt ao abrir TelaSelectVLT
-
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Tela_VltHomepage telaVltHomepage = new Tela_VltHomepage();
             telaVltHomepage.Show();
-
-            this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage
-        }
-
-        private void TelaLogSenhaVlt_Load(object sender, EventArgs e)
-        {
-
-
+            this.Close();
         }
     }
 }

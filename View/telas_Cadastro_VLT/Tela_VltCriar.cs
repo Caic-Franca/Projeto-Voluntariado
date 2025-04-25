@@ -69,10 +69,6 @@ namespace Projeto_Voluntariado.View.telas_VLT
             this.Close();
         }
 
-
-        private void Tela_VltCriar_Load(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }

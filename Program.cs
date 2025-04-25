@@ -16,11 +16,7 @@ namespace Projeto_Voluntariado
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            Application.Run(new Home()); 
-            var home = new Home();
-            home.Show();
-            Application.Run(); // Sem parâmetro
+            Application.Run(new Home());
         }
     }
 }
