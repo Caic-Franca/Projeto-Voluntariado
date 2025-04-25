@@ -13,9 +13,13 @@ namespace Projeto_Voluntariado.View.telas_VLT
 {
     public partial class TelaExpVlt: Form
     {
-        public TelaExpVlt()
+        private Tela_VltCriar telaAnterior;
+        
+
+        public TelaExpVlt(Tela_VltCriar tela)
         {
             InitializeComponent();
+            this.telaAnterior = tela;
         }
 
         private void btn_VoltVltCad2_Click(object sender, EventArgs e)
@@ -28,6 +32,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();
             telaConfirmaCadVlt.Show();
+            this.Close(); // Fecha TelaExpVlt ao abrir TelaConfirmaCadVlt
         }
 
         private void TelaExpVlt_Load(object sender, EventArgs e)

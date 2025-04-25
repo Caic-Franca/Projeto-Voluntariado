@@ -39,6 +39,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             confirmcadOng telaConfirmCadOng = new confirmcadOng();
             telaConfirmCadOng.Show();
+            this.Close(); // Fecha a tela atual (TelaCadOng)
         }
 
         private void TelaCadOng_Load(object sender, EventArgs e)

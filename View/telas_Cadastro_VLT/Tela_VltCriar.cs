@@ -25,8 +25,9 @@ namespace Projeto_Voluntariado.View.telas_VLT
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
         {
-            TelaExpVlt telaExpVlt = new TelaExpVlt();
+            TelaExpVlt telaExpVlt = new TelaExpVlt(this); // Passa a referência desta tela
             telaExpVlt.Show();
+            this.Close(); // Fecha a tela atual
         }
 
         private void Tela_VltCriar_Load(object sender, EventArgs e)
