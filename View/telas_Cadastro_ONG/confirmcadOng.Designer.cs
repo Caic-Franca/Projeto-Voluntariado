@@ -1,6 +1,6 @@
 ﻿namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
-    partial class confirmcadOng
+    partial class ConfirmcadOng
     {
         /// <summary>
         /// Required designer variable.
@@ -77,14 +77,16 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Parabéns, seu cadastro foi criado!";
             // 
-            // confirmcadOng
+
+          // confirmcadOng
+
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
             this.ClientSize = new System.Drawing.Size(455, 293);
             this.Controls.Add(this.panel1);
-            this.Name = "confirmcadOng";
+            this.Name = "ConfirmcadOng";
             this.Text = "confirmcadOng";
             this.Load += new System.EventHandler(this.confirmcadOng_Load);
             this.panel1.ResumeLayout(false);
