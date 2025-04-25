@@ -25,5 +25,10 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
             this.Close();
 
         }
+
+        private void TelaConfirmaCadVlt_Load(object sender, EventArgs e)
+        {
+                
+        }
     }
 }

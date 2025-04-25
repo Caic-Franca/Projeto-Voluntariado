@@ -32,12 +32,12 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
             Tela_VltHomepage telaVltHomepage = new Tela_VltHomepage();
             telaVltHomepage.Show();
 
-            this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage
-        }
+            this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage  
+        } 
 
         private void TelaLogSenhaVlt_Load(object sender, EventArgs e)
         {
-
+             
 
         }
     }

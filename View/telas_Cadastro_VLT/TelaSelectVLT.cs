@@ -16,11 +16,11 @@ namespace Projeto_Voluntariado.View.telas_VLT
         public TelaSelectVLT()
         {
             InitializeComponent();
-        }
+        }   
 
         private void TelaSelectVLT_Load(object sender, EventArgs e)
-        {
-
+        {  
+              
         }
 
 

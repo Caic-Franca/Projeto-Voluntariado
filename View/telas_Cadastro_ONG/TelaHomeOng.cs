@@ -11,11 +11,11 @@ using System.Windows.Forms;
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
     public partial class TelaHomeOng: Form
-    {
+    { 
         public TelaHomeOng()
         {
             InitializeComponent();
-        }
+        }  
 
         private void btn_VoltarVlt_Click(object sender, EventArgs e)
         {
@@ -41,7 +41,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void TelaHomeOng_Load(object sender, EventArgs e)
         {
-
+              
         }
     }
 }

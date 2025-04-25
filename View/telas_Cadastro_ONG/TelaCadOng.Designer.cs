@@ -32,7 +32,10 @@
             this.btn_ConfOngCad = new System.Windows.Forms.Button();
             this.btn_voltar_cadOng = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtLinkOng = new System.Windows.Forms.TextBox();
+
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+
             this.label4 = new System.Windows.Forms.Label();
             this.txtDescOng = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,7 +57,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -115,7 +117,19 @@
             this.panel1.Size = new System.Drawing.Size(575, 565);
             this.panel1.TabIndex = 42;
             // 
-            // txtLinkOng
+
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(279, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 64;
+            this.pictureBox1.TabStop = false;
+            // 
+            // textBox1
+
             // 
             this.txtLinkOng.Location = new System.Drawing.Point(18, 513);
             this.txtLinkOng.Name = "txtLinkOng";
@@ -295,16 +309,6 @@
             this.label15.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
     "baixo:";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(279, 54);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 64;
-            this.pictureBox1.TabStop = false;
-            // 
             // TelaCadOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -316,7 +320,9 @@
             this.Controls.Add(this.btn_voltar_cadOng);
             this.Name = "TelaCadOng";
             this.Text = "TelaCadOng";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+
+            this.Load += new System.EventHandler(this.TelaCadOng_Load);
+
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

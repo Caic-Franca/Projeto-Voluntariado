@@ -394,6 +394,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "VisualizarOportunidades";
             this.Text = "VisualizarOportunidades";
+            this.Load += new System.EventHandler(this.VisualizarOportunidades_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

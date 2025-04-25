@@ -39,54 +39,15 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void btn_ConfOngCad_Click(object sender, EventArgs e)
         {
-            Ong ong = new Ong(
-                0,
-                txtNomeOng.Text,
-                txtCnpjOng.Text,
-                txtDescOng.Text,
-                txtAreaOng.Text,
-                txtEndOng.Text,
-                txtNomeRespOng.Text,
-                txtEmailOng.Text,
-                txtSenhaOng.Text,
-                txtConfirmSenhaOng.Text,
-                txtLinkOng.Text
-            );
 
+            confirmcadOng telaConfirmCadOng = new confirmcadOng();
+            telaConfirmCadOng.Show();
+        }
 
-            if(txtNomeOng.Text == "" || txtCnpjOng.Text == "" || txtDescOng.Text == "" || txtAreaOng.Text == "" || txtEndOng.Text == "" || txtNomeRespOng.Text == "" || txtEmailOng.Text == "" || txtSenhaOng.Text == "" || txtConfirmSenhaOng.Text == "")
-            {
-                MessageBox.Show("Preencha todos os campos!");
-                return;
-            }
+        private void TelaCadOng_Load(object sender, EventArgs e)
+        {
+               
+        }
 
-            //validação de email
-            if (!txtEmailOng.Text.Contains("@") || !txtEmailOng.Text.Contains("."))
-            {
-                MessageBox.Show("Email inválido!");
-                return;
-            }
-
-            //validação de senha
-            if (txtSenhaOng.Text.Length < 6)
-            {
-                MessageBox.Show("A senha deve ter pelo menos 6 caracteres.");
-                return;
-            }
-
-            ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
-            if (txtSenhaOng.Text != txtConfirmSenhaOng.Text)
-            {
-                MessageBox.Show("As senhas não coincidem. Tente novamente.");
-                return;
-            }
-            else
-            {
-                telaConfirmCadOng.Show();
-                this.Close();
-            }
-                   }
-
-        
     }
 }
