@@ -22,18 +22,18 @@ namespace Projeto_Voluntariado.View.telas_VLT
             this.telaAnterior = tela;
         }
 
-        private void btn_VoltVltCad2_Click(object sender, EventArgs e)
+        private void Btn_VoltVltCad2_Click(object sender, EventArgs e)
         {
             Tela_VltCriar telaVltCriar = new Tela_VltCriar();
             telaVltCriar.Show();
         }
 
-        private void btn_ConcCadVlt_Click(object sender, EventArgs e)
+        private void Btn_ConcCadVlt_Click(object sender, EventArgs e)
         {
             TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();
             telaConfirmaCadVlt.Show();
             this.Close(); // Fecha TelaExpVlt ao abrir TelaConfirmaCadVlt
-        }
+        } 
 
         private void TelaExpVlt_Load(object sender, EventArgs e)
         {

@@ -49,7 +49,7 @@
             this.btn_VoltVltCad2.TabIndex = 6;
             this.btn_VoltVltCad2.Text = "Voltar";
             this.btn_VoltVltCad2.UseVisualStyleBackColor = true;
-            this.btn_VoltVltCad2.Click += new System.EventHandler(this.btn_VoltVltCad2_Click);
+            this.btn_VoltVltCad2.Click += new System.EventHandler(this.Btn_VoltVltCad2_Click);
             // 
             // btn_ConcCadVlt
             // 
@@ -60,7 +60,7 @@
             this.btn_ConcCadVlt.TabIndex = 7;
             this.btn_ConcCadVlt.Text = "Concluir";
             this.btn_ConcCadVlt.UseVisualStyleBackColor = true;
-            this.btn_ConcCadVlt.Click += new System.EventHandler(this.btn_ConcCadVlt_Click);
+            this.btn_ConcCadVlt.Click += new System.EventHandler(this.Btn_ConcCadVlt_Click);
             // 
             // panel1
             // 

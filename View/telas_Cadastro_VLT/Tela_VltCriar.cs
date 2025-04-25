@@ -21,7 +21,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
             telaSelectVLT.Show();
-        }
+        } 
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
         {
