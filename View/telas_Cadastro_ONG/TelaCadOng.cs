@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Ong;
 
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
     public partial class TelaCadOng: Form
-    {
+    {       
         public TelaCadOng()
         {
             InitializeComponent();
@@ -32,11 +33,13 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close();
 
         }
 
         private void btn_ConfOngCad_Click(object sender, EventArgs e)
         {
+
             confirmcadOng telaConfirmCadOng = new confirmcadOng();
             telaConfirmCadOng.Show();
             this.Close(); // Fecha a tela atual (TelaCadOng)
@@ -46,5 +49,6 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
                
         }
+
     }
 }

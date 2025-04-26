@@ -96,7 +96,9 @@
             this.Controls.Add(this.btn_SairVlt);
             this.Name = "Tela_VltHomepage";
             this.Text = "Tela_VltHomepage";
+
             this.Load += new System.EventHandler(this.Tela_VltHomepage_Load_1);
+
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
