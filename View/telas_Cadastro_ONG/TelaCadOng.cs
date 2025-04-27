@@ -72,6 +72,24 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             }
                    }
 
-        
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

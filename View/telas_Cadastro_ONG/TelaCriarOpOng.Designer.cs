@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaCriarOpOng));
             this.btn_confVltCad = new System.Windows.Forms.Button();
             this.btn_voltar_cadVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -55,15 +56,17 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_confVltCad
             // 
             this.btn_confVltCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_confVltCad.Location = new System.Drawing.Point(694, 500);
+            this.btn_confVltCad.Location = new System.Drawing.Point(766, 540);
             this.btn_confVltCad.Name = "btn_confVltCad";
-            this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
+            this.btn_confVltCad.Size = new System.Drawing.Size(84, 41);
             this.btn_confVltCad.TabIndex = 35;
             this.btn_confVltCad.Text = "Próximo";
             this.btn_confVltCad.UseVisualStyleBackColor = true;
@@ -72,9 +75,9 @@
             // btn_voltar_cadVlt
             // 
             this.btn_voltar_cadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(613, 500);
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(650, 540);
             this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
-            this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
+            this.btn_voltar_cadVlt.Size = new System.Drawing.Size(84, 41);
             this.btn_voltar_cadVlt.TabIndex = 34;
             this.btn_voltar_cadVlt.Text = "Voltar";
             this.btn_voltar_cadVlt.UseVisualStyleBackColor = true;
@@ -83,7 +86,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(204)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.txtOngResp);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.txtStatusOp);
@@ -218,7 +221,6 @@
             this.txtDescricaoVaga.Name = "txtDescricaoVaga";
             this.txtDescricaoVaga.Size = new System.Drawing.Size(522, 20);
             this.txtDescricaoVaga.TabIndex = 54;
-   
             // 
             // txtTituloVaga
             // 
@@ -293,35 +295,49 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(203, 45);
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(180, 51);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(147, 13);
+            this.label16.Size = new System.Drawing.Size(170, 15);
             this.label16.TabIndex = 45;
             this.label16.Text = "Informações da Oportunidade";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(103, 13);
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(16, 22);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(395, 13);
+            this.label17.Size = new System.Drawing.Size(526, 20);
             this.label17.TabIndex = 44;
-            this.label17.Text = "Para cadastrar uma oportunidade, basta preencher os dados abaixo:";
+            this.label17.Text = "Cadastre sua oportunidade preenchendo as informações abaixo:";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(639, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(227, 187);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 45;
+            this.pictureBox1.TabStop = false;
             // 
             // TelaCriarOpOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(179)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(897, 627);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_confVltCad);
             this.Controls.Add(this.btn_voltar_cadVlt);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaCriarOpOng";
             this.Text = "TelaCriarOpOng";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -355,5 +371,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

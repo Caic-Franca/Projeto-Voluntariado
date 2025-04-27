@@ -22,5 +22,10 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             Home telaHome = new Home();
             telaHome.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
