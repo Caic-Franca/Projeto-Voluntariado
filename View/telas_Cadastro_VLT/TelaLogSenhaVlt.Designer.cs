@@ -70,9 +70,9 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(166, 141);
+            this.button1.Location = new System.Drawing.Point(166, 124);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(58, 23);
+            this.button1.Size = new System.Drawing.Size(58, 40);
             this.button1.TabIndex = 9;
             this.button1.Text = "Confirmar";
             this.button1.UseVisualStyleBackColor = false;
@@ -80,9 +80,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(102, 141);
+            this.button2.Location = new System.Drawing.Point(99, 124);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(58, 23);
+            this.button2.Size = new System.Drawing.Size(58, 40);
             this.button2.TabIndex = 8;
             this.button2.Text = "Voltar";
             this.button2.UseVisualStyleBackColor = true;
@@ -91,7 +91,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(38, 63);
+            this.label3.Location = new System.Drawing.Point(96, 63);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 7;
@@ -100,11 +100,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 16);
+            this.label4.Location = new System.Drawing.Point(99, 24);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
+            this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 6;
-            this.label4.Text = "E-mail do usuário:";
+            this.label4.Text = "E-mail:";
             // 
             // TelaLogSenhaVlt
             // 
