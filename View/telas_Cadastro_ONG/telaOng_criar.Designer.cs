@@ -37,6 +37,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,7 +55,8 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(204)))), ((int)(((byte)(233)))));
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button2);
@@ -69,16 +71,16 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(223, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(408, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(182, 132);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(391, 284);
+            this.button1.Location = new System.Drawing.Point(429, 316);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 41);
             this.button1.TabIndex = 16;
@@ -88,7 +90,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(180, 284);
+            this.button2.Location = new System.Drawing.Point(234, 316);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 41);
             this.button2.TabIndex = 15;
@@ -98,7 +100,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(10, 284);
+            this.button3.Location = new System.Drawing.Point(50, 316);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 41);
             this.button3.TabIndex = 14;
@@ -109,30 +111,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 246);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(5, 275);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 13);
+            this.label1.Size = new System.Drawing.Size(327, 25);
             this.label1.TabIndex = 13;
-            this.label1.Text = "Você já faz parte da nossa comunidade?";
+            this.label1.Text = "Já está com a gente nessa jornada?";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 83);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(545, 130);
+            this.label2.Size = new System.Drawing.Size(380, 117);
             this.label2.TabIndex = 12;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.label2.Text = "O apoio que sua ONG\r\nPrecisa Para crescer e\r\nTransformar mais vidas!";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(8, 135);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(488, 120);
+            this.label3.TabIndex = 18;
+            this.label3.Text = resources.GetString("label3.Text");
             // 
             // telaOng_criar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(179)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(870, 551);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_OngMenuVolta);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "telaOng_criar";
             this.Text = "telaOng_criar";
             this.panel1.ResumeLayout(false);
@@ -152,5 +169,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
     }
 }

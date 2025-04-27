@@ -66,6 +66,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             telalogOng.Show();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
