@@ -54,6 +54,9 @@ namespace Projeto_Voluntariado.View.telas_VLT
             telaExpVlt.Show();
         }
 
-      
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

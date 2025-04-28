@@ -40,7 +40,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(204)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(89, 45);
+            this.panel1.Location = new System.Drawing.Point(81, 45);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(306, 161);
             this.panel1.TabIndex = 4;
@@ -70,7 +70,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(179)))), ((int)(((byte)(221)))));
-            this.ClientSize = new System.Drawing.Size(508, 274);
+            this.ClientSize = new System.Drawing.Size(481, 275);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfirmcadOng";

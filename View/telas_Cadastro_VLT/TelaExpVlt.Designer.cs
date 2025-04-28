@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaExpVlt));
             this.btn_VoltVltCad2 = new System.Windows.Forms.Button();
             this.btn_ConcCadVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -43,9 +44,9 @@
             // btn_VoltVltCad2
             // 
             this.btn_VoltVltCad2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_VoltVltCad2.Location = new System.Drawing.Point(555, 405);
+            this.btn_VoltVltCad2.Location = new System.Drawing.Point(577, 397);
             this.btn_VoltVltCad2.Name = "btn_VoltVltCad2";
-            this.btn_VoltVltCad2.Size = new System.Drawing.Size(75, 23);
+            this.btn_VoltVltCad2.Size = new System.Drawing.Size(84, 41);
             this.btn_VoltVltCad2.TabIndex = 6;
             this.btn_VoltVltCad2.Text = "Voltar";
             this.btn_VoltVltCad2.UseVisualStyleBackColor = true;
@@ -54,9 +55,9 @@
             // btn_ConcCadVlt
             // 
             this.btn_ConcCadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_ConcCadVlt.Location = new System.Drawing.Point(663, 405);
+            this.btn_ConcCadVlt.Location = new System.Drawing.Point(685, 397);
             this.btn_ConcCadVlt.Name = "btn_ConcCadVlt";
-            this.btn_ConcCadVlt.Size = new System.Drawing.Size(75, 23);
+            this.btn_ConcCadVlt.Size = new System.Drawing.Size(84, 41);
             this.btn_ConcCadVlt.TabIndex = 7;
             this.btn_ConcCadVlt.Text = "Concluir";
             this.btn_ConcCadVlt.UseVisualStyleBackColor = true;
@@ -64,7 +65,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(204)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.txtDispoVlt);
             this.panel1.Controls.Add(this.txtExpVlt);
             this.panel1.Controls.Add(this.txtInterVlt);
@@ -78,7 +79,7 @@
             // 
             // txtDispoVlt
             // 
-            this.txtDispoVlt.Location = new System.Drawing.Point(22, 270);
+            this.txtDispoVlt.Location = new System.Drawing.Point(22, 265);
             this.txtDispoVlt.Multiline = true;
             this.txtDispoVlt.Name = "txtDispoVlt";
             this.txtDispoVlt.Size = new System.Drawing.Size(553, 66);
@@ -104,7 +105,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 254);
+            this.label4.Location = new System.Drawing.Point(19, 249);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(163, 13);
             this.label4.TabIndex = 8;
@@ -132,11 +133,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(179)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_ConcCadVlt);
             this.Controls.Add(this.btn_VoltVltCad2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaExpVlt";
             this.Text = "TelaExpVlt";
             this.panel1.ResumeLayout(false);

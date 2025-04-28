@@ -53,9 +53,9 @@
             // btn_voltar_cadVlt
             // 
             this.btn_voltar_cadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(624, 474);
+            this.btn_voltar_cadVlt.Location = new System.Drawing.Point(594, 456);
             this.btn_voltar_cadVlt.Name = "btn_voltar_cadVlt";
-            this.btn_voltar_cadVlt.Size = new System.Drawing.Size(75, 23);
+            this.btn_voltar_cadVlt.Size = new System.Drawing.Size(84, 41);
             this.btn_voltar_cadVlt.TabIndex = 16;
             this.btn_voltar_cadVlt.Text = "Voltar";
             this.btn_voltar_cadVlt.UseVisualStyleBackColor = true;
@@ -64,9 +64,9 @@
             // btn_confVltCad
             // 
             this.btn_confVltCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_confVltCad.Location = new System.Drawing.Point(705, 474);
+            this.btn_confVltCad.Location = new System.Drawing.Point(696, 456);
             this.btn_confVltCad.Name = "btn_confVltCad";
-            this.btn_confVltCad.Size = new System.Drawing.Size(75, 23);
+            this.btn_confVltCad.Size = new System.Drawing.Size(84, 41);
             this.btn_confVltCad.TabIndex = 17;
             this.btn_confVltCad.Text = "Próximo";
             this.btn_confVltCad.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(159)))), ((int)(((byte)(204)))), ((int)(((byte)(233)))));
             this.panel1.Controls.Add(this.txtEndVlt);
             this.panel1.Controls.Add(this.txtTelVlt);
             this.panel1.Controls.Add(this.txtNascVlt);
@@ -92,39 +92,38 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Location = new System.Drawing.Point(42, 24);
+            this.panel1.Location = new System.Drawing.Point(99, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(596, 421);
             this.panel1.TabIndex = 18;
             // 
             // txtEndVlt
             // 
-            this.txtEndVlt.Location = new System.Drawing.Point(36, 360);
+            this.txtEndVlt.Location = new System.Drawing.Point(36, 374);
             this.txtEndVlt.Name = "txtEndVlt";
             this.txtEndVlt.Size = new System.Drawing.Size(522, 20);
             this.txtEndVlt.TabIndex = 31;
             // 
             // txtTelVlt
             // 
-            this.txtTelVlt.Location = new System.Drawing.Point(36, 321);
+            this.txtTelVlt.Location = new System.Drawing.Point(36, 327);
             this.txtTelVlt.Name = "txtTelVlt";
             this.txtTelVlt.Size = new System.Drawing.Size(522, 20);
             this.txtTelVlt.TabIndex = 30;
             // 
             // txtNascVlt
             // 
-            this.txtNascVlt.Location = new System.Drawing.Point(36, 282);
+            this.txtNascVlt.Location = new System.Drawing.Point(36, 283);
             this.txtNascVlt.Name = "txtNascVlt";
             this.txtNascVlt.Size = new System.Drawing.Size(522, 20);
             this.txtNascVlt.TabIndex = 29;
             // 
             // txtConfirmSenhaVlt
             // 
-            this.txtConfirmSenhaVlt.Location = new System.Drawing.Point(36, 232);
+            this.txtConfirmSenhaVlt.Location = new System.Drawing.Point(36, 239);
             this.txtConfirmSenhaVlt.Name = "txtConfirmSenhaVlt";
             this.txtConfirmSenhaVlt.Size = new System.Drawing.Size(522, 20);
             this.txtConfirmSenhaVlt.TabIndex = 28;
-
             // 
             // txtSenhaVlt
             // 
@@ -135,7 +134,7 @@
             // 
             // txtEmailVlt
             // 
-            this.txtEmailVlt.Location = new System.Drawing.Point(36, 154);
+            this.txtEmailVlt.Location = new System.Drawing.Point(36, 148);
             this.txtEmailVlt.Name = "txtEmailVlt";
             this.txtEmailVlt.Size = new System.Drawing.Size(522, 20);
             this.txtEmailVlt.TabIndex = 26;
@@ -146,12 +145,11 @@
             this.txtNomeVlt.Name = "txtNomeVlt";
             this.txtNomeVlt.Size = new System.Drawing.Size(522, 20);
             this.txtNomeVlt.TabIndex = 25;
-
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 344);
+            this.label1.Location = new System.Drawing.Point(33, 358);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(413, 13);
             this.label1.TabIndex = 24;
@@ -160,7 +158,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 305);
+            this.label2.Location = new System.Drawing.Point(33, 312);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 13);
             this.label2.TabIndex = 23;
@@ -169,7 +167,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 265);
+            this.label3.Location = new System.Drawing.Point(33, 267);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(167, 13);
             this.label3.TabIndex = 22;
@@ -178,7 +176,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 216);
+            this.label4.Location = new System.Drawing.Point(33, 223);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(178, 13);
             this.label4.TabIndex = 21;
@@ -196,7 +194,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(33, 131);
+            this.label6.Location = new System.Drawing.Point(33, 132);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 13);
             this.label6.TabIndex = 19;
@@ -205,16 +203,17 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(33, 86);
+            this.label7.Location = new System.Drawing.Point(33, 87);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 13);
             this.label7.TabIndex = 18;
             this.label7.Text = "Nome Completo (Obrigatório):";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(259, 56);
+            this.label8.Location = new System.Drawing.Point(259, 65);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 13);
             this.label8.TabIndex = 17;
@@ -224,7 +223,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(56, 26);
+            this.label9.Location = new System.Drawing.Point(33, 29);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(523, 13);
             this.label9.TabIndex = 16;
@@ -235,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(134)))), ((int)(((byte)(179)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(810, 509);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_confVltCad);
