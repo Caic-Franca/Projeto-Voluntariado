@@ -32,6 +32,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
+            this.Close(); // Fecha a TelaCadOng ao voltar para Home
 
         }
 
@@ -39,6 +40,12 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             confirmcadOng telaConfirmCadOng = new confirmcadOng();
             telaConfirmCadOng.Show();
+            this.Close(); // Fecha a TelaCadOng ao abrir confirmcadOng
+        }
+
+        private void TelaCadOng_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
