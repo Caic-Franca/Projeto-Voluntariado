@@ -40,6 +40,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+
+            // btn_OngMenuVolta
+            // 
+            this.btn_OngMenuVolta.Location = new System.Drawing.Point(592, 299);
+            this.btn_OngMenuVolta.Name = "btn_OngMenuVolta";
+            this.btn_OngMenuVolta.Size = new System.Drawing.Size(84, 41);
+            this.btn_OngMenuVolta.TabIndex = 11;
+            this.btn_OngMenuVolta.Text = "Voltar";
+            this.btn_OngMenuVolta.UseVisualStyleBackColor = true;
+            // 
+
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -123,7 +134,11 @@
             this.Controls.Add(this.panel1);
             this.Name = "telaOng_criar";
             this.Text = "telaOng_criar";
+
             this.Load += new System.EventHandler(this.telaOng_criar_Load);
+
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

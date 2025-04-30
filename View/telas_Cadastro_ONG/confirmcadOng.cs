@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
-    public partial class confirmcadOng: Form
+    public partial class ConfirmcadOng: Form
     {
-        public confirmcadOng()
+        public ConfirmcadOng()
         {
             InitializeComponent();
         }
@@ -21,11 +21,20 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             telaOng_criar telaOng_Criar = new telaOng_criar();
             telaOng_Criar.Show();
+
             this.Close(); // Fecha a confirmcadOng ao abrir telaOng_criar
         }
 
         private void confirmcadOng_Load(object sender, EventArgs e)
         {
+
+
+            this.Close();
+        }
+          
+        private void confirmcadOng_Load(object sender, EventArgs e)
+        {
+             
 
         }
     }

@@ -35,6 +35,7 @@ namespace Projeto_Voluntariado
             telaOng_criar telaselectOng = new telaOng_criar();
             telaselectOng.Show();
             this.Close(); // Fecha a Home ao abrir a telaOng_criar
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -48,9 +49,10 @@ namespace Projeto_Voluntariado
 
         private void Home_Load(object sender, EventArgs e)
         {
-
+             
         }
 
        
     }
 }
+

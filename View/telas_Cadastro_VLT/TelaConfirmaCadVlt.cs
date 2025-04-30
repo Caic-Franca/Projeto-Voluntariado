@@ -22,7 +22,17 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
             telaSelectVLT.Show();
+
             this.Close(); // Fecha a tela atual
+
+            this.Close();
+
+        }
+
+        private void TelaConfirmaCadVlt_Load(object sender, EventArgs e)
+        {
+                
+
         }
     }
 }

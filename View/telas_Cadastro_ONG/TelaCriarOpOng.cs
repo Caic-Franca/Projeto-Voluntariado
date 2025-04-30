@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Ong;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
@@ -15,26 +16,25 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         public TelaCriarOpOng()
         {
             InitializeComponent();
-        }
+        }  
 
         private void btn_voltar_cadVlt_Click(object sender, EventArgs e)
         {
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
+
             this.Close(); // Fecha TelaCriarOpOng ao voltar para TelaHomeOng
+
         }
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
-        {
-            confirmcadOng telaConfirmCadOng = new confirmcadOng();
-            telaConfirmCadOng.Show();
-            this.Close(); // Fecha TelaCriarOpOng ao abrir confirmcadOng
-
-        }
+        
 
         private void TelaCriarOpOng_Load(object sender, EventArgs e)
         {
 
+              
         }
+
     }
 }
