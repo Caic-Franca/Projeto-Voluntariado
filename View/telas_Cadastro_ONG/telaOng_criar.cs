@@ -24,7 +24,8 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
             this.Close(); // Fecha telaOng_criar ao voltar para a Home
 
-    
+        }
+        
 
 
         private void button2_Click(object sender, EventArgs e)

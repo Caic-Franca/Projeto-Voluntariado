@@ -78,7 +78,11 @@
             this.label2.Text = "Parabéns, seu cadastro foi criado!";
             // 
 
+            // confirmcadOng
+
+
           // confirmcadOng
+
 
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

@@ -323,6 +323,9 @@
 
             this.Load += new System.EventHandler(this.TelaCadOng_Load);
 
+
+            this.Load += new System.EventHandler(this.TelaCadOng_Load);
+r
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

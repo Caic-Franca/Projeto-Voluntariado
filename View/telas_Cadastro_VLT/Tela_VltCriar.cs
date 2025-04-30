@@ -23,7 +23,11 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
             telaSelectVLT.Show();
+
+            this.Close(); // Fecha a tela atual
+
             this.Close();
+
         }
 
         private void btn_confVltCad_Click(object sender, EventArgs e)
@@ -66,7 +70,11 @@ namespace Projeto_Voluntariado.View.telas_VLT
             }
             TelaExpVlt telaExpVlt = new TelaExpVlt(voluntario);
             telaExpVlt.Show();
+
+            this.Close(); // Fecha a tela atual
+
             this.Close();
+
         }
 
 
