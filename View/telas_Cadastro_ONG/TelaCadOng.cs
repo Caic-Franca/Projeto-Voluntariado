@@ -44,7 +44,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         private void btn_ConfOngCad_Click(object sender, EventArgs e)
         {
 
-            confirmcadOng telaConfirmCadOng = new confirmcadOng();
+            ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
             telaConfirmCadOng.Show();
             this.Close(); // Fecha a TelaCadOng ao abrir confirmcadOng
         }
@@ -54,10 +54,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         }
 
-        private void TelaCadOng_Load(object sender, EventArgs e)
-        {
-               
-        }
+       
 
     }
 }

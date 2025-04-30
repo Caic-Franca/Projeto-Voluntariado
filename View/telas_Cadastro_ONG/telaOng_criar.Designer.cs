@@ -41,15 +41,6 @@
             this.SuspendLayout();
             // 
 
-            // btn_OngMenuVolta
-            // 
-            this.btn_OngMenuVolta.Location = new System.Drawing.Point(592, 299);
-            this.btn_OngMenuVolta.Name = "btn_OngMenuVolta";
-            this.btn_OngMenuVolta.Size = new System.Drawing.Size(84, 41);
-            this.btn_OngMenuVolta.TabIndex = 11;
-            this.btn_OngMenuVolta.Text = "Voltar";
-            this.btn_OngMenuVolta.UseVisualStyleBackColor = true;
-            // 
 
             // panel1
             // 

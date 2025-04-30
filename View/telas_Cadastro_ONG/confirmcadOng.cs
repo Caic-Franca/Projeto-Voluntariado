@@ -32,10 +32,6 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             this.Close();
         }
           
-        private void confirmcadOng_Load(object sender, EventArgs e)
-        {
-             
-
-        }
+       
     }
 }

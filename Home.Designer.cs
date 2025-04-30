@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -51,7 +50,6 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(132, 55);
             this.panel1.Name = "panel1";
@@ -113,14 +111,7 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(200, 210);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(362, 30);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Te convidamos a se juntar a nós conectando Corações e Causas!\r\n                  " +
-    "                    Seja a Mudança!";
+          
             // 
             // label5
             // 

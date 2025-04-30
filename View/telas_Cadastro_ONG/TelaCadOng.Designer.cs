@@ -34,7 +34,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
 
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
 
             this.label4 = new System.Windows.Forms.Label();
             this.txtDescOng = new System.Windows.Forms.TextBox();
@@ -89,7 +88,6 @@
             this.panel1.BackColor = System.Drawing.Color.Peru;
 
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.textBox1);
 
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtDescOng);
@@ -321,11 +319,9 @@
             this.Name = "TelaCadOng";
             this.Text = "TelaCadOng";
 
-            this.Load += new System.EventHandler(this.TelaCadOng_Load);
 
 
-            this.Load += new System.EventHandler(this.TelaCadOng_Load);
-r
+
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -27,7 +27,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         }
 
-        private void btn_confVltCad_Click(object sender, EventArgs e)
+        private void btn_confVltCad_Click(object sender, EventArgs e) { }
         
 
         private void TelaCriarOpOng_Load(object sender, EventArgs e)

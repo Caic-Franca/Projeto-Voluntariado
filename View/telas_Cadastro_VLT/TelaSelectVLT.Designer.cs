@@ -91,7 +91,6 @@
             this.label1.Size = new System.Drawing.Size(200, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Você já faz parte da nossa comunidade?";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
