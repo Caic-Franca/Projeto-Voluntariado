@@ -15,18 +15,12 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         public TelaHomeOng()
         {
             InitializeComponent();
-        }  
-
-        private void btn_VoltarVlt_Click(object sender, EventArgs e)
-        {
-
-        }
+        }         
 
         private void btn_SairVlt_Click(object sender, EventArgs e)
         {
             Home telaHome = new Home();
             telaHome.Show();
-
             this.Close(); // Fecha TelaHomeOng ao voltar para a Home
 
         }
@@ -35,13 +29,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             TelaCriarOpOng telaCriarOpOng = new TelaCriarOpOng();
             telaCriarOpOng.Show();
-
             this.Close(); // Fecha TelaHomeOng ao abrir TelaCriarOpOng
         }
 
-        private void TelaHomeOng_Load(object sender, EventArgs e)
-        {
-              
-        }
+       
     }
 }

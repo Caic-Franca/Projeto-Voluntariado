@@ -169,9 +169,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(33, 265);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(167, 13);
+            this.label3.Size = new System.Drawing.Size(188, 13);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Data de Nascimento (Obrigatório):";
+            this.label3.Text = "Data de Nascimento (DD/MM/AAAA):";
             // 
             // label4
             // 
@@ -240,9 +240,6 @@
             this.Controls.Add(this.btn_voltar_cadVlt);
             this.Name = "Tela_VltCriar";
             this.Text = "Tela_VltCriar";
-
-            this.Load += new System.EventHandler(this.Tela_VltCriar_Load);
-
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

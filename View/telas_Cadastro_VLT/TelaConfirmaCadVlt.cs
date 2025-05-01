@@ -25,7 +25,7 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
 
             this.Close(); // Fecha a tela atual
 
-            this.Close();
+        
 
         }
 

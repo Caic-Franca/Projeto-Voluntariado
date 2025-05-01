@@ -99,7 +99,7 @@
             this.txtInterVlt.Name = "txtInterVlt";
             this.txtInterVlt.Size = new System.Drawing.Size(553, 85);
             this.txtInterVlt.TabIndex = 9;
-            this.txtInterVlt.TextChanged += new System.EventHandler(this.txtInterVlt_TextChanged);
+       
             // 
             // label4
             // 
@@ -140,7 +140,7 @@
             this.Name = "TelaExpVlt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaExpVlt";
-            this.Load += new System.EventHandler(this.TelaExpVlt_Load);
+            
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

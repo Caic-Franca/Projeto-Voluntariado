@@ -34,5 +34,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
                
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

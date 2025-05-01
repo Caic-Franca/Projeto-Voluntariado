@@ -37,7 +37,6 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             Tela_VltCriar tela_vltCriar = new Tela_VltCriar();
             tela_vltCriar.Show();
-
             this.Close(); // Fecha TelaSelectVLT ao abrir Tela_VltCriar
 
         }

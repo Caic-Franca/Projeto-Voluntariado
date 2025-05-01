@@ -23,41 +23,41 @@ namespace Projeto_Voluntariado.View.telas_VLT
         {
             TelaSelectVLT telaSelectVLT = new TelaSelectVLT();
             telaSelectVLT.Show();
-
-            this.Close(); // Fecha a tela atual
-
             this.Close();
-
         }
-
         private void btn_confVltCad_Click(object sender, EventArgs e)
         {
-            Voluntario voluntario = new Voluntario(
-            0,
-                txtNomeVlt.Text,
-                txtEmailVlt.Text, 
-                txtSenhaVlt.Text,
-                txtConfirmSenhaVlt.Text,
-                Convert.ToDateTime(txtNascVlt.Text),
-                txtTelVlt.Text,
-                txtEndVlt.Text
-
-            );
-
-            if (txtNomeVlt.Text == "" || txtEmailVlt.Text == "" || txtSenhaVlt.Text == "" || txtConfirmSenhaVlt.Text == "" || txtNascVlt.Text == "" || txtTelVlt.Text == "" || txtEndVlt.Text == "")
-            {
+            // Verifica se os campos estão preenchidos
+            if (string.IsNullOrWhiteSpace(txtNomeVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtEmailVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtSenhaVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtConfirmSenhaVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtNascVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtTelVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtEndVlt.Text))          
+             {
                 MessageBox.Show("Preencha todos os campos!");
                 return;
             }
+            // Criação um novo objeto Voluntario com os dados preenchidos
+            Voluntario voluntario = new Voluntario(
+         0,
+             txtNomeVlt.Text,
+             txtEmailVlt.Text,
+             txtSenhaVlt.Text,
+             txtConfirmSenhaVlt.Text,
+             Convert.ToDateTime(txtNascVlt.Text),
+             txtTelVlt.Text,
+             txtEndVlt.Text );
+
             //validaçao de email
-            if (!txtEmailVlt.Text.Contains("@") || !txtEmailVlt.Text.Contains("."))
+            if (!txtEmailVlt.Text.Contains("@") || !txtEmailVlt.Text.Contains(".com"))
             {
                 MessageBox.Show("Email inválido!");
                 return;
             }
 
             //validação de senha
-
             if (txtSenhaVlt.Text.Length < 6)
             {
                 MessageBox.Show("A senha deve ter pelo menos 6 caracteres!");
@@ -68,19 +68,24 @@ namespace Projeto_Voluntariado.View.telas_VLT
                 MessageBox.Show("As senhas não coincidem!");
                 return;
             }
+            //validação de telefone
+            if (txtTelVlt.Text.Length < 11)
+            {
+                MessageBox.Show("O telefone deve ter pelo menos 11 dígitos!");
+                return;
+            }
+            //validação de data de nascimento
+            DateTime dataNascimento;
+            if (!DateTime.TryParse(txtNascVlt.Text, out dataNascimento))
+            {
+                MessageBox.Show("Data de nascimento inválida! \nInsira a data no formato DD/MM/AAA");
+                return;
+            }
             TelaExpVlt telaExpVlt = new TelaExpVlt(voluntario);
             telaExpVlt.Show();
-
-            this.Close(); // Fecha a tela atual
 
             this.Close();
 
         }
-
-
-        private void Tela_VltCriar_Load(object sender, EventArgs e)
-        {
-              
-        }
-    }
+                  }
 }

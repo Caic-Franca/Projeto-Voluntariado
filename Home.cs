@@ -34,7 +34,7 @@ namespace Projeto_Voluntariado
         {
             telaOng_criar telaselectOng = new telaOng_criar();
             telaselectOng.Show();
-            this.Close(); // Fecha a Home ao abrir a telaOng_criar
+            
 
         }
 
@@ -43,16 +43,13 @@ namespace Projeto_Voluntariado
 
             TelaSelectVLT telaSelectvlt = new TelaSelectVLT();
             telaSelectvlt.Show();
-            this.Close(); // Fecha a Home ao abrir a TelaSelectVLT
+            
         }
         
 
-        private void Home_Load(object sender, EventArgs e)
-        {
-             
         }
 
        
     }
-}
+
 

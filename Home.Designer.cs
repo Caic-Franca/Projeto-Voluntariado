@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-
-          System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -109,10 +108,6 @@
             this.label3.Text = "Nós somos o ponto de encontro entre ONGs apaixonadas por transformar o mundo e vo" +
     "luntários(as) que desejam fazer a diferença!";
             // 
-            // label4
-            // 
-          
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -135,10 +130,8 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Home";
             this.Text = "Home Contratação Voluntária";
-            this.Load += new System.EventHandler(this.Home_Load);
-
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-
+         
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

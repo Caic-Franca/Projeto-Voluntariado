@@ -21,25 +21,19 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
         {
             Home telaHome = new Home();
             telaHome.Show();
-
             this.Close(); // Fecha telaOng_criar ao voltar para a Home
-
-        }
-        
-
+        }      
 
         private void button2_Click(object sender, EventArgs e)
         {
             TelaCadOng telaCadOng = new TelaCadOng();
             telaCadOng.Show();
-
             this.Close(); // Fecha telaOng_criar ao abrir TelaCadOng
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
             this.Close(); // Fecha telaOng_criar ao abrir TelaHomeOng
@@ -47,10 +41,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void telaOng_criar_Load(object sender, EventArgs e)
         {
-
-            TelaLogOng telalogOng = new TelaLogOng();
-            telalogOng.Show();
-            this.Close();
+            //TelaLogOng telalogOng = new TelaLogOng();
+            //telalogOng.Show();
+            //this.Close();
 
         }
 

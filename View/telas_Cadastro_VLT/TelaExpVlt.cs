@@ -27,11 +27,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
             telaVltCriar.Show();
 
             this.Close(); // Fecha a tela atual
-
-          this.Close();
-
         }
-
         private void btn_ConcCadVlt_Click(object sender, EventArgs e)
         {
             _voluntario.AreaInteresse = txtInterVlt.Text;
@@ -46,20 +42,9 @@ namespace Projeto_Voluntariado.View.telas_VLT
             TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
             telaConfirmaCadVlt.Show();
 
-            this.Close(); // Fecha a tela atual
-
-            this.Close();
+            this.Close(); // Fecha a tela atual         
 
         }
-
-        private void txtInterVlt_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TelaExpVlt_Load(object sender, EventArgs e)
-        {
-             
-        }
+        
     }
 }
