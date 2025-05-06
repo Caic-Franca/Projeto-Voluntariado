@@ -5,7 +5,7 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projeto_Voluntariado.Models.Classes_Ong
+namespace Projeto_Voluntariado.Models
 {
     public class Voluntario
     {
@@ -33,6 +33,11 @@ namespace Projeto_Voluntariado.Models.Classes_Ong
             Telefone = telefone;            
             Endereco = endereco;            
             
+        }
+
+        public Voluntario()
+        {
+           
         }
     }
 }
