@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models;
 using Projeto_Voluntariado.Models.Classes_Ong;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 

@@ -54,7 +54,7 @@
             // btn_ConcCadVlt
             // 
             this.btn_ConcCadVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_ConcCadVlt.Location = new System.Drawing.Point(663, 405);
+            this.btn_ConcCadVlt.Location = new System.Drawing.Point(660, 405);
             this.btn_ConcCadVlt.Name = "btn_ConcCadVlt";
             this.btn_ConcCadVlt.Size = new System.Drawing.Size(75, 23);
             this.btn_ConcCadVlt.TabIndex = 7;
@@ -99,7 +99,6 @@
             this.txtInterVlt.Name = "txtInterVlt";
             this.txtInterVlt.Size = new System.Drawing.Size(553, 85);
             this.txtInterVlt.TabIndex = 9;
-       
             // 
             // label4
             // 
@@ -140,7 +139,6 @@
             this.Name = "TelaExpVlt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaExpVlt";
-            
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

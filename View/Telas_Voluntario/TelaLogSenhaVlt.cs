@@ -7,15 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models;
+using Projeto_Voluntariado.Services;
 using Projeto_Voluntariado.View.telas_VLT;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
 {
     public partial class TelaLogSenhaVlt: Form
     {
+        private VoluntarioRepositorio voluntarioRepositorio;
         public TelaLogSenhaVlt()
         {
             InitializeComponent();
+            voluntarioRepositorio = new VoluntarioRepositorio(new DatabaseService());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -29,10 +33,27 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Tela_VltHomepage telaVltHomepage = new Tela_VltHomepage();
-            telaVltHomepage.Show();
 
-            this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage  
+           Voluntario voluntario = voluntarioRepositorio.RealizarLogin(txtEmail.Text, txtSenha.Text);
+
+            if (voluntario.Nome != null)
+            {
+                MessageBox.Show("Você está logado");
+                Tela_VltHomepage telaVltHomepage = new Tela_VltHomepage();
+                telaVltHomepage.Show();
+                this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage  
+            }
+            else {
+
+                MessageBox.Show("Erro na autenticação");
+                return;
+
+            }
+
+
+
+
+           
         } 
 
         private void TelaLogSenhaVlt_Load(object sender, EventArgs e)

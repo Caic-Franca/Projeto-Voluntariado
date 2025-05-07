@@ -98,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Services\Criptografia.cs" />
     <Compile Include="Models\Classes_Objetos\ONG\OngController.cs" />
     <Compile Include="Models\Classes_Objetos\ONG\OngService.cs" />
     <Compile Include="Controller\Services\DatabaseService.cs" />
@@ -108,9 +109,11 @@
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Classes_Objetos\ONG\Ong.cs" />
+    <Compile Include="Models\Classes_Objetos\ONG\OngRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\Oportunidade\OportunidadeController.cs" />
     <Compile Include="Models\Classes_Objetos\Oportunidade\OportunidadeService.cs" />
     <Compile Include="Models\Classes_Objetos\Oportunidade\Oportunidade.cs" />
+    <Compile Include="Models\Classes_Objetos\Oportunidade\OportunidadeRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioController.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioService.cs" />
