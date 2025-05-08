@@ -45,6 +45,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
             this.Close(); // Fecha a tela atual         
 
         }
-        
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
