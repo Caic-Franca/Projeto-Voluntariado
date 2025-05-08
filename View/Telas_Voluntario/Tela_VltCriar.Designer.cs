@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_VltCriar));
             this.btn_voltar_cadVlt = new System.Windows.Forms.Button();
             this.btn_confVltCad = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -47,7 +48,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_voltar_cadVlt
@@ -75,7 +78,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(176)))), ((int)(((byte)(253)))));
             this.panel1.Controls.Add(this.txtEndVlt);
             this.panel1.Controls.Add(this.txtTelVlt);
             this.panel1.Controls.Add(this.txtNascVlt);
@@ -99,42 +102,42 @@
             // 
             // txtEndVlt
             // 
-            this.txtEndVlt.Location = new System.Drawing.Point(36, 360);
+            this.txtEndVlt.Location = new System.Drawing.Point(36, 331);
             this.txtEndVlt.Name = "txtEndVlt";
             this.txtEndVlt.Size = new System.Drawing.Size(522, 20);
             this.txtEndVlt.TabIndex = 31;
             // 
             // txtTelVlt
             // 
-            this.txtTelVlt.Location = new System.Drawing.Point(36, 321);
+            this.txtTelVlt.Location = new System.Drawing.Point(36, 293);
             this.txtTelVlt.Name = "txtTelVlt";
             this.txtTelVlt.Size = new System.Drawing.Size(522, 20);
             this.txtTelVlt.TabIndex = 30;
             // 
             // txtNascVlt
             // 
-            this.txtNascVlt.Location = new System.Drawing.Point(36, 282);
+            this.txtNascVlt.Location = new System.Drawing.Point(36, 255);
             this.txtNascVlt.Name = "txtNascVlt";
             this.txtNascVlt.Size = new System.Drawing.Size(522, 20);
             this.txtNascVlt.TabIndex = 29;
             // 
             // txtConfirmSenhaVlt
             // 
-            this.txtConfirmSenhaVlt.Location = new System.Drawing.Point(36, 232);
+            this.txtConfirmSenhaVlt.Location = new System.Drawing.Point(36, 216);
             this.txtConfirmSenhaVlt.Name = "txtConfirmSenhaVlt";
             this.txtConfirmSenhaVlt.Size = new System.Drawing.Size(522, 20);
             this.txtConfirmSenhaVlt.TabIndex = 28;
             // 
             // txtSenhaVlt
             // 
-            this.txtSenhaVlt.Location = new System.Drawing.Point(36, 193);
+            this.txtSenhaVlt.Location = new System.Drawing.Point(36, 178);
             this.txtSenhaVlt.Name = "txtSenhaVlt";
             this.txtSenhaVlt.Size = new System.Drawing.Size(522, 20);
             this.txtSenhaVlt.TabIndex = 27;
             // 
             // txtEmailVlt
             // 
-            this.txtEmailVlt.Location = new System.Drawing.Point(36, 154);
+            this.txtEmailVlt.Location = new System.Drawing.Point(36, 140);
             this.txtEmailVlt.Name = "txtEmailVlt";
             this.txtEmailVlt.Size = new System.Drawing.Size(522, 20);
             this.txtEmailVlt.TabIndex = 26;
@@ -149,7 +152,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 344);
+            this.label1.Location = new System.Drawing.Point(33, 315);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(413, 13);
             this.label1.TabIndex = 24;
@@ -158,7 +161,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 305);
+            this.label2.Location = new System.Drawing.Point(33, 277);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 13);
             this.label2.TabIndex = 23;
@@ -167,7 +170,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(33, 265);
+            this.label3.Location = new System.Drawing.Point(33, 238);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 13);
             this.label3.TabIndex = 22;
@@ -176,7 +179,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(33, 216);
+            this.label4.Location = new System.Drawing.Point(33, 200);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(178, 13);
             this.label4.TabIndex = 21;
@@ -185,7 +188,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(33, 177);
+            this.label5.Location = new System.Drawing.Point(33, 162);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 13);
             this.label5.TabIndex = 20;
@@ -194,7 +197,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(33, 131);
+            this.label6.Location = new System.Drawing.Point(33, 124);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(98, 13);
             this.label6.TabIndex = 19;
@@ -229,19 +232,32 @@
             this.label9.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
     "baixo:";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(639, 323);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 145);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
             // Tela_VltCriar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(129)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(810, 509);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_confVltCad);
             this.Controls.Add(this.btn_voltar_cadVlt);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Tela_VltCriar";
             this.Text = "Tela_VltCriar";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -266,5 +282,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
