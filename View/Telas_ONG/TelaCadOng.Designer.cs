@@ -32,6 +32,7 @@
             this.btn_ConfOngCad = new System.Windows.Forms.Button();
             this.btn_voltar_cadOng = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textLinkOng = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDescOng = new System.Windows.Forms.TextBox();
@@ -54,7 +55,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textLinkOng = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -112,7 +112,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(575, 565);
             this.panel1.TabIndex = 42;
-            
+            // 
+            // textLinkOng
+            // 
+            this.textLinkOng.Location = new System.Drawing.Point(18, 516);
+            this.textLinkOng.Multiline = true;
+            this.textLinkOng.Name = "textLinkOng";
+            this.textLinkOng.Size = new System.Drawing.Size(522, 20);
+            this.textLinkOng.TabIndex = 65;
             // 
             // pictureBox1
             // 
@@ -297,15 +304,6 @@
             this.label15.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
     "baixo:";
             // 
-            // textLinkOng
-            // 
-            this.textLinkOng.Location = new System.Drawing.Point(18, 516);
-            this.textLinkOng.Multiline = true;
-            this.textLinkOng.Name = "textLinkOng";
-            this.textLinkOng.Size = new System.Drawing.Size(522, 20);
-            this.textLinkOng.TabIndex = 65;
-           
-            // 
             // TelaCadOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -317,6 +315,7 @@
             this.Controls.Add(this.btn_voltar_cadOng);
             this.Name = "TelaCadOng";
             this.Text = "TelaCadOng";
+            this.Load += new System.EventHandler(this.TelaCadOng_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

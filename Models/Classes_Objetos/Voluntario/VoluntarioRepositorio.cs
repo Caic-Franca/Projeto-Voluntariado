@@ -56,6 +56,7 @@ namespace Projeto_Voluntariado.Models
             }
             catch (Exception ex)
             {
+               
 
             }
 
@@ -64,58 +65,44 @@ namespace Projeto_Voluntariado.Models
         }
 
 
-        public Voluntario InserirVoluntario(Voluntario voluntario)
+        public bool InserirVoluntario(Voluntario voluntario)
         {
 
-            string query = "INSERT INTO voluntario (email, senha, dataNascimento,telefone,endereco,habilidade,interese,disponibilidade,nome ) VALUES ()";
+            string query = @"INSERT INTO voluntario (email, senha, dataNascimento, telefone, endereco, habilidade, interesse, disponibilidade, nome)
+                            VALUES (@Email, @Senha, @DataNascimento, @Telefone, @Endereco, @Habilidade, @Interesse, @Disponibilidade, @Nome)";
 
             var parameters = new MySqlParameter[] {
 
                     new MySqlParameter("@Email", voluntario.Email),
-                    new MySqlParameter("@Senha", voluntario.Senha),
+                    new MySqlParameter("@Senha", Criptografia.HashPassword(voluntario.Senha)),
                     new MySqlParameter("@DataNascimento", voluntario.DataNascimento),
                     new MySqlParameter("@Telefone", voluntario.Telefone),
                     new MySqlParameter("@Endereco", voluntario.Endereco),
-                    new MySqlParameter("@Interese", voluntario.AreaInteresse),
+                    new MySqlParameter("@Interesse", voluntario.AreaInteresse),
                     new MySqlParameter("@Habilidade", voluntario.Experiencia),
                     new MySqlParameter("@Nome", voluntario.Nome),
                     new MySqlParameter("@Disponibilidade", voluntario.Disponibilidade)
 
                 };
 
-            //    try
-            //    {
+            try
+            {
+                                
+               int linhasGravadas = _databaseService.ExecuteNonQuery(query, parameters);
 
-            //        Voluntario voluntario = new Voluntario();
+               return linhasGravadas > 0;
+                
 
-            //        MySqlDataReader dataReaderResposta = _databaseService.ExecuteNonQuery(query, parameters);
-
-            //        while (dataReaderResposta.Read())
-            //        {
-
-            //            string senhaBanco = dataReaderResposta["senha"].ToString();
-
-            //            if (senhaBanco == Criptografia.HashPassword(senhaDigitada))
-            //            {
-
-            //                voluntario = Voluntario.VoluntarioFromDataReader(dataReaderResposta);
-
-            //            }
-
-            //        }
-
-            //        return voluntario;
-
-            //    }
-            //    catch (Exception ex)
-            //    {
-
-            //    }
-            //    return new Voluntario(); // Retorna um novo objeto Voluntario, você pode preencher com os dados do banco de dados
-
-            //}
-
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro na inserção do voluntario: {ex}");
+            }
+            
 
         }
+
+
     }
-}
+    }
+

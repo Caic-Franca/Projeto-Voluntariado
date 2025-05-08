@@ -1,41 +1,40 @@
-﻿//using Projeto_Voluntariado.Models;
-//using Projeto_Voluntariado.Services;
-//using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Projeto_Voluntariado.Models;
 
-//namespace MyApp.Controllers
-//{
-//    public class AuthController
-//    {
-//        private readonly AuthService _authService;
+namespace Projeto_Voluntariado.Models.Classes_Objetos.ONG
+{
+    class OngController
+    {
+        private OngRepositorio ongRepositorio;
 
-//        public AuthController(AuthService authService)
-//        {
-//            _authService = authService;
-//        }
+        public OngController(OngRepositorio ongRepositorio)
+        {
+            this.ongRepositorio = ongRepositorio;
+        }
 
-//        public Usuario Login(string email, string password)
-//        {
-//            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
-//            {
-//                throw new ArgumentException("Email e senha são obrigatórios");
-//            }
+        public bool InserirOng(Ong ong)
+        {
 
-//            return _authService.Authenticate(email, password);
-//        }
 
-//        public bool Register(Usuario usuario, string password)
-//        {
-//            if (usuario == null)
-//            {
-//                throw new ArgumentNullException(nameof(usuario));
-//            }
+            bool resultadoInsercao = ongRepositorio.InserirOng(ong);
 
-//            if (string.IsNullOrEmpty(password))
-//            {
-//                throw new ArgumentException("Senha é obrigatória");
-//            }
+            if (resultadoInsercao)
+            {
 
-//            return _authService.Register(usuario, password);
-//        }
-//    }
-//}
+                MessageBox.Show("Ong criada com sucesso!");
+                return true;
+
+            }
+
+            MessageBox.Show("Erro na inserção da Ong");
+            return false;
+
+        }
+    }
+}
+

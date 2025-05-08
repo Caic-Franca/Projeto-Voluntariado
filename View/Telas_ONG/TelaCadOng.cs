@@ -7,16 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Projeto_Voluntariado.Models.Classes_Ong;
+using Projeto_Voluntariado.Models;
+using Projeto_Voluntariado.Models.Classes_Objetos.ONG;
+using Projeto_Voluntariado.Services;
 
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
     public partial class TelaCadOng : Form
     {
+        private OngController ongController;
         public TelaCadOng()
         {
             InitializeComponent();
+            ongController = new OngController(new OngRepositorio(new DatabaseService()));
         }
 
         private void btn_voltar_cadOng_Click(object sender, EventArgs e)
@@ -47,19 +51,22 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
             try
             {
-                Ong ong = new Ong(
-                0,
-                txtNomeOng.Text,
-                txtCnpjOng.Text,
-                txtDescOng.Text,
-                txtAreaOng.Text,
-                txtEndOng.Text,
-                txtNomeRespOng.Text,
-                txtEmailOng.Text,
-                txtSenhaOng.Text,
-                txtConfirmSenhaOng.Text,
-                txtLinkOng.Text
-                );
+                Ong ong = new Ong()
+                {
+                    nomeOng = txtNomeOng.Text,
+                    Cnpj = txtCnpjOng.Text,
+                    descricaoOng = txtDescOng.Text,
+                    areaAtuacao = txtAreaOng.Text,
+                    Endereco = txtEndOng.Text,
+                    nomeResponsavel = txtNomeRespOng.Text,
+                    Email = txtEmailOng.Text,
+                    Senha = txtSenhaOng.Text,
+                    confirmSenha = txtConfirmSenhaOng.Text,
+                    linkSite = txtLinkOng.Text
+                };
+
+               
+
 
                 //validaçao de email
                 if (!txtEmailOng.Text.Contains("@") || !txtEmailOng.Text.Contains(".com"))
@@ -85,10 +92,16 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
                     MessageBox.Show("CNPJ inválido! O CNPJ deve ter 14 dígitos.");
                     return;
                 }
+
+
+                bool resultInsercao = ongController.InserirOng(ong);
+
+                if (resultInsercao) {
                 ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
                 telaConfirmCadOng.Show();
                 this.Close(); // Fecha a TelaCadOng ao abrir confirmcadOng
             }
+                }
 
             catch (Exception ex)
             {
@@ -96,9 +109,10 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             }
         }
 
+        private void TelaCadOng_Load(object sender, EventArgs e)
+        {
 
-
-
+        }
     }
 }
 

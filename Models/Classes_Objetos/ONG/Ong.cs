@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace Projeto_Voluntariado.Models.Classes_Ong
+namespace Projeto_Voluntariado.Models
 {
-    class Ong
+    public class Ong
     {
         public int Id { get; set; }
         public string nomeOng { get; set; }
@@ -23,7 +23,7 @@ namespace Projeto_Voluntariado.Models.Classes_Ong
         public DateTime DataCadastro { get; set; }
 
 
-        // Construtor
+        
         public Ong(int id, string nomeOng, string email, string senha, string confirmSenha, string nomeResponsavel, string cnpj, string endereco, string areaAtuacao, string descricaoOng, string linkSite)
         {
             Id = id;
