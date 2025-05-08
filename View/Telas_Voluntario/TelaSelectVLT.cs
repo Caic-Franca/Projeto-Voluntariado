@@ -49,5 +49,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
             this.Close(); // Fecha TelaSelectVLT ao voltar para a Home
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
