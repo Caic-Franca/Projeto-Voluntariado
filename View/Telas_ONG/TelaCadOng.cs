@@ -96,9 +96,10 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             }
         }
 
+        private void label10_Click(object sender, EventArgs e)
+        {
 
-
-
+        }
     }
 }
 

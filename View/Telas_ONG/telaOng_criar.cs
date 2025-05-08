@@ -47,6 +47,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

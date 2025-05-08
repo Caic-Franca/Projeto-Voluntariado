@@ -32,6 +32,7 @@
             this.btn_ConfOngCad = new System.Windows.Forms.Button();
             this.btn_voltar_cadOng = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textLinkOng = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDescOng = new System.Windows.Forms.TextBox();
@@ -54,15 +55,16 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textLinkOng = new System.Windows.Forms.TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_ConfOngCad
             // 
             this.btn_ConfOngCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_ConfOngCad.Location = new System.Drawing.Point(810, 525);
+            this.btn_ConfOngCad.Location = new System.Drawing.Point(841, 525);
             this.btn_ConfOngCad.Name = "btn_ConfOngCad";
             this.btn_ConfOngCad.Size = new System.Drawing.Size(75, 23);
             this.btn_ConfOngCad.TabIndex = 35;
@@ -73,7 +75,7 @@
             // btn_voltar_cadOng
             // 
             this.btn_voltar_cadOng.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadOng.Location = new System.Drawing.Point(705, 525);
+            this.btn_voltar_cadOng.Location = new System.Drawing.Point(736, 525);
             this.btn_voltar_cadOng.Name = "btn_voltar_cadOng";
             this.btn_voltar_cadOng.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadOng.TabIndex = 34;
@@ -84,7 +86,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(176)))), ((int)(((byte)(253)))));
             this.panel1.Controls.Add(this.textLinkOng);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
@@ -112,7 +114,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(575, 565);
             this.panel1.TabIndex = 42;
-            
+            // 
+            // textLinkOng
+            // 
+            this.textLinkOng.Location = new System.Drawing.Point(18, 471);
+            this.textLinkOng.Multiline = true;
+            this.textLinkOng.Name = "textLinkOng";
+            this.textLinkOng.Size = new System.Drawing.Size(522, 20);
+            this.textLinkOng.TabIndex = 65;
             // 
             // pictureBox1
             // 
@@ -127,7 +136,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 497);
+            this.label4.Location = new System.Drawing.Point(16, 456);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(135, 13);
             this.label4.TabIndex = 62;
@@ -135,7 +144,7 @@
             // 
             // txtDescOng
             // 
-            this.txtDescOng.Location = new System.Drawing.Point(18, 474);
+            this.txtDescOng.Location = new System.Drawing.Point(18, 433);
             this.txtDescOng.Multiline = true;
             this.txtDescOng.Name = "txtDescOng";
             this.txtDescOng.Size = new System.Drawing.Size(522, 20);
@@ -144,7 +153,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 458);
+            this.label5.Location = new System.Drawing.Point(15, 418);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(275, 13);
             this.label5.TabIndex = 60;
@@ -152,7 +161,7 @@
             // 
             // txtAreaOng
             // 
-            this.txtAreaOng.Location = new System.Drawing.Point(18, 431);
+            this.txtAreaOng.Location = new System.Drawing.Point(18, 395);
             this.txtAreaOng.Name = "txtAreaOng";
             this.txtAreaOng.Size = new System.Drawing.Size(522, 20);
             this.txtAreaOng.TabIndex = 59;
@@ -160,7 +169,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(15, 415);
+            this.label6.Location = new System.Drawing.Point(15, 380);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(351, 13);
             this.label6.TabIndex = 58;
@@ -168,42 +177,42 @@
             // 
             // txtEndOng
             // 
-            this.txtEndOng.Location = new System.Drawing.Point(18, 392);
+            this.txtEndOng.Location = new System.Drawing.Point(18, 358);
             this.txtEndOng.Name = "txtEndOng";
             this.txtEndOng.Size = new System.Drawing.Size(522, 20);
             this.txtEndOng.TabIndex = 57;
             // 
             // txtCnpjOng
             // 
-            this.txtCnpjOng.Location = new System.Drawing.Point(18, 353);
+            this.txtCnpjOng.Location = new System.Drawing.Point(18, 321);
             this.txtCnpjOng.Name = "txtCnpjOng";
             this.txtCnpjOng.Size = new System.Drawing.Size(522, 20);
             this.txtCnpjOng.TabIndex = 56;
             // 
             // txtNomeRespOng
             // 
-            this.txtNomeRespOng.Location = new System.Drawing.Point(18, 314);
+            this.txtNomeRespOng.Location = new System.Drawing.Point(18, 284);
             this.txtNomeRespOng.Name = "txtNomeRespOng";
             this.txtNomeRespOng.Size = new System.Drawing.Size(522, 20);
             this.txtNomeRespOng.TabIndex = 55;
             // 
             // txtConfirmSenhaOng
             // 
-            this.txtConfirmSenhaOng.Location = new System.Drawing.Point(18, 264);
+            this.txtConfirmSenhaOng.Location = new System.Drawing.Point(18, 247);
             this.txtConfirmSenhaOng.Name = "txtConfirmSenhaOng";
             this.txtConfirmSenhaOng.Size = new System.Drawing.Size(522, 20);
             this.txtConfirmSenhaOng.TabIndex = 54;
             // 
             // txtSenhaOng
             // 
-            this.txtSenhaOng.Location = new System.Drawing.Point(19, 225);
+            this.txtSenhaOng.Location = new System.Drawing.Point(19, 210);
             this.txtSenhaOng.Name = "txtSenhaOng";
             this.txtSenhaOng.Size = new System.Drawing.Size(522, 20);
             this.txtSenhaOng.TabIndex = 53;
             // 
             // txtEmailOng
             // 
-            this.txtEmailOng.Location = new System.Drawing.Point(18, 186);
+            this.txtEmailOng.Location = new System.Drawing.Point(18, 173);
             this.txtEmailOng.Name = "txtEmailOng";
             this.txtEmailOng.Size = new System.Drawing.Size(522, 20);
             this.txtEmailOng.TabIndex = 52;
@@ -218,7 +227,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(15, 376);
+            this.label7.Location = new System.Drawing.Point(15, 343);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(413, 13);
             this.label7.TabIndex = 50;
@@ -227,7 +236,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 337);
+            this.label8.Location = new System.Drawing.Point(16, 306);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 13);
             this.label8.TabIndex = 49;
@@ -236,7 +245,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(16, 298);
+            this.label9.Location = new System.Drawing.Point(16, 269);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(152, 13);
             this.label9.TabIndex = 48;
@@ -245,16 +254,17 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(16, 248);
+            this.label10.Location = new System.Drawing.Point(16, 232);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(178, 13);
             this.label10.TabIndex = 47;
             this.label10.Text = "Confirmação de Senha (Obrigatório):";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(16, 209);
+            this.label11.Location = new System.Drawing.Point(16, 195);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(101, 13);
             this.label11.TabIndex = 46;
@@ -263,7 +273,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(15, 170);
+            this.label12.Location = new System.Drawing.Point(16, 157);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(98, 13);
             this.label12.TabIndex = 45;
@@ -272,7 +282,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(15, 118);
+            this.label13.Location = new System.Drawing.Point(16, 120);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(140, 13);
             this.label13.TabIndex = 44;
@@ -297,29 +307,33 @@
             this.label15.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
     "baixo:";
             // 
-            // textLinkOng
+            // pictureBox2
             // 
-            this.textLinkOng.Location = new System.Drawing.Point(18, 516);
-            this.textLinkOng.Multiline = true;
-            this.textLinkOng.Name = "textLinkOng";
-            this.textLinkOng.Size = new System.Drawing.Size(522, 20);
-            this.textLinkOng.TabIndex = 65;
-           
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(699, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(251, 513);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 43;
+            this.pictureBox2.TabStop = false;
             // 
             // TelaCadOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(129)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(952, 597);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_ConfOngCad);
             this.Controls.Add(this.btn_voltar_cadOng);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaCadOng";
             this.Text = "TelaCadOng";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -353,5 +367,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textLinkOng;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

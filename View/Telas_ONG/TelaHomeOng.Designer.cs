@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaHomeOng));
             this.btn_SairVlt = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@
             // btn_SairVlt
             // 
             this.btn_SairVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_SairVlt.Location = new System.Drawing.Point(291, 552);
+            this.btn_SairVlt.Location = new System.Drawing.Point(431, 568);
             this.btn_SairVlt.Name = "btn_SairVlt";
             this.btn_SairVlt.Size = new System.Drawing.Size(126, 43);
             this.btn_SairVlt.TabIndex = 9;
@@ -51,7 +52,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(176)))), ((int)(((byte)(253)))));
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button3);
@@ -102,17 +103,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(129)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(569, 623);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_SairVlt);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TelaHomeOng";
             this.Text = "TelaHomeOng";
-
-           
-
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

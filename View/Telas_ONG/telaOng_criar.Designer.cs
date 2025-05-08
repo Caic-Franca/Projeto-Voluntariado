@@ -40,12 +40,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-
-
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.BackColor = System.Drawing.Color.Peru;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(176)))), ((int)(((byte)(253)))));
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -60,16 +58,17 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(230, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(457, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(89, 60);
+            this.pictureBox1.Size = new System.Drawing.Size(133, 105);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(211, 249);
+            this.button2.Location = new System.Drawing.Point(243, 291);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 41);
             this.button2.TabIndex = 15;
@@ -79,7 +78,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(416, 249);
+            this.button1.Location = new System.Drawing.Point(416, 291);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 41);
             this.button1.TabIndex = 16;
@@ -89,7 +88,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(32, 249);
+            this.button3.Location = new System.Drawing.Point(78, 291);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 41);
             this.button3.TabIndex = 14;
@@ -100,9 +99,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 195);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(168, 259);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 13);
+            this.label1.Size = new System.Drawing.Size(229, 15);
             this.label1.TabIndex = 13;
             this.label1.Text = "Você já faz parte da nossa comunidade?";
             // 
@@ -110,9 +110,11 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 51);
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(176)))), ((int)(((byte)(253)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(545, 130);
+            this.label2.Size = new System.Drawing.Size(502, 221);
             this.label2.TabIndex = 12;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -120,16 +122,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SaddleBrown;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(129)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(829, 551);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "telaOng_criar";
             this.Text = "telaOng_criar";
-
-            this.Load += new System.EventHandler(this.telaOng_criar_Load);
-
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-
+            this.Load += new System.EventHandler(this.telaOng_criar_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
