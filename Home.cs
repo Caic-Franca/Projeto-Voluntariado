@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Projeto_Voluntariado.Service;
-using Projeto_Voluntariado.View.telas_Cadastro_ONG;
-using Projeto_Voluntariado.View.telas_VLT;
-
+using Projeto_Voluntariado.Models.Classes_Objetos;
+using Projeto_Voluntariado.View.Telas_Voluntario;
+using Projeto_Voluntariado.View.Telas_ONG;
 
 namespace Projeto_Voluntariado
 {

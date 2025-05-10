@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Projeto_Voluntariado.Models;
-using Projeto_Voluntariado.Models.Classes_Ong;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
-namespace Projeto_Voluntariado.View.telas_VLT
+namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     public partial class Tela_VltCriar: Form
     {
@@ -88,5 +88,10 @@ namespace Projeto_Voluntariado.View.telas_VLT
             this.Close();
 
         }
-                  }
+
+        private void Tela_VltCriar_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

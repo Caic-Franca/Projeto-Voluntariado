@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
@@ -32,6 +33,11 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
             this.Close();
+
+        }
+
+        private void TelaLogOng_Load(object sender, EventArgs e)
+        {
 
         }
     }

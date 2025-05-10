@@ -9,21 +9,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Projeto_Voluntariado.Models;
 using Projeto_Voluntariado.Models.Classes_Objetos;
-using Projeto_Voluntariado.Services;
-using Projeto_Voluntariado.View.telas_Cadastro_VLT;
+//using Projeto_Voluntariado.Services;
 
-namespace Projeto_Voluntariado.View.telas_VLT
+
+namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     public partial class TelaExpVlt: Form
     {
         private Voluntario _voluntario;
-        private VoluntarioController voluntarioController;
+        //private VoluntarioController voluntarioController;
 
         public TelaExpVlt(Voluntario voluntario)
         {
             InitializeComponent();
             _voluntario = voluntario;
-            voluntarioController = new VoluntarioController(new VoluntarioRepositorio(new DatabaseService()));
+            //voluntarioController = new VoluntarioController(new VoluntarioRepositorio(new DatabaseService()));
         }
 
         private void btn_VoltVltCad2_Click(object sender, EventArgs e)
@@ -47,12 +47,15 @@ namespace Projeto_Voluntariado.View.telas_VLT
             _voluntario.Disponibilidade = txtDispoVlt.Text;
 
 
-           bool resultInsercao = voluntarioController.InserirVoluntario( _voluntario );
+           //bool resultInsercao = voluntarioController.InserirVoluntario( _voluntario );
 
-            if (resultInsercao) { 
+           // if (resultInsercao) { 
             
-            TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
-            telaConfirmaCadVlt.Show();
+           // TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();                   
+           // telaConfirmaCadVlt.Show();
+
+
+            MessageBox.Show ("Parabéns, você criou o cadastro com sucesso!");
 
             this.Close(); // Fecha a tela atual
                 return;
@@ -60,7 +63,11 @@ namespace Projeto_Voluntariado.View.telas_VLT
             }
             
 
-        }
         
+
+        private void TelaExpVlt_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

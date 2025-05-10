@@ -1,4 +1,4 @@
-﻿namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
+﻿namespace Projeto_Voluntariado.View.Telas_ONG
 {
     partial class telaOng_criar
     {
@@ -40,8 +40,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-
-
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -125,10 +123,8 @@
             this.Controls.Add(this.panel1);
             this.Name = "telaOng_criar";
             this.Text = "telaOng_criar";
-
-
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-
+            this.Load += new System.EventHandler(this.telaOng_criar_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

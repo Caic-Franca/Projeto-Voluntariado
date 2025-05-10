@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
@@ -32,6 +33,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             this.Close(); // Fecha TelaHomeOng ao abrir TelaCriarOpOng
         }
 
-       
+        private void TelaHomeOng_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

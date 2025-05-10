@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 
 namespace Projeto_Voluntariado.Models
 {
@@ -41,20 +41,20 @@ namespace Projeto_Voluntariado.Models
            
         }
 
-        public static Voluntario VoluntarioFromDataReader(MySqlDataReader dataReader) {
+        //public static Voluntario VoluntarioFromDataReader(MySqlDataReader dataReader) {
 
-            return new Voluntario
-            {
-                Id = dataReader.GetInt32("idvoluntario"),
-                Nome = dataReader["nome"].ToString(),
-                Email = dataReader["email"].ToString(),
-                Telefone = dataReader["telefone"].ToString(),
-                Endereco = dataReader["endereco"].ToString(),
-                DataNascimento = Convert.ToDateTime(dataReader["dataNascimento"]),
+        //    return new Voluntario
+        //    {
+        //        Id = dataReader.GetInt32("idvoluntario"),
+        //        Nome = dataReader["nome"].ToString(),
+        //        Email = dataReader["email"].ToString(),
+        //        Telefone = dataReader["telefone"].ToString(),
+        //        Endereco = dataReader["endereco"].ToString(),
+        //        DataNascimento = Convert.ToDateTime(dataReader["dataNascimento"]),
 
-            };
+        //    };
 
-        }
+        //}
 
     }
 }

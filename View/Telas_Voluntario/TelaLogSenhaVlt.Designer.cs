@@ -1,4 +1,4 @@
-﻿namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
+﻿namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     partial class TelaLogSenhaVlt
     {

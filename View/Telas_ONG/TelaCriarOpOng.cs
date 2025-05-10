@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Projeto_Voluntariado.Models.Classes_Ong;
+using Projeto_Voluntariado.Models;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
@@ -75,8 +76,8 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
                     txtStatusOp.Text,
                     txtOngResp.Text);
 
-                ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
-                telaConfirmCadOng.Show();
+                //ConfirmcadOng telaConfirmCadOng = new ConfirmcadOng();
+                //telaConfirmCadOng.Show();
                 this.Close();
             }
             catch (Exception ex)
@@ -87,6 +88,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         }
 
+        private void TelaCriarOpOng_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

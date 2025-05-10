@@ -7,16 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 
-namespace Projeto_Voluntariado.View.telas_VLT
+namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     public partial class Tela_VltHomepage: Form
     {
         public Tela_VltHomepage()
         { 
             InitializeComponent();
-        }  
-
+        }
         private void btn_SairVlt_Click(object sender, EventArgs e)
         {
             Home telaHome = new Home();

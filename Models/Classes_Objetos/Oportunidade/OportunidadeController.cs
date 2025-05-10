@@ -1,39 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Projeto_Voluntariado.Models;
-
-namespace Projeto_Voluntariado.Models.Classes_Objetos
-{
-    class OportunidadeController
-    {
-        private OportunidadeRepositorio oportunidadeRepositorio;
-
-        public OportunidadeController(OportunidadeRepositorio oportunidadeRepositorio)
-        {
-            this.oportunidadeRepositorio = oportunidadeRepositorio;
-        }
-
-        public bool InserirOportunidade(Oportunidade oportunidade)
-        {
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//using Projeto_Voluntariado.Services;
+//using Projeto_Voluntariado.Models;
+//using MySql.Data.MySqlClient;
+//using Projeto_Voluntariado.Controller.Services;
 
 
-            bool resultadoInsercao = oportunidadeRepositorio.InserirOportunidade(oportunidade);
 
-            if (resultadoInsercao)
-            {
-                MessageBox.Show("Voluntário criado com sucesso!");
-                return true;
-            }
+//namespace Projeto_Voluntariado.Models.Classes_Objetos
+//{
+//    class OportunidadeController
+//    {
+//        private OportunidadeRepositorio oportunidadeRepositorio;
 
-            MessageBox.Show("Erro na inserção do usuário");
-            return false;
+//        public OportunidadeController(OportunidadeRepositorio oportunidadeRepositorio)
+//        {
+//            this.oportunidadeRepositorio = oportunidadeRepositorio;
+//        }
+
+//        public bool InserirOportunidade(Oportunidade oportunidade)
+//        {
 
 
-        }
+//            bool resultadoInsercao = oportunidadeRepositorio.InserirOportunidade(oportunidade);
 
-    }
-}
+//            if (resultadoInsercao)
+//            {
+//                MessageBox.Show("Voluntário criado com sucesso!");
+//                return true;
+//            }
+
+//            MessageBox.Show("Erro na inserção do usuário");
+//            return false;
+
+
+//        }
+
+//    }
+//}
