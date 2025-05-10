@@ -47,9 +47,12 @@ namespace Projeto_Voluntariado
             telaSelectvlt.Show();
             
         }
-        
+
+        private void Home_Load(object sender, EventArgs e)
+        {
 
         }
+    }
 
        
     }
