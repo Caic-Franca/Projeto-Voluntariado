@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projeto_Voluntariado.Models.Classes_Ong
+namespace Projeto_Voluntariado.Models
 {
-    class Oportunidade
+     public class Oportunidade
     {
         public int Id { get; set; }
         public string Titulo { get; set; }

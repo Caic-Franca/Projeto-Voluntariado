@@ -54,7 +54,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textLinkOng = new System.Windows.Forms.TextBox();
+            this.txtSite = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -62,7 +62,7 @@
             // btn_ConfOngCad
             // 
             this.btn_ConfOngCad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_ConfOngCad.Location = new System.Drawing.Point(810, 525);
+            this.btn_ConfOngCad.Location = new System.Drawing.Point(828, 525);
             this.btn_ConfOngCad.Name = "btn_ConfOngCad";
             this.btn_ConfOngCad.Size = new System.Drawing.Size(75, 23);
             this.btn_ConfOngCad.TabIndex = 35;
@@ -73,7 +73,7 @@
             // btn_voltar_cadOng
             // 
             this.btn_voltar_cadOng.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_voltar_cadOng.Location = new System.Drawing.Point(705, 525);
+            this.btn_voltar_cadOng.Location = new System.Drawing.Point(723, 525);
             this.btn_voltar_cadOng.Name = "btn_voltar_cadOng";
             this.btn_voltar_cadOng.Size = new System.Drawing.Size(75, 23);
             this.btn_voltar_cadOng.TabIndex = 34;
@@ -85,7 +85,7 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.Color.Peru;
-            this.panel1.Controls.Add(this.textLinkOng);
+            this.panel1.Controls.Add(this.txtSite);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtDescOng);
@@ -108,11 +108,10 @@
             this.panel1.Controls.Add(this.label13);
             this.panel1.Controls.Add(this.label14);
             this.panel1.Controls.Add(this.label15);
-            this.panel1.Location = new System.Drawing.Point(98, 12);
+            this.panel1.Location = new System.Drawing.Point(116, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(575, 565);
             this.panel1.TabIndex = 42;
-            
             // 
             // pictureBox1
             // 
@@ -277,6 +276,7 @@
             this.label13.Size = new System.Drawing.Size(140, 13);
             this.label13.TabIndex = 44;
             this.label13.Text = "Nome da ONG (Obrigatório):";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
@@ -297,21 +297,19 @@
             this.label15.Text = "Fazer parte de nossa comunidade é super simples, basta preencher as informações a" +
     "baixo:";
             // 
-            // textLinkOng
+            // txtSite
             // 
-            this.textLinkOng.Location = new System.Drawing.Point(18, 516);
-            this.textLinkOng.Multiline = true;
-            this.textLinkOng.Name = "textLinkOng";
-            this.textLinkOng.Size = new System.Drawing.Size(522, 20);
-            this.textLinkOng.TabIndex = 65;
-           
+            this.txtSite.Location = new System.Drawing.Point(19, 516);
+            this.txtSite.Name = "txtSite";
+            this.txtSite.Size = new System.Drawing.Size(522, 20);
+            this.txtSite.TabIndex = 65;
             // 
             // TelaCadOng
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
-            this.ClientSize = new System.Drawing.Size(952, 597);
+            this.ClientSize = new System.Drawing.Size(989, 597);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_ConfOngCad);
             this.Controls.Add(this.btn_voltar_cadOng);
@@ -352,6 +350,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textLinkOng;
+        private System.Windows.Forms.TextBox txtSite;
     }
 }

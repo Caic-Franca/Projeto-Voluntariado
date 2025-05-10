@@ -98,8 +98,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Services\Criptografia.cs" />
+    <Compile Include="Models\Classes_Objetos\Inscricao\Inscricao.cs" />
+    <Compile Include="Models\Classes_Objetos\Inscricao\InscricaoController.cs" />
+    <Compile Include="Models\Classes_Objetos\Inscricao\InscricaoRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\ONG\OngController.cs" />
-    <Compile Include="Models\Classes_Objetos\ONG\OngService.cs" />
     <Compile Include="Controller\Services\DatabaseService.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -108,15 +111,17 @@
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Classes_Objetos\ONG\Ong.cs" />
+    <Compile Include="Models\Classes_Objetos\ONG\OngRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\Oportunidade\OportunidadeController.cs" />
-    <Compile Include="Models\Classes_Objetos\Oportunidade\OportunidadeService.cs" />
     <Compile Include="Models\Classes_Objetos\Oportunidade\Oportunidade.cs" />
+    <Compile Include="Models\Classes_Objetos\Oportunidade\OportunidadeRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioController.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioRepositorio.cs" />
-    <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioService.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\Voluntario.cs" />
+    <Compile Include="Models\OngCadastro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\CloseAppService.cs" />
     <Compile Include="View\Telas_ONG\confirmcadOng.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,11 +134,11 @@
     <Compile Include="View\Telas_ONG\ListaDeVoluntarios.Designer.cs">
       <DependentUpon>ListaDeVoluntarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Telas_ONG\PublicarOportunidade.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="View\Telas_ONG\OngTelaDeCacadastro.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Telas_ONG\PublicarOportunidade.Designer.cs">
-      <DependentUpon>PublicarOportunidade.cs</DependentUpon>
+    <Compile Include="View\Telas_ONG\OngTelaDeCacadastro.Designer.cs">
+      <DependentUpon>OngTelaDeCacadastro.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Telas_ONG\TelaCadOng.cs">
       <SubType>Form</SubType>
@@ -231,8 +236,8 @@
     <EmbeddedResource Include="View\Telas_ONG\ListaDeVoluntarios.resx">
       <DependentUpon>ListaDeVoluntarios.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Telas_ONG\PublicarOportunidade.resx">
-      <DependentUpon>PublicarOportunidade.cs</DependentUpon>
+    <EmbeddedResource Include="View\Telas_ONG\OngTelaDeCacadastro.resx">
+      <DependentUpon>OngTelaDeCacadastro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Telas_ONG\TelaCadOng.resx">
       <DependentUpon>TelaCadOng.cs</DependentUpon>

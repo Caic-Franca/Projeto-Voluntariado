@@ -126,7 +126,6 @@
             this.Name = "telaOng_criar";
             this.Text = "telaOng_criar";
 
-            this.Load += new System.EventHandler(this.telaOng_criar_Load);
 
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 

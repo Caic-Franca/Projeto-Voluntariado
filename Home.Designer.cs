@@ -131,7 +131,7 @@
             this.Name = "Home";
             this.Text = "Home Contratação Voluntária";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-         
+            this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

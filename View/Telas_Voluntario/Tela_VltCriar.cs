@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models;
 using Projeto_Voluntariado.Models.Classes_Ong;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
@@ -30,7 +31,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
             // Verifica se os campos estão preenchidos
             if (string.IsNullOrWhiteSpace(txtNomeVlt.Text) ||
                 string.IsNullOrWhiteSpace(txtEmailVlt.Text) ||
-                string.IsNullOrWhiteSpace(txtSenhaVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtSenhaVlt.Text) || 
                 string.IsNullOrWhiteSpace(txtConfirmSenhaVlt.Text) ||
                 string.IsNullOrWhiteSpace(txtNascVlt.Text) ||
                 string.IsNullOrWhiteSpace(txtTelVlt.Text) ||

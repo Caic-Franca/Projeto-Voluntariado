@@ -1,41 +1,70 @@
-﻿//using Projeto_Voluntariado.Models;
-//using Projeto_Voluntariado.Services;
-//using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Projeto_Voluntariado.Models;
 
-//namespace MyApp.Controllers
-//{
-//    public class AuthController
-//    {
-//        private readonly AuthService _authService;
+namespace Projeto_Voluntariado.Models.Classes_Objetos.ONG
+{
+    class OngController
+    {
+        private readonly OngRepositorio ongRepositorio;
+        public OngController(OngRepositorio ongRepositorio)
+        {
+            ongRepositorio = ongRepositorio ?? throw new ArgumentNullException(nameof(ongRepositorio));
+        }
 
-//        public AuthController(AuthService authService)
-//        {
-//            _authService = authService;
-//        }
+        public bool InserirOng(Ong ong)
+        {
+            if (ong == null)
+            {
+                throw new ArgumentNullException(nameof(ong));
+            }
 
-//        public Usuario Login(string email, string password)
-//        {
-//            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
-//            {
-//                throw new ArgumentException("Email e senha são obrigatórios");
-//            }
+            try
+            {
+                bool resultadoInsercao = ongRepositorio.InserirOng(ong);
 
-//            return _authService.Authenticate(email, password);
-//        }
+                if (!resultadoInsercao)
+                {
+                    MessageBox.Show("Erro ao inserir ONG no banco de dados.");
+                    return false;
+                }
 
-//        public bool Register(Usuario usuario, string password)
-//        {
-//            if (usuario == null)
-//            {
-//                throw new ArgumentNullException(nameof(usuario));
-//            }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao inserir ONG: {ex.Message}");
+                return false;
+            }
 
-//            if (string.IsNullOrEmpty(password))
-//            {
-//                throw new ArgumentException("Senha é obrigatória");
-//            }
+            //public OngController(OngRepositorio ongRepositorio)
+            //{
+            //    this.ongRepositorio = ongRepositorio;
+            //}
 
-//            return _authService.Register(usuario, password);
-//        }
-//    }
-//}
+            //public bool InserirOng(Ong ong)
+            //{
+
+
+            //    bool resultadoInsercao = ongRepositorio.InserirOng(ong);
+
+            //    if (resultadoInsercao)
+            //    {
+
+            //        MessageBox.Show("Ong criada com sucesso!");
+            //        return true;
+
+            //    }
+
+            //    MessageBox.Show("Erro na inserção da Ong");
+            //    return false;
+
+            //}
+        }
+}
+    }
+
