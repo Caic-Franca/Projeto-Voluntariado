@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.View.Telas_ONG;
 using Projeto_Voluntariado.View.telas_VLT;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
@@ -26,8 +27,8 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 
         private void button2_Click(object sender, EventArgs e)
         {
-            TelaCadOng telaCadOng = new TelaCadOng();
-            telaCadOng.Show();
+            OngTelaDeCacadastro ongTelaDeCacadastro = new OngTelaDeCacadastro();
+            ongTelaDeCacadastro.Show();
             this.Close(); // Fecha telaOng_criar ao abrir TelaCadOng
 
         }
@@ -37,14 +38,6 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             TelaHomeOng telaHomeOng = new TelaHomeOng();
             telaHomeOng.Show();
             this.Close(); // Fecha telaOng_criar ao abrir TelaHomeOng
-        }
-
-        private void telaOng_criar_Load(object sender, EventArgs e)
-        {
-            //TelaLogOng telalogOng = new TelaLogOng();
-            //telalogOng.Show();
-            //this.Close();
-
         }
 
 

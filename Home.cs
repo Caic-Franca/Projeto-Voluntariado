@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Service;
 using Projeto_Voluntariado.View.telas_Cadastro_ONG;
 using Projeto_Voluntariado.View.telas_VLT;
 
@@ -18,6 +19,7 @@ namespace Projeto_Voluntariado
         public Home()
         {
             InitializeComponent();
+            this.FormClosing += CloseAppService.CloseApp;
         }
 
         private void abertura_Slogan_Click(object sender, EventArgs e)

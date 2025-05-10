@@ -31,7 +31,7 @@ namespace Projeto_Voluntariado.View.telas_VLT
             // Verifica se os campos estão preenchidos
             if (string.IsNullOrWhiteSpace(txtNomeVlt.Text) ||
                 string.IsNullOrWhiteSpace(txtEmailVlt.Text) ||
-                string.IsNullOrWhiteSpace(txtSenhaVlt.Text) ||
+                string.IsNullOrWhiteSpace(txtSenhaVlt.Text) || 
                 string.IsNullOrWhiteSpace(txtConfirmSenhaVlt.Text) ||
                 string.IsNullOrWhiteSpace(txtNascVlt.Text) ||
                 string.IsNullOrWhiteSpace(txtTelVlt.Text) ||

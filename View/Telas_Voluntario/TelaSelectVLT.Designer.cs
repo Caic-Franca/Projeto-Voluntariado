@@ -123,7 +123,7 @@
             this.Name = "TelaSelectVLT";
             this.Text = "TelaSelectVLT";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.TelaSelectVLT_Load);
+           
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
