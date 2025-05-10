@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Projeto_Voluntariado.View.telas_Cadastro_VLT;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 
-namespace Projeto_Voluntariado.View.telas_VLT
+namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     public partial class TelaSelectVLT: Form
     {
@@ -41,6 +41,11 @@ namespace Projeto_Voluntariado.View.telas_VLT
             telaHome.Show();
 
             this.Close(); // Fecha TelaSelectVLT ao voltar para a Home
+
+        }
+
+        private void TelaSelectVLT_Load(object sender, EventArgs e)
+        {
 
         }
     }

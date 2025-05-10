@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
-using Projeto_Voluntariado.Models;
+//using MySql.Data.MySqlClient;
 
 namespace Projeto_Voluntariado.Models
 {
@@ -40,22 +40,22 @@ namespace Projeto_Voluntariado.Models
         public string LinkSite { get; set; }
 
 
-        public static Ong OngFromDataReader(MySqlDataReader dataReader)
-        {
+        //public static Ong OngFromDataReader(MySqlDataReader dataReader)
+        //{
 
-            return new Ong
-            {
-                Id = dataReader.GetInt32("idOng"),
-                NomeOng = dataReader["nomeOng"].ToString(),
-                Email = dataReader["email"].ToString(),
-                NomeResponsavel = dataReader["contatoResponsavel"].ToString(),
-                Endereco = dataReader["endereco"].ToString(),
-                Cnpj = dataReader["cnpj"].ToString(),
-                AreaAtuacao = dataReader["atuacao"].ToString(),
-                DescricaoOng = dataReader["descricao"].ToString(),
-                LinkSite = dataReader["linkSite"].ToString()
+        //    return new Ong
+        //    {
+        //        Id = dataReader.GetInt32("idOng"),
+        //        NomeOng = dataReader["nomeOng"].ToString(),
+        //        Email = dataReader["email"].ToString(),
+        //        NomeResponsavel = dataReader["contatoResponsavel"].ToString(),
+        //        Endereco = dataReader["endereco"].ToString(),
+        //        Cnpj = dataReader["cnpj"].ToString(),
+        //        AreaAtuacao = dataReader["atuacao"].ToString(),
+        //        DescricaoOng = dataReader["descricao"].ToString(),
+        //        LinkSite = dataReader["linkSite"].ToString()
 
-            };
+        //    };
         }
     }
-}
+//}

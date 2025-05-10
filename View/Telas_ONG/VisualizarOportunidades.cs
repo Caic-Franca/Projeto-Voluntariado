@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Projeto_Voluntariado.Models;
 
-namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
+namespace PProjeto_Voluntariado.View.Telas_ONG
 {
     public partial class VisualizarOportunidades: Form
     {

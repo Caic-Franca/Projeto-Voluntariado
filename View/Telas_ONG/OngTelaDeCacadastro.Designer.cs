@@ -79,7 +79,6 @@
             this.txtConfirmaSenha.Name = "txtConfirmaSenha";
             this.txtConfirmaSenha.Size = new System.Drawing.Size(617, 20);
             this.txtConfirmaSenha.TabIndex = 3;
-            
             // 
             // txtNomeResponsavel
             // 
@@ -262,6 +261,7 @@
             this.Controls.Add(this.txtNomeOng);
             this.Name = "OngTelaDeCacadastro";
             this.Text = "OngTelaDeCacadastro";
+            this.Load += new System.EventHandler(this.OngTelaDeCacadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

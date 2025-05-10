@@ -1,4 +1,4 @@
-﻿namespace Projeto_Voluntariado.View.telas_VLT
+﻿namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     partial class Tela_VltHomepage
     {
@@ -11,14 +11,14 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing && (components != null))
+        //    {
+        //        components.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
 
         #region Windows Form Designer generated code
 
@@ -34,7 +34,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            //this.SuspendLayout();
             // 
             // btn_SairVlt
             // 

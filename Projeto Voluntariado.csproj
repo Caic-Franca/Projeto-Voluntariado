@@ -118,16 +118,9 @@
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioController.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\VoluntarioRepositorio.cs" />
     <Compile Include="Models\Classes_Objetos\Voluntario\Voluntario.cs" />
-    <Compile Include="Models\OngCadastro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\CloseAppService.cs" />
-    <Compile Include="View\Telas_ONG\confirmcadOng.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Telas_ONG\confirmcadOng.Designer.cs">
-      <DependentUpon>confirmcadOng.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\Telas_ONG\ListaDeVoluntarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,17 +133,9 @@
     <Compile Include="View\Telas_ONG\OngTelaDeCacadastro.Designer.cs">
       <DependentUpon>OngTelaDeCacadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Telas_ONG\TelaCadOng.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="View\Telas_ONG\TelaCadOng.cs" />
     <Compile Include="View\Telas_ONG\TelaCadOng.Designer.cs">
       <DependentUpon>TelaCadOng.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\Telas_ONG\TelaConfCadOp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Telas_ONG\TelaConfCadOp.Designer.cs">
-      <DependentUpon>TelaConfCadOp.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Telas_ONG\TelaCriarOpOng.cs">
       <SubType>Form</SubType>
@@ -181,12 +166,6 @@
     </Compile>
     <Compile Include="View\Telas_ONG\VisualizarOportunidades.Designer.cs">
       <DependentUpon>VisualizarOportunidades.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\Telas_Voluntario\TelaConfirmaCadVlt.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Telas_Voluntario\TelaConfirmaCadVlt.Designer.cs">
-      <DependentUpon>TelaConfirmaCadVlt.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Telas_Voluntario\TelaExpVlt.cs">
       <SubType>Form</SubType>
@@ -230,9 +209,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\Telas_ONG\confirmcadOng.resx">
-      <DependentUpon>confirmcadOng.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\Telas_ONG\ListaDeVoluntarios.resx">
       <DependentUpon>ListaDeVoluntarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,9 +217,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Telas_ONG\TelaCadOng.resx">
       <DependentUpon>TelaCadOng.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Telas_ONG\TelaConfCadOp.resx">
-      <DependentUpon>TelaConfCadOp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Telas_ONG\TelaCriarOpOng.resx">
       <DependentUpon>TelaCriarOpOng.cs</DependentUpon>
@@ -259,9 +232,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Telas_ONG\VisualizarOportunidades.resx">
       <DependentUpon>VisualizarOportunidades.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\Telas_Voluntario\TelaConfirmaCadVlt.resx">
-      <DependentUpon>TelaConfirmaCadVlt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Telas_Voluntario\TelaExpVlt.resx">
       <DependentUpon>TelaExpVlt.cs</DependentUpon>

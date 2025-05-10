@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Projeto_Voluntariado.Models;
-using Projeto_Voluntariado.Services;
-using Projeto_Voluntariado.View.telas_VLT;
+//using Projeto_Voluntariado.Services;
+using Projeto_Voluntariado.Models.Classes_Objetos;
 
-namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
+namespace Projeto_Voluntariado.View.Telas_Voluntario
 {
     public partial class TelaLogSenhaVlt: Form
     {
-        private VoluntarioRepositorio voluntarioRepositorio;
+        //private VoluntarioRepositorio voluntarioRepositorio;
         public TelaLogSenhaVlt()
         {
             InitializeComponent();
-            voluntarioRepositorio = new VoluntarioRepositorio(new DatabaseService());
+            //voluntarioRepositorio = new VoluntarioRepositorio(new DatabaseService());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -34,21 +34,21 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_VLT
         private void button1_Click(object sender, EventArgs e)
         {
 
-           Voluntario voluntario = voluntarioRepositorio.RealizarLogin(txtEmail.Text, txtSenha.Text);
+           //Voluntario voluntario = voluntarioRepositorio.RealizarLogin(txtEmail.Text, txtSenha.Text);
 
-            if (voluntario.Nome != null)
-            {
-                MessageBox.Show("Você está logado");
-                Tela_VltHomepage telaVltHomepage = new Tela_VltHomepage();
-                telaVltHomepage.Show();
-                this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage  
-            }
-            else {
+            //if (voluntario.Nome != null)
+            //{
+            //    MessageBox.Show("Você está logado");
+            //    Tela_VltHomepage telaVltHomepage = new Tela_VltHomepage();
+            //    telaVltHomepage.Show();
+            //    this.Close(); // Fecha TelaLogSenhaVlt ao abrir Tela_VltHomepage  
+            //}
+            //else {
 
-                MessageBox.Show("Erro na autenticação");
-                return;
+            //    MessageBox.Show("Erro na autenticação");
+            //    return;
 
-            }
+            //}
 
 
 

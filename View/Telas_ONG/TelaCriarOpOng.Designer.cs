@@ -319,9 +319,7 @@
             this.Controls.Add(this.btn_voltar_cadVlt);
             this.Name = "TelaCriarOpOng";
             this.Text = "TelaCriarOpOng";
-
-           
-
+            this.Load += new System.EventHandler(this.TelaCriarOpOng_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Projeto_Voluntariado.View.Telas_ONG;
-using Projeto_Voluntariado.View.telas_VLT;
+using Projeto_Voluntariado.Models.Classes_Objetos;
+using Projeto_Voluntariado.View.telas_Cadastro_ONG;
 
-namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
+
+namespace Projeto_Voluntariado.View.Telas_ONG
 {
     public partial class telaOng_criar : Form
     {
@@ -40,6 +41,9 @@ namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
             this.Close(); // Fecha telaOng_criar ao abrir TelaHomeOng
         }
 
+        private void telaOng_criar_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

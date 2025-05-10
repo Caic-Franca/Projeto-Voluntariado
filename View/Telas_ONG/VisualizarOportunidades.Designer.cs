@@ -1,4 +1,4 @@
-﻿namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
+﻿namespace PProjeto_Voluntariado.View.Telas_ONG
 {
     partial class VisualizarOportunidades
     {
