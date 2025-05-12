@@ -9,28 +9,28 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Projeto_Voluntariado.Models.Classes_Objetos;
 using Projeto_Voluntariado.Models;
-//using Projeto_Voluntariado.Services;
-//using Projeto_Voluntariado.Models.Classes_Objetos.ONG;
+using Projeto_Voluntariado.Services;
+using Projeto_Voluntariado.Models.Classes_Objeto;
 
 
 namespace Projeto_Voluntariado.View.Telas_ONG
 {
-    public partial class OngTelaDeCacadastro: Form
+    public partial class OngTelaDeCacadastro : Form
     {
-        //private OngController ongController;
+        private OngController ongController;
         public OngTelaDeCacadastro()
         //
         {
-           InitializeComponent();
-        //    ongController = new OngController(new OngRepositorio(new DatabaseService()));
+            InitializeComponent();
+            ongController = new OngController(new OngRepositorio(new DatabaseService()));
 
         }
 
         private void btnConfirma_Click(object sender, EventArgs e)
         {
-            
+
             // verifica se todo so scampos foram preenchidos
-            if (string.IsNullOrWhiteSpace(txtNomeOng.Text)||
+            if (string.IsNullOrWhiteSpace(txtNomeOng.Text) ||
                 string.IsNullOrWhiteSpace(txtEmail.Text) ||
                 string.IsNullOrWhiteSpace(txtSenha.Text) ||
                 string.IsNullOrWhiteSpace(txtConfirmaSenha.Text) ||
@@ -38,8 +38,9 @@ namespace Projeto_Voluntariado.View.Telas_ONG
                 string.IsNullOrWhiteSpace(txtCnpj.Text) ||
                 string.IsNullOrWhiteSpace(txtEndereco.Text) ||
                 string.IsNullOrWhiteSpace(txtAreaAtuacao.Text)
-                
-                ) {
+
+                )
+            {
 
                 MessageBox.Show("Preencha todos os campos!");
                 return;
@@ -74,29 +75,22 @@ namespace Projeto_Voluntariado.View.Telas_ONG
                 txtNomeResponsavel.Text,
                 txtCnpj.Text,
                 txtEndereco.Text,
-                txtAreaAtuacao.Text,                
+                txtAreaAtuacao.Text,
                 txtBreveDescricao.Text,
                 txtLinkSite.Text);
 
-            //bool resultInsercao = ongController.InserirOng(novaOng);
+            bool resultInsercao = ongController.InserirOng(novaOng);
 
-            //if (resultInsercao)
-            //{
+            if (resultInsercao)
+            {
 
-            //    //TelaConfirmaCadVlt telaConfirmaCadVlt = new TelaConfirmaCadVlt();
-            //    //telaConfirmaCadVlt.Show();
+                MessageBox.Show("Parabéns, você criou o cadastro com sucesso!");
+                this.Close(); // Fecha a tela atual
 
-            //    this.Close(); // Fecha a tela atual
-
-            MessageBox.Show("Parabéns, você criou o cadastro com sucesso!");
-
-            this.Close(); // Fecha a tela atual
-            return;
+                return;
 
             }
-
-
-        
+        }
 
         private void OngTelaDeCacadastro_Load(object sender, EventArgs e)
         {
@@ -104,3 +98,9 @@ namespace Projeto_Voluntariado.View.Telas_ONG
         }
     }
 }
+
+           
+
+
+
+

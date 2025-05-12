@@ -40,7 +40,7 @@
             // btn_SairVlt
             // 
             this.btn_SairVlt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_SairVlt.Location = new System.Drawing.Point(291, 552);
+            this.btn_SairVlt.Location = new System.Drawing.Point(760, 655);
             this.btn_SairVlt.Name = "btn_SairVlt";
             this.btn_SairVlt.Size = new System.Drawing.Size(126, 43);
             this.btn_SairVlt.TabIndex = 9;
@@ -56,7 +56,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(70, 50);
+            this.panel1.Location = new System.Drawing.Point(539, 153);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(410, 435);
             this.panel1.TabIndex = 11;
@@ -78,6 +78,7 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "Visualizar minhas oportunidades publicadas";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -103,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SaddleBrown;
-            this.ClientSize = new System.Drawing.Size(569, 623);
+            this.ClientSize = new System.Drawing.Size(1506, 828);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_SairVlt);
             this.Name = "TelaHomeOng";

@@ -11,6 +11,7 @@ using Projeto_Voluntariado.Models.Classes_Objetos;
 using Projeto_Voluntariado.View.telas_Cadastro_ONG;
 
 
+
 namespace Projeto_Voluntariado.View.Telas_ONG
 {
     public partial class telaOng_criar : Form
@@ -36,8 +37,8 @@ namespace Projeto_Voluntariado.View.Telas_ONG
 
         private void button3_Click(object sender, EventArgs e)
         {
-            TelaHomeOng telaHomeOng = new TelaHomeOng();
-            telaHomeOng.Show();
+            TelaLogOng telaLogOng = new TelaLogOng();
+            telaLogOng.Show();
             this.Close(); // Fecha telaOng_criar ao abrir TelaHomeOng
         }
 

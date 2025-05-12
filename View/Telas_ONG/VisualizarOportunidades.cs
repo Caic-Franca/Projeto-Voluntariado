@@ -13,7 +13,7 @@ namespace PProjeto_Voluntariado.View.Telas_ONG
 {
     public partial class VisualizarOportunidades: Form
     {
-        public VisualizarOportunidades()
+        public VisualizarOportunidades(Projeto_Voluntariado.Models.Classes_Objetos.OportunidadeController oportunidadeController, int ongIdLogada)
         {
             InitializeComponent();
         }

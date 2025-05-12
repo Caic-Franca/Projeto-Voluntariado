@@ -9,14 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Projeto_Voluntariado.Models;
 using Projeto_Voluntariado.Models.Classes_Objetos;
+using Projeto_Voluntariado.Services;
 
 namespace Projeto_Voluntariado.View.telas_Cadastro_ONG
 {
     public partial class TelaCriarOpOng : Form
     {
-        public TelaCriarOpOng()
+        private OportunidadeController oportunidadeController;
+
+        public TelaCriarOpOng(OportunidadeController oportunidadeController)
         {
             InitializeComponent();
+            oportunidadeController = new OportunidadeController(new OportunidadeRepositorio(new DatabaseService()));
+            this.oportunidadeController = oportunidadeController;
         }
 
         private void btn_voltar_cadVlt_Click(object sender, EventArgs e)
